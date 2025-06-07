@@ -109,7 +109,7 @@ This will execute the full pipeline with:
 
 #### ✅ With Multihead attention: 
 ```bash
-python scripts/maeva_pipeline.py \
+python "scripts/maeva_pipeline.py" \
   --base_path "datasets/benchmarks" \
   --src_names "source_variable(names).txt" \
   --cand_names "candidate_variable(names).txt" \
@@ -125,7 +125,7 @@ python scripts/maeva_pipeline.py \
 
 #### 🚫 Without Multihead attention:
 ```bash
-python scripts/maeva_pipeline.py \
+python "scripts/maeva_pipeline.py" \
   --base_path "datasets/benchmarks" \
   --src_names "source_variable(names).txt" \
   --cand_names "candidate_variable(names).txt" \
