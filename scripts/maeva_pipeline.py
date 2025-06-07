@@ -154,7 +154,7 @@ if __name__ == "__main__":
     parser.add_argument("--src_names", type=str, default="source_variable(names).txt", help="Source variable names TXT file")
     parser.add_argument("--cand_names", type=str, default="candidate_variable(names).txt", help="Candidate variable names TXT file")
     parser.add_argument("--src_desc", type=str, default="source_variable(descriptions).txt", help="Source variable descriptions TXT file")
-    parser.add_argument("--cand_desc", type=str, default="candidate_variable(descriptions).txt", help="Candidate variable names TXT file")
+    parser.add_argument("--cand_desc", type=str, default="candidate_variable(descriptions).txt", help="Candidate variable descriptions TXT file")
     parser.add_argument("--context", type=str, default="datasets/corpora/Corpus (GPT-prompt 1).txt", help="Context corpus file path used in TF-IDF")
     parser.add_argument("--reference_file", type=str, default="Correspondances.xlsx", help="Excel file containing the correct matching between source and candidate variables (human annotations)")
     parser.add_argument("--output_path", type=str, default="outputs", help="Directory to save the result files")
