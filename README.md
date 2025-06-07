@@ -1,6 +1,5 @@
 # MAEVa: Matching Agroecological Experimental Variables
 
-**Author:** Oussama Mechhour  
 **Description:** This repository provides the full pipeline used for our initial approach, called MAEVa, to match experimental agroecological variables using hybrid similarity techniques that combine name embeddings and description vectors. With this code, you can reproduce all the experiments described in our article and easily adapt the approach to your own task if you're working on a similar problem.
 
 **Abstract:**
