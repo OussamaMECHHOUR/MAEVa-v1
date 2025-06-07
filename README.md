@@ -77,8 +77,14 @@ This script performs the full MAEVa pipeline for matching experimental agroecolo
 ---
 
 ## 🧪 Command Line Usage
+Our code uses default values that yielded the best results, but these can be modified as described below.
+Before executing any command, make sure that all requirements are installed to ensure the reproducibility of our results by running the following command: 
 
-MAEVa pipeline can be executed in two ways:
+```bash
+pip install -r requirements.txt
+```
+
+MAEVa pipeline can be executed in two ways: with default parameters and with custom options.
 
 ### ▶️ With default parameters:
 
