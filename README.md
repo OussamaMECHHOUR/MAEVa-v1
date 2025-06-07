@@ -107,7 +107,7 @@ This will execute the full pipeline with:
 
 ### ⚙️ With custom options:
 
-#### With Multihead attention: 
+#### ✅ With Multihead attention: 
 ```bash
 python scripts/maeva_pipeline.py \
   --base_path "datasets/benchmarks" \
@@ -123,7 +123,7 @@ python scripts/maeva_pipeline.py \
   --output_path "outputs" 
 ```
 
-#### Without Multihead attention:
+#### 🚫 Without Multihead attention:
 ```bash
 python scripts/maeva_pipeline.py \
   --base_path "datasets/benchmarks" \
@@ -140,7 +140,7 @@ python scripts/maeva_pipeline.py \
   --no_attention
 ```
 
-This custom command allows full control over:
+This custom commands allows full control over:
 - Which files to use
 - Which model to apply
 - Whether to use attention or not
