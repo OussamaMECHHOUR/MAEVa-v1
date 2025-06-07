@@ -16,11 +16,11 @@ import nltk
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
 
-# Téléchargement des ressources
+
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-# --- Fix seed for reproducibility ---
+
 def set_seed(seed):
     os.environ["PYTHONHASHSEED"] = str(seed)
     random.seed(seed)
@@ -30,7 +30,7 @@ def set_seed(seed):
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
-# --- MultiHeadAttention ---
+
 class MultiHeadAttention(nn.Module):
     def __init__(self, hidden_size, num_heads):
         super().__init__()
@@ -63,7 +63,7 @@ class MultiHeadAttention(nn.Module):
         context = context.view(context.size(0), context.size(1), -1)
         return self.out(context)
 
-# --- Text preprocessing ---
+
 def read_txt(filepath):
     with open(filepath, "r", encoding="utf-8") as f:
         return f.read().splitlines()
@@ -111,7 +111,7 @@ def preprocess_names(data):
     step3 = [lemmatize(t) for t in step2]
     return step3
 
-# --- Evaluation functions ---
+
 def compute_results(sim_matrix, src_list, cand_list, gt_dict):
     precisions, top10 = [], []
     for i, src in enumerate(src_list):
@@ -147,16 +147,16 @@ def aggregate_global(prec_name, prec_tfidf, prec_comb):
         global_results.append({"P@k": k, "Correctly Matched": count, "Precision (%)": round(100 * count / len(all_vars), 2)})
     return pd.DataFrame(global_results)
 
-# --- Main pipeline ---
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="MAEVa Variable Matching Pipeline")
     parser.add_argument("--base_path", type=str, default="datasets/benchmarks", help="Path to the base folder containing data")
-    parser.add_argument("--src_names", type=str, default="source_variable(names).txt", help="File with source variable names")
-    parser.add_argument("--cand_names", type=str, default="candidate_variable(names).txt", help="File with candidate variable names")
-    parser.add_argument("--src_desc", type=str, default="source_variable(descriptions).txt", help="File with source variable descriptions")
-    parser.add_argument("--cand_desc", type=str, default="candidate_variable(descriptions).txt", help="File with candidate variable descriptions")
-    parser.add_argument("--context", type=str, default="datasets/corpora/Corpus (GPT-prompt 1).txt", help="Context corpus file path")
-    parser.add_argument("--reference_file", type=str, default="Correspondances.xlsx", help="Excel file with reference matchings")
+    parser.add_argument("--src_names", type=str, default="source_variable(names).txt", help="Source variable names TXT file")
+    parser.add_argument("--cand_names", type=str, default="candidate_variable(names).txt", help="Candidate variable names TXT file")
+    parser.add_argument("--src_desc", type=str, default="source_variable(descriptions).txt", help="Source variable descriptions TXT file")
+    parser.add_argument("--cand_desc", type=str, default="candidate_variable(descriptions).txt", help="Candidate variable names TXT file")
+    parser.add_argument("--context", type=str, default="datasets/corpora/Corpus (GPT-prompt 1).txt", help="Context corpus file path used in TF-IDF")
+    parser.add_argument("--reference_file", type=str, default="Correspondances.xlsx", help="Excel file containing the correct matching between source and candidate variables (human annotations)")
     parser.add_argument("--output_path", type=str, default="outputs", help="Directory to save the result files")
     parser.add_argument("--model", type=str, choices=["bert", "sbert", "simcse"], default="bert", help="Embedding model to use")
     parser.add_argument("--num_heads", type=int, default=256, help="Number of heads in MultiHeadAttention")
@@ -167,7 +167,6 @@ if __name__ == "__main__":
     os.makedirs(args.output_path, exist_ok=True)
     set_seed(args.seed)
 
-    # Chargement et prétraitement
     src_names = read_txt(os.path.join(args.base_path, args.src_names))
     cand_names = read_txt(os.path.join(args.base_path, args.cand_names))
     src_desc = read_txt(os.path.join(args.base_path, args.src_desc))
@@ -185,7 +184,7 @@ if __name__ == "__main__":
     varCandList = [re.sub('_', ' ', line) for line in cand_names]
     gt_dict = dict(zip(correspondances["Variable source"], correspondances["Variable correspondante"]))
 
-    # Embedding + attention
+    
     if args.model == "bert":
         config = BertConfig(num_hidden_layers=2)
         tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", config=config)
@@ -234,22 +233,21 @@ if __name__ == "__main__":
                 cand_attn = attn(cand_emb.unsqueeze(1)).mean(dim=1)
                 sim_name = cosine_similarity(src_attn.detach().cpu().numpy(), cand_attn.detach().cpu().numpy())
 
-    # TF-IDF sur descriptions
     vectorizer = TfidfVectorizer(stop_words='english', norm='l1')
     vectorizer.fit(sorted(context_clean))
     src_desc_vect = vectorizer.transform(src_desc_clean)
     cand_desc_vect = vectorizer.transform(cand_desc_clean)
     sim_tfidf = cosine_similarity(src_desc_vect.toarray(), cand_desc_vect.toarray())
 
-    # Fusion des similarités
+    
     sim_comb = 0.25 * sim_tfidf + 0.75 * sim_name
 
-    # Évaluations
+    
     prec_name, top10_name = compute_results(sim_name, varSrcList, varCandList, gt_dict)
     prec_tfidf, top10_tfidf = compute_results(sim_tfidf, varSrcList, varCandList, gt_dict)
     prec_comb, top10_comb = compute_results(sim_comb, varSrcList, varCandList, gt_dict)
 
-    # Sauvegardes
+    
     model_suffix = f"{args.model}{'_noatt' if args.no_attention else ''}({args.seed})"
     output_files = [
         f"matching_names_{model_suffix}.xlsx",
@@ -272,6 +270,6 @@ if __name__ == "__main__":
 
     aggregate_global(prec_name, prec_tfidf, prec_comb).to_excel(os.path.join(args.output_path, output_files[3]), index=False)
 
-    print("\n✅ Matching terminé avec succès. Fichiers sauvegardés :")
+    print("\n Matching completed successfully. Files saved:")
     for file in output_files:
         print("  -", os.path.join(args.output_path, file))
