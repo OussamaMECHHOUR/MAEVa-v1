@@ -11,7 +11,7 @@ import torch.nn as nn
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
 from sentence_transformers import SentenceTransformer
-from transformers import BertTokenizer, BertModel
+from transformers import BertTokenizer, BertModel, BertConfig
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import nltk
