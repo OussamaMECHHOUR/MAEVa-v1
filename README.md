@@ -13,45 +13,48 @@ This script performs the full MAEVa pipeline for matching experimental agroecolo
 
 ### 🔍 What it does
 
-1. **Preprocesses variable names and descriptions**  
-   - Cleaning digits, parentheses, special characters  
-   - Removing stopwords  
-   - Lemmatization (WordNet)  
-   - Punctuation and synonym normalization (for descriptions)
+1. **Preprocesses variable names, descriptions and the corpus used**  
+   - For **variable names**, three functions are applied in sequence:
+     1. `clean_text`: removes digits, parentheses, and special characters
+     2. `remove_stopwords`: filters out common English stopwords
+     3. `lemmatize`: reduces words to their base form using WordNet
+   - For **descriptions and context corpus**, five preprocessing steps are applied:
+     1. `clean_text`: same as above
+     2. `remove_stopwords`: same as above
+     3. `lemmatize`: same as above
+     4. `remove_punctuation`: strips punctuation marks
+     5. `replace_synonyms`: replaces words with their first synonym from WordNet if available
+
+   All input variable files and the reference matching file are located in the `datasets/benchmarks/` folder.
 
 2. **Generates embeddings for variable names**  
-   - Using `BERT`, `SBERT`, or `SimCSE`
+   Variable names are often acronyms and lack sufficient context, making them challenging to interpret using PLMs. Our intuition is that PLMs are capable of effectively embedding such variable names. For this reason, our innovation consists of extending existing PLMs with an external multi-head attention layer applied to their frozen embeddings. We compare the performance of this extended architecture with that of the original PLMs to evaluate their effectiveness in representing variable names. We chose three known models for this purpose:
+   - [`BERT`](https://huggingface.co/bert-base-uncased): we used the "bert-base-uncased" checkpoint with 2 hidden layers
+   - [`SBERT`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2): we applied the "all-MiniLM-L6-v2" checkpoint
+   - [`SimCSE`](https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased): we applied the "sup-simcse-bert-base-uncased" checkpoint
 
 3. **Applies MultiHeadAttention (MHA)**  
    - Enabled by default for refining name embeddings  
-   - Can be disabled with a flag
+   - Can be disabled using the `--no_attention` flag
 
 4. **Generates TF-IDF vectors for descriptions**  
-   - Using a corpus (e.g., GPT-generated) passed as input
+   The objective is to analyze the impact of various context enrichment techniques (e.g., snippet extraction, data generation, and scientific articles) on TF–IDF, for matching variable descriptions. All corpora used are stored in the `datasets/corpora/` directory.
 
 5. **Combines similarities**  
-   - Weighted linear combination:  
-     `final_score = 0.75 * sim_name + 0.25 * sim_description`
+   We combine the similarity scores obtained from name embeddings and TF-IDF vectors through a linear weighted sum:
+   - `final_score = 0.75 * sim_name + 0.25 * sim_description`
 
 6. **Evaluates matching accuracy**  
-   - Precision@1, 3, 5, and 10  
-   - Saves evaluation reports and top-10 candidate lists
+   - For each source variable, the code calculates similarity scores with all candidates
+   - Ranks the top-10 candidate matches
+   - Computes Precision@K for K ∈ {1, 3, 5, 10}, based on whether the ground-truth match appears in the top-K list
+   - Saves:
+     - Precision summaries (number of correct matches and percentages)
+     - A list of top-10 candidate matches for each source variable
+     - A global precision score that marks a source variable as correctly matched if **any of the three methods** (names, descriptions, or combination) matched it correctly, which is the final result of MAEVa
 
----
-
-## ✅ Default Command
-
-```bash
-python "scripts/maeva_pipeline.py"
-```
-
-This uses:
-- Model: `bert`
-- Attention: enabled with 256 heads
-- Data files from: `datasets/benchmarks`
-- TF-IDF corpus from: `datasets/corpora/Corpus (GPT-prompt 1).txt`
-- Results saved to: `outputs/`
-
+   All these results are stored in the `outputs` folder.
+   
 ---
 
 ## ⚙️ Available Arguments
