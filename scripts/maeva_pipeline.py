@@ -189,8 +189,9 @@ def main(args):
 
     # === Embedding ===
     if args.model == "bert":
-        tokenizer = BertTokenizer.from_pretrained("bert-base-uncased")
-        model = BertModel.from_pretrained("bert-base-uncased")
+        config = BertConfig(num_hidden_layers=2)
+        tokenizer = BertTokenizer.from_pretrained("bert-base-uncased", config=config)
+        model = BertModel.from_pretrained("bert-base-uncased", config=config)
         src_input = tokenizer(lines_var_src_pre3, return_tensors="pt", padding=True, truncation=True)
         cand_input = tokenizer(lines_var_cand_pre3, return_tensors="pt", padding=True, truncation=True)
         with torch.no_grad():
