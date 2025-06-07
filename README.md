@@ -78,7 +78,7 @@ MAEVa pipeline can be executed in two ways:
 ### ▶️ With default parameters:
 
 ```bash
-python maeva_pipeline.py
+python "scripts/maeva_pipeline.py"
 ```
 
 This will execute the full pipeline with:
@@ -103,7 +103,7 @@ This will execute the full pipeline with:
 ### ⚙️ With custom options:
 
 ```bash
-python maeva_pipeline.py   --base_path "your/input/folder"   --src_names "your_source_names.txt"   --cand_names "your_candidate_names.txt"   --src_desc "your_source_descriptions.txt"   --cand_desc "your_candidate_descriptions.txt"   --context "your_corpus_file.txt"   --reference_file "your_ground_truth.xlsx"   --model "sbert"   --seed 42   --num_heads 8   --no_attention   --output_path "custom/output/folder"
+python "scripts/maeva_pipeline.py"   --base_path "Folder path containing your variable names, descriptions, and the file with correct matchings used for evaluation."   --src_names "your_source_names.txt"   --cand_names "your_candidate_names.txt"   --src_desc "your_source_descriptions.txt"   --cand_desc "your_candidate_descriptions.txt"   --context "full path to your_corpus_file.txt"   --reference_file "your_ground_truth.xlsx"   --model "Name embedding model: `bert`, `sbert`, or `simcse`"   --seed 42   --num_heads 8   --no_attention   --output_path "custom/output/folder"
 ```
 
 This custom command allows full control over:
