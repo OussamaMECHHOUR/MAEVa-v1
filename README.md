@@ -132,15 +132,13 @@ All evaluation files are saved as `.xlsx` inside the folder specified by `--outp
 
 ---
 
-## 👨‍💻 Author
+## 📬 Contact
 
-**Oussama Mechhour**  
-Ph.D. Student – University of Montpellier / CIRAD / I2S Doctoral School  
-📧 Email: [your-email@domain.com]  
-🌍 Research: Matching heterogeneous agroecological variable metadata with hybrid NLP techniques
+If you have any questions, encounter issues with the code, or would like to know more about our work, please contact the corresponding author:
 
----
+- 📧 **Personal email (permanent)**: [oussama.mechhour.cirad@gmail.com](mailto:oussama.mechhour.cirad@gmail.com)  
+- 📧 **Professional email (not sure if permanent)**: [oussama.mechhour@cirad.fr](mailto:oussama.mechhour@cirad.fr)
 
-## 📄 License
-
-This code is licensed under the [MIT License](LICENSE).
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/oussama-mechhour-ph-d-student-31a94323a/)
+[![ORCID](https://img.shields.io/badge/ORCID-0000--0002--1825--0097-a6ce39?logo=orcid&logoColor=white)](https://orcid.org/0009-0004-3007-1229)
+[![HAL](https://img.shields.io/badge/HAL-Archive-orange?logo=data&logoColor=white)](https://hal.science/search/index/?q=oussama+mechhour)
