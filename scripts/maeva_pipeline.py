@@ -1,13 +1,3 @@
-"""
-MAEVa Full Pipeline: Data Preparation + Evaluation (BERT, SBERT, SimCSE)
-Author: Oussama Mechhour
-
-This script preprocesses source/candidate variable names and descriptions,
-then computes similarity scores using various embedding models.
-By default, MultiHeadAttention is applied to name embeddings.
-Evaluation results are saved as Excel files with precision summaries.
-"""
-
 import os
 import re
 import string
