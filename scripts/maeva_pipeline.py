@@ -225,11 +225,15 @@ def main(args):
     # === Output ===
     prefix = f"{args.model}({args.seed})"
     base = args.output_path
+    os.makedirs(base, exist_ok=True) 
+    
+    # === Save Evaluation Results ===
     precision_summary(prec1).to_excel(os.path.join(base, f"matching_names_{prefix}.xlsx"), index=False)
     precision_summary(prec2).to_excel(os.path.join(base, f"matching_descriptions_{prefix}.xlsx"), index=False)
     precision_summary(prec3).to_excel(os.path.join(base, f"combination_method_{prefix}.xlsx"), index=False)
     aggregate_global(prec1, prec2, prec3).to_excel(os.path.join(base, f"final_results_{prefix}.xlsx"), index=False)
-    print(f"Matching complete with {args.model.upper()} {'+ Attention' if not args.no_attention else ''}.")
+    print(f"Matching complete with {args.model.upper()} {'+ Attention' if not args.no_attention else ''}. Results saved in: {base}")
+
 
 # ---------------------
 # CLI
