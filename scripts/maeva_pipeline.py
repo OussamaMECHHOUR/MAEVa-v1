@@ -171,7 +171,7 @@ def main(args):
     lines_var_cand = read_txt(os.path.join(args.base_path, args.cand_names))
     lines_des_src = read_txt(os.path.join(args.base_path, args.src_desc))
     lines_des_cand = read_txt(os.path.join(args.base_path, args.cand_desc))
-    contexte = read_txt_as_list(os.path.join(args.base_path, args.context))
+    contexte = read_txt_as_list(args.context)
     correspondances = pd.read_excel(os.path.join(args.base_path, args.reference_file))
 
     # === Preprocessing ===
@@ -233,28 +233,29 @@ def main(args):
 
     # === Output ===
     prefix = f"{args.model}({args.seed})"
-    base = args.base_path
+    base = args.output_path
     precision_summary(prec1).to_excel(os.path.join(base, f"matching_names_{prefix}.xlsx"), index=False)
     precision_summary(prec2).to_excel(os.path.join(base, f"matching_descriptions_{prefix}.xlsx"), index=False)
     precision_summary(prec3).to_excel(os.path.join(base, f"combination_method_{prefix}.xlsx"), index=False)
     aggregate_global(prec1, prec2, prec3).to_excel(os.path.join(base, f"final_results_{prefix}.xlsx"), index=False)
-    print(f"✅ Matching complete with {args.model.upper()} {'+ Attention' if not args.no_attention else ''}.")
+    print(f"Matching complete with {args.model.upper()} {'+ Attention' if not args.no_attention else ''}.")
 
 # ---------------------
 # CLI
 # ---------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--base_path", type=str, default="/content/drive/MyDrive/RJCIA conference", help="Data and output folder path")
-    parser.add_argument("--src_names", type=str, default="variables_sources.txt")
-    parser.add_argument("--cand_names", type=str, default="variables_candidates.txt")
-    parser.add_argument("--src_desc", type=str, default="descriptions_sources.txt")
-    parser.add_argument("--cand_desc", type=str, default="descriptions_candidates.txt")
-    parser.add_argument("--context", type=str, default="gpt-prompt1-Oussama.txt")
+    parser.add_argument("--base_path", type=str, default="datasets/benchmarks", help="Data and output folder path")
+    parser.add_argument("--src_names", type=str, default="source_variable(names).txt")
+    parser.add_argument("--cand_names", type=str, default="candidate_variable(names).txt")
+    parser.add_argument("--src_desc", type=str, default="source_variable(descriptions).txt")
+    parser.add_argument("--cand_desc", type=str, default="candidate_variable(descriptions).txt")
+    parser.add_argument("--context", type=str, default="datasets/corpora/Corpus (GPT-prompt 1).txt")
     parser.add_argument("--reference_file", type=str, default="Correspondances.xlsx")
     parser.add_argument("--model", type=str, default="bert", choices=["bert", "sbert", "simcse"])
     parser.add_argument("--seed", type=int, default=1751)
     parser.add_argument("--num_heads", type=int, default=256)
     parser.add_argument("--no_attention", action="store_true", help="Disable MultiHeadAttention (enabled by default)")
+    parser.add_argument("--output_path", type=str, default="outputs", help="Directory to save the output result files")
     args = parser.parse_args()
     main(args)
