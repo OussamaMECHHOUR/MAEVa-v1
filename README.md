@@ -40,7 +40,7 @@ This script performs the full MAEVa pipeline for matching experimental agroecolo
 ## ✅ Default Command
 
 ```bash
-python scripts/maeva_pipeline.py
+python "scripts/maeva_pipeline.py"
 ```
 
 This uses:
