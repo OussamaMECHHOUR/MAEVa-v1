@@ -1,0 +1,84 @@
+Cane yield (in fresh machinable stem)
+Sugar content of  fresh stem mass
+Herbicide Application Frequency Index
+full weed and service plant coverage
+weed and service plant coverage in the row
+weed and service plant cover in the inter-row
+full weed coverage
+weed cover in the row
+weed cover on the inter-row
+full coverage in service plants 
+cover of service plants in the row
+service plant cover in the inter-row
+Weed coverage at the end of the trial
+Weed growth in coverage at the beginning of the trial
+Weed coverage index over the trial
+Cover plant 1 coverage at the end of the trial
+Cover plant 1 coverage index over the trial
+Cover plant 1 growth in coverage at the beginning of the trial
+Cover plant 2 coverage at the end of the trial
+Cover plant 2 coverage index over the trial
+Cover plant 2 growth in coverage at the beginning of the trial
+Cover plant 1 growth in height
+Cover plant 1 leaf appearance rate
+Cover plant 2 growth in height
+Cover plant 2 leaf appearance rate
+Weed aerial dry mass at the end of the trial
+Cover plant 1 aerial dry mass at the end of the trial
+Cover plant 2 aerial dry mass at the end of the trial
+Weed control efficiency in terms of weed coverage
+Weed control efficiency in terms of weed dry mass
+Aboveground fresh mass
+Aboveground dry mass
+Plant height up to the apex
+Number of leaves
+Emergence in days after sowing
+Flowering in days after sowing
+Fructification in days after sowing
+Emergence in thermal time (base temperature 0°C)
+Flowering in thermal time (base temperature 0°C)
+Frucitification in thermal time (base temeprature 0°C)
+Indice of aboveground coverage
+Maximum coverage
+Maximum plant height
+Radiation use efficiency
+Average temperature
+Growth rate in height
+Leaf appearance rate
+Maximum aboveground dry mass
+Leaf dry mass per abovegroud dry mass
+Aboveground humidity
+Aboveground dry mass
+Leaf dry mass per abovegroud dry mass
+Aboveground humidity
+Cover crop coverage in percentage
+Ground cover by the plant
+Expected cane yield at harvest
+Number of fertilisation applications (the quantity of elements applied can be in one or several times)
+Quantity of nitrogen provided by the mineral fertiliser
+Quantity of P205 provided by the mineral fertiliser
+Quantity of K20 provided by the mineral fertiliser
+Quantity of liming amendment applied
+pH value Water measured in laboratory
+pH value KCl measured by the laboratory
+Nitrogen value estimated by the Dumas method in the soil
+Organic carbon value in soil
+Phosphorus value estimated in the soil by the Olsen-Dabin method
+CEC (Cation Exchange Capacity) value in soil
+Exchangeable calcium value in soil
+Exchangeable magnesium value in soil
+Exchangeable potassium value in soil
+Soil exchangeable sodium value
+Nitrogen content of the cane leaf analysed by the Dumas method
+Phosphorus contained in the cane leaf
+Potassium contained in the cane leaf
+Calcium contained in the cane leaf
+Magnesium content in the cane leaf
+Organic carbon contained in the cane leaf
+Total weight of cane harvested on the elementary plot
+Cane yield on the elementary plot
+Percentage of fibre in the harvested cane
+Measure of purity of harvested cane
+Sucrose content in harvested cane
+Count of all stalks in the three harvested centre rows of each elementary plot, only on the mineral modalities
+Height of the last visible ligule of a stem

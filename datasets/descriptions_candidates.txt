@@ -1,0 +1,170 @@
+measurement of root dry biomass at plot level
+measurement of root fresh biomass at plot level
+measurement of dry stem biomass at plot level
+measurement of fresh stem biomass at plot level
+stem juice yield
+stem crop yield fresh mass
+sugar solid in stem
+measurement of plant (or species) recovery by ceptometry
+Height of the apex of the sugar stem sample
+total number of leaf blades tracking labeled stems
+measurement of above-ground dry biomass at plot level
+measurement of above-ground fresh biomass at plot level
+calculation of the ratio of leaf biomass to above-ground (dry) biomass
+calculation of the proportion of water contained in the aerial part of the plant
+fiber aboveground biomass
+purity juice of overground biomass
+aerial part moisture
+soluble sugar concentration of the WAB
+percentage of sugar of the fresh matter overground biomass
+soil C content
+potassium application rate for soil fertilization
+Nitrogen application rate for soil fertilization
+phosphorus application rate for soil fertilization
+dry fruit biomass
+fresh fruit biomass
+soluble sugar concentration of the internode
+leaf area index
+total number of leaf blades tracking labeled stems
+dry leaf biomass
+fresh leaf biomass
+soluble sugar concentration of the leaves
+ratio of leaf biomass to dry above-ground biomass
+soil N content
+soluble sugar concentration of the panicle
+height of the apex of the sugar stem sample
+tvd average height
+digital recovery
+maximum height tvd
+tvd height interpolated
+dry root biomass (plant scale)
+fresh root biomass
+cation exchange capacity
+exchangeable calcium
+exchangeable potassium
+exchangeable magnesium
+exchangeable sodium
+SPAD measurement
+number of live stems per m²
+number of dead stems per m²
+stalk fibre
+purity juice of the stem
+number of stems
+millable stalk fresh mass
+stem crop yield fresh mass
+stem dry biomass (plant scale)
+fresh stem biomass
+soluble sugar concentration of the stem
+pourcentage of sugar of the fresh matter stem lab
+sugar solid in stem
+total dry biomass
+total fresh biomass
+grain yield of the plant associated with the harvest per unit area measured on the plot
+measurement of dry fruit biomass at plot level
+measurement of fresh fruit biomass at plot level
+grain yield of the main crop at harvest per unit area measured on the plot
+grain dehulling yield
+measurement of foliar dry biomass at plot level
+measurement of foliar fresh biomass at plot level
+dry matter of green leaf blades
+fresh matter of green leaf blades
+green leaf blade dry mass
+aerial biomass of straw at the end of the dry season harvest of the associated plant per unit area measured on the plot
+dry weight-yield of the panicle of the main shoot
+yield in dry weight of tillers
+green tops dry mass
+SPAD chlorophyll index
+measurement of total dry biomass at plot level
+measurement of total fresh biomass at plot level
+dry matter remaining
+stalk moisture content
+grain yield at harvest per unit area measured on the plot (minus borders), weight reduced to 14% moisture
+dry matter of dead leaves
+soil carbon measurement
+calculation of the growth rate of ground cover per unit of time
+maximum recovery rate of the plant (or species)
+Height of the apex of the sugar stem sample
+canopy height measurement
+calculation of plant growth in height per unit of time
+standard deviation of the tvd height
+tvd average height
+tvd height interpolated
+maximum height tvd
+sum heights tvd live stems (height profile)
+sum heights tvd live stems (>20cm)  (height profile)
+sum heights tvd live stems (>30cm) (height profile)
+sum heights tvd live stems (>40cm) (height profile)
+sum heights tvd live stems (>50cm) (height profile)
+sum heights tvd live stems (>60cm) (height profile)
+sum heights tvd live stems (>70cm) (height profile)
+sum heights tvd live stems (>80 cm) (height profile)
+sum of apex heights (profile heights)
+sum of tvd heights (profile heights)
+sum of machinable stems heights (profile heights)
+light
+average air temperature in ° celsius
+Acid Detergent Fiber : lignin, cellulose, silica and insoluble forms of nitrogen but not hemicellulose of the whole aboveground biomass
+ash aboveground biomass
+aerial biomass of straws at the harvest of the associated plant per unit area measured on the plot
+percentage bagasse in aboveground biomass
+Biomethane potential of the dry matter of the whole aboveground Biomass
+brix aboveground biomass
+cellulose concentration of the WAB
+Cellulose Brute de Weende concentration of the WAB
+Digestibility of the non starch and non-glucide of the Stover. Assesment of Cell Wall digestibility
+cell wall residues of the wab
+measurement of above-ground dry biomass at plot level
+measurement of above-ground fresh biomass at plot level
+Crude Protein concentration of the WAB
+dead aboveground dry matter
+in vitro dry Matter Digestibility of the WAB
+fiber aboveground biomass
+hemicellulose concentration of the WAB
+brix of juice of aboveground fresh matter
+purity juice of aboveground biomass
+Potassium concentration of the WAB
+lignin concentration of the WAB
+Mineral Matter of the WAB
+Sodium concentration of the WAB
+in vitro NDF Digestibility of the WAB
+in vitro Organic Matter Digestibility of the WAB
+Organic Matter concentration of the WAB
+PCI overground biomass
+Phosphorous concentration of the WAB
+measurement of above-ground dry biomass at the individual level  (plant scale)
+measurement of above-ground fresh biomass at the individual level  (plant scale)
+calculation of the proportion of water contained in the aerial part of the plant
+Soluble sugar concentration of the WAB
+percentage of sugar of the fresh matter overground biomass
+calculation of the ratio of above-ground biomass to root biomass (dry)
+calculation of the ratio of above-ground biomass to root biomass (fresh)
+UFL of the WAB
+Frequency index of application of herbicide
+Rate of increase in ground cover by the plant 
+leaf appearance rate per plant (number of leaf / days)
+Index of weed control efficiency based on weed ground cover
+Index of weed control efficiency based on weed dry mass
+Number of days to reach 50% of seed emergence in days since sowing
+Number of days to reach 50% of plant flowering in days since sowing
+Number of days to reach 50% of plant fructification in days since sowing
+Sum of degree days from sowing to reach 50% of seed emergence (base temperature of 0°C)
+Sum of degree days from sowing to reach 50% of plant flowering (base temperature of 0°C)
+Sum of degree days from sowing to reach 50% of plant fructification (base temperature of 0°C)
+Maximum apex height of plant during the growth 
+Global radiation use efficiency based on aboveground dry mass measurements 
+Rate of increase in height of plant
+Maximum aboveground dry mass observed during plant growth 
+Number of fertilization application 
+Soil enricher application rate 
+Soil  pH (H2O measurement, dimensionless)
+Soil pH (KCl measurement, dimensionless)
+Organic nitrogen content in the soil 
+Organic carbon content in the soil
+Phosphorus content in the soil 
+Nitrogen content in the leaves 
+Phosphorus content in the leaves 
+Potassium content in the leaves 
+Calcium content in the leaves
+Manganese content in the leaves 
+Carbon content in the leaves
+soluble sugar concentration of stem
