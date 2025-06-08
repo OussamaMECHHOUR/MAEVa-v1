@@ -158,12 +158,23 @@ This custom commands allows full control over:
 
 All evaluation files are saved as `.xlsx` inside the folder specified by `--output_path`. The following files are generated:
 
+
+### ✅ With Multihead attention: 
 | Filename                                     | Description                                       |
 |----------------------------------------------|---------------------------------------------------|
 | `matching_names_{model}({seed}).xlsx`        | Top-10 matches and precision using name embeddings |
 | `matching_descriptions_{model}({seed}).xlsx` | Top-10 matches and precision using TF-IDF         |
 | `combination_method_{model}({seed}).xlsx`    | Combined scores (TF-IDF + names)                  |
 | `final_results_{model}({seed}).xlsx`         | Global Precision@K evaluation                     |
+
+### 🚫 Without Multihead attention:
+
+| Filename                                     | Description                                       |
+|----------------------------------------------|---------------------------------------------------|
+| `matching_names_{model}_noatt({seed}).xlsx`        | Top-10 matches and precision using name embeddings |
+| `matching_descriptions_{model}_noatt({seed}).xlsx` | Top-10 matches and precision using TF-IDF         |
+| `combination_method_{model}_noatt({seed}).xlsx`    | Combined scores (TF-IDF + names)                  |
+| `final_results_{model}_noatt({seed}).xlsx`         | Global Precision@K evaluation                     |
 
 ---
 
