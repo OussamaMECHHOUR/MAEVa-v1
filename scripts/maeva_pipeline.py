@@ -1,4 +1,4 @@
-import os
+import os, time
 import re
 import math
 import argparse
@@ -15,6 +15,7 @@ from sentence_transformers import SentenceTransformer
 import nltk
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
+
 
 
 nltk.download('stopwords')
@@ -149,6 +150,7 @@ def aggregate_global(prec_name, prec_tfidf, prec_comb):
 
 
 if __name__ == "__main__":
+    start_time = time.time()
     parser = argparse.ArgumentParser(description="MAEVa Variable Matching Pipeline")
     parser.add_argument("--base_path", type=str, default="datasets/benchmarks", help="Path to the base folder containing data")
     parser.add_argument("--src_names", type=str, default="source_variable(names).txt", help="Source variable names TXT file")
@@ -273,3 +275,7 @@ if __name__ == "__main__":
     print("\n Matching completed successfully. Files saved:")
     for file in output_files:
         print("  -", os.path.join(args.output_path, file))
+    
+    end_time = time.time()  
+    elapsed_time = end_time - start_time
+    print(f"\nExecution time: {elapsed_time:.2f} seconds")
