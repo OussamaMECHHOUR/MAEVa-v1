@@ -12,6 +12,10 @@ This repository contains two scenarios:
 1. **Scenario 1: MAEVa Published in the NLP Journal.** The existing pipeline corresponds to the BERT experiments published in the *Natural Language Processing Journal*. It performs no task-specific training: BERT uses two pretrained hidden layers with fixed weights, and the additional attention layer is randomly initialized with the selected seed and used without learning. With only 84 manually annotated pairs available initially, training the additional parameters would risk overfitting and leave little independent data for evaluation. This motivated the original setting without supervised learning.
 2. **Scenario 2: MAEVa with Learning.** Developed several months after the published version, this extension learns the attention weights while keeping BERT fixed and introduces new training and held-out test benchmarks for a broader evaluation. The scripts and required files are located in `extension/`. This later extension is separate from the experiments reported in the published article.
 
+### ⚠️ Hardware Configuration for Reproducibility
+
+**Important:** For reproducibility, execute all evaluation experiments on CPU (`--device cpu` for Scenario 2) and perform only Scenario 2 training on GPU (`--device cuda`). Scenario 1 runs on CPU by default and does not require a device argument.
+
 ## 🚀 Scenario 1 (MAEVa Published in the NLP Journal): Complete Pipeline Usage Guide
 
 This script performs the full MAEVa pipeline for matching experimental agroecological variables (Scenario 1).
