@@ -1,0 +1,606 @@
+[
+  {
+    "id": "7ba8c3739557fccddd35",
+    "description": "Arsenic total content in soil"
+  },
+  {
+    "id": "d0d7c2f5422b2054c42f",
+    "description": "Calcium content in mulch, percentage of dry matter, measured on one of the 3 samples"
+  },
+  {
+    "id": "f98719d4ddd75f993673",
+    "description": "Calcium content in the leaves"
+  },
+  {
+    "id": "69f8d49876c0aae65e68",
+    "description": "Carbon content in the leaves"
+  },
+  {
+    "id": "be8f650428fee15f52f3",
+    "description": "Cd total content in soil"
+  },
+  {
+    "id": "13ba971675829fdcccc8",
+    "description": "Co total content in soil"
+  },
+  {
+    "id": "74e45ba4acab1569ca0d",
+    "description": "Cr total content in soil"
+  },
+  {
+    "id": "74cfbe97e39382395b7c",
+    "description": "Cu total content in soil"
+  },
+  {
+    "id": "ec3993152c7024dc4095",
+    "description": "Date of flowering"
+  },
+  {
+    "id": "105c812c5291bd915257",
+    "description": "Exchangeable magnesium"
+  },
+  {
+    "id": "490ad672e4c455bc6a63",
+    "description": "Frequency index of application of herbicide"
+  },
+  {
+    "id": "b495583a213c0d9762aa",
+    "description": "Global radiation use efficiency based on aboveground dry mass measurements"
+  },
+  {
+    "id": "4c49c038792e95c51f16",
+    "description": "Grain yield at harvest per unit area, measured on one or more yield squares and adjusted to 14% moisture content."
+  },
+  {
+    "id": "f8be8036291873c35f03",
+    "description": "Height of the apex of the sugar stem sample"
+  },
+  {
+    "id": "100d52109fb2c4849143",
+    "description": "Index of weed control efficiency based on weed dry mass"
+  },
+  {
+    "id": "9978cf137e47f8769f3f",
+    "description": "Index of weed control efficiency based on weed ground cover"
+  },
+  {
+    "id": "223c1ca1de6fdff3d918",
+    "description": "Manganese content in the leaves"
+  },
+  {
+    "id": "c46d2cd349b12c4d8d9e",
+    "description": "Maximum aboveground dry mass observed during plant growth"
+  },
+  {
+    "id": "575b49be4ce21762a015",
+    "description": "Maximum apex height of plant during the growth"
+  },
+  {
+    "id": "2d115047f16e92f55f7d",
+    "description": "Mn total content in soil"
+  },
+  {
+    "id": "e381d007221f5ba99698",
+    "description": "Molybdenum total content in soil"
+  },
+  {
+    "id": "1cc8fa6aa552d204c084",
+    "description": "Ni total content in soil"
+  },
+  {
+    "id": "caca1a46e9d03c54965c",
+    "description": "Nitrogen application rate for soil fertilization"
+  },
+  {
+    "id": "d26e46c4bf470f280a14",
+    "description": "Nitrogen content in PRO"
+  },
+  {
+    "id": "5fa960aee5dec7fb129c",
+    "description": "Nitrogen content in mulch, g/kg dry matter, measured on one of the 3 samples"
+  },
+  {
+    "id": "b4fa56bbc58996dc8431",
+    "description": "Nitrogen content in the leaves"
+  },
+  {
+    "id": "70080d27f62714f912dc",
+    "description": "Number of days to reach 50% of plant flowering in days since sowing"
+  },
+  {
+    "id": "32e300987f611fc00fa8",
+    "description": "Number of days to reach 50% of plant fructification in days since sowing"
+  },
+  {
+    "id": "dc0a1886c2891dabfad5",
+    "description": "Number of days to reach 50% of seed emergence in days since sowing"
+  },
+  {
+    "id": "946a5b867bb7bc4da997",
+    "description": "Number of fertilization application"
+  },
+  {
+    "id": "9b0f00163e57a0d2dcd3",
+    "description": "Organic carbon content in the soil"
+  },
+  {
+    "id": "da5db720a5d57684c1fe",
+    "description": "Organic nitrogen content in the soil"
+  },
+  {
+    "id": "1d60c1c5b087ec6b9522",
+    "description": "Pb total content in soil"
+  },
+  {
+    "id": "2d9c58586a2fe9bd622b",
+    "description": "Phosphorus content in the leaves"
+  },
+  {
+    "id": "44d27fe12d893cf13c0e",
+    "description": "Phosphorus content in the soil"
+  },
+  {
+    "id": "02c1bd4cfdf6ea5a5633",
+    "description": "Plant heading date (dd/mm/yyyy)"
+  },
+  {
+    "id": "dc3a317bc5578403282b",
+    "description": "Potassium content in the leaves"
+  },
+  {
+    "id": "86ac4b8b9e731341ff52",
+    "description": "Rate of increase in ground cover by the plant"
+  },
+  {
+    "id": "4c371bd330711831e35c",
+    "description": "Rate of increase in height of plant"
+  },
+  {
+    "id": "03d962aa3c70ff2b8d52",
+    "description": "Soil enricher application rate"
+  },
+  {
+    "id": "a36952c885f2e6e944ae",
+    "description": "Soil pH (H2O measurement, dimensionless)"
+  },
+  {
+    "id": "639966a151d3751ee4ca",
+    "description": "Soil pH (KCl measurement, dimensionless)"
+  },
+  {
+    "id": "0f2229728d7df2907c45",
+    "description": "Sum of degree days from sowing to reach 50% of plant flowering (base temperature of 0°C)"
+  },
+  {
+    "id": "6f2f42a0aea38de83197",
+    "description": "Sum of degree days from sowing to reach 50% of plant fructification (base temperature of 0°C)"
+  },
+  {
+    "id": "cd0d0e279159beffa986",
+    "description": "Sum of degree days from sowing to reach 50% of seed emergence (base temperature of 0°C)"
+  },
+  {
+    "id": "82eca1bb867b26e56f95",
+    "description": "Zn total content in soil"
+  },
+  {
+    "id": "19e9321547775a337e68",
+    "description": "aerial biomass of straw at the end of the dry season harvest of the associated plant per unit area measured on the plot"
+  },
+  {
+    "id": "6642ebd95a5501128a91",
+    "description": "aerial biomass of straws at the harvest of the associated plant per unit area measured on the plot"
+  },
+  {
+    "id": "cc6d19b754899a190ff0",
+    "description": "average air temperature in ° celsius"
+  },
+  {
+    "id": "4c167ed9716de39df51f",
+    "description": "calcium oxide content in the organic waste product"
+  },
+  {
+    "id": "9d37c8b69f67edc2a685",
+    "description": "calculation of leaf area per unit of soil area"
+  },
+  {
+    "id": "34a3004a776ee196b4e5",
+    "description": "calculation of the growth rate of ground cover per unit of time"
+  },
+  {
+    "id": "eb9fd22d29f038c033f0",
+    "description": "calculation of the proportion of water contained in the aerial part of the plant"
+  },
+  {
+    "id": "29eb4305aa148e6996ee",
+    "description": "calculation of the proportion of water contained in the fruits"
+  },
+  {
+    "id": "5041453e795a072ead96",
+    "description": "calculation of the proportion of water contained in the leaves"
+  },
+  {
+    "id": "78b24dc58491c18648a0",
+    "description": "calculation of the proportion of water contained in the roots"
+  },
+  {
+    "id": "5ffa28deb1833dc0a103",
+    "description": "calculation of the proportion of water contained in the stems"
+  },
+  {
+    "id": "742b04100dd51a111e51",
+    "description": "calculation of the proportion of water contained in the whole plant"
+  },
+  {
+    "id": "60894d2df955ddf616f6",
+    "description": "calculation of the rate of appearance of sheets per unit of time"
+  },
+  {
+    "id": "bbe012a8a7ef9ac7c49c",
+    "description": "calculation of the ratio between fruit biomass and above-ground (dry) biomass"
+  },
+  {
+    "id": "6b4c74d11c3428b3c5fc",
+    "description": "calculation of the ratio between fruit biomass and above-ground (fresh) biomass"
+  },
+  {
+    "id": "3adc04407e599d0b5ee7",
+    "description": "calculation of the ratio between the surface area of the leaves and the dry biomass of the plant"
+  },
+  {
+    "id": "26e0d841d8699886c766",
+    "description": "calculation of the ratio of above-ground biomass to root biomass (dry)"
+  },
+  {
+    "id": "abadbec8838695905cba",
+    "description": "calculation of the ratio of above-ground biomass to root biomass (fresh)"
+  },
+  {
+    "id": "78cf0b2d53858cd709fa",
+    "description": "calculation of the ratio of leaf biomass to above-ground (dry) biomass"
+  },
+  {
+    "id": "b309fefcf2d7fb8b26d3",
+    "description": "calculation of the ratio of leaf biomass to above-ground (fresh) biomass"
+  },
+  {
+    "id": "68203b1aa1d0c289b1ba",
+    "description": "canopy height measurement"
+  },
+  {
+    "id": "822695a460e17e2734d3",
+    "description": "cation exchange capacity"
+  },
+  {
+    "id": "c8caab308ff3e7ef43e8",
+    "description": "date of maturity plant"
+  },
+  {
+    "id": "a24df9b3db3cc5b060b0",
+    "description": "date of potassium application for soil fertilisation"
+  },
+  {
+    "id": "bed261fc8e19e80ff0fa",
+    "description": "date of urea input"
+  },
+  {
+    "id": "62dfcbf71ac28e13496a",
+    "description": "date on which 100% of the plants emerged at plot level"
+  },
+  {
+    "id": "2348cab23b9287631605",
+    "description": "date on which 50% of the plants emerged at plot level"
+  },
+  {
+    "id": "00f028f9eaf1ef6cef4e",
+    "description": "date on which tillage takes place"
+  },
+  {
+    "id": "f880d444dfce8975ea97",
+    "description": "determination of the germination capacity of a seed lot"
+  },
+  {
+    "id": "a15cc510be61661846c1",
+    "description": "dose estimation of urea input"
+  },
+  {
+    "id": "a2c7f87f9fb4584020bc",
+    "description": "exchangeable calcium"
+  },
+  {
+    "id": "44a7dc5d6dcdbe29e33f",
+    "description": "exchangeable magnesium"
+  },
+  {
+    "id": "15c3bf57486cffa0d55e",
+    "description": "exchangeable potassium"
+  },
+  {
+    "id": "112e42ae416de693c1c9",
+    "description": "exchangeable sodium"
+  },
+  {
+    "id": "6f6cb3630c8f806cd7b8",
+    "description": "fer total content in soil"
+  },
+  {
+    "id": "abf3369b8b988b7e7c8c",
+    "description": "grain yield of the main crop at harvest per unit area measured on the plot"
+  },
+  {
+    "id": "97483f6b8d4bcaf64ea7",
+    "description": "grain yield of the plant associated with the harvest per unit area measured on the plot"
+  },
+  {
+    "id": "d917eb73d11719c97f6c",
+    "description": "harvesting date"
+  },
+  {
+    "id": "7893f61702ea163fb951",
+    "description": "herbicide application date"
+  },
+  {
+    "id": "eed462213839099c3053",
+    "description": "herbicide dose estimate"
+  },
+  {
+    "id": "d643b558ac13672532df",
+    "description": "leaf appearance rate per plant (number of leaf / days)"
+  },
+  {
+    "id": "ab2e56bb4e8053de21b7",
+    "description": "magnesium content in the mulch, g/kg DM, measured on one of the 3 samples"
+  },
+  {
+    "id": "c698f950e6dfe30661ea",
+    "description": "maximum recovery rate of the plant (or species)"
+  },
+  {
+    "id": "f2f381c097dd5703b5f5",
+    "description": "measured on 30 plants per plot, on the last stripe leaf, at 1/3 of the leaf"
+  },
+  {
+    "id": "fd71fc328f9df4ff4700",
+    "description": "measurement of above-ground dry biomass at plot level"
+  },
+  {
+    "id": "90cba21c806d5e9c072d",
+    "description": "measurement of above-ground dry biomass at the individual level  (plant scale)"
+  },
+  {
+    "id": "6e5d08be5cbdd265463a",
+    "description": "measurement of above-ground dry biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "60ab964805168d295584",
+    "description": "measurement of above-ground fresh biomass at plot level"
+  },
+  {
+    "id": "061cfb10cc5735a648e6",
+    "description": "measurement of above-ground fresh biomass at the individual level  (plant scale)"
+  },
+  {
+    "id": "cb04de6525e04728da03",
+    "description": "measurement of dry fruit biomass at plot level"
+  },
+  {
+    "id": "be9ea689c263d27d276d",
+    "description": "measurement of dry fruit biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "d579e2f576467416c8a0",
+    "description": "measurement of dry stem biomass at individual scale"
+  },
+  {
+    "id": "b4758b6a7572a7e6dc21",
+    "description": "measurement of dry stem biomass at plot level"
+  },
+  {
+    "id": "8a24b7a18f8ae0aa527f",
+    "description": "measurement of foliar dry biomass at plot level"
+  },
+  {
+    "id": "23d906a92066a4583503",
+    "description": "measurement of foliar dry biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "607dd85f2fee33c2747d",
+    "description": "measurement of foliar fresh biomass at plot level"
+  },
+  {
+    "id": "d1800cb631842e8c5c9c",
+    "description": "measurement of foliar fresh biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "5df4ef33a27d062c3bc0",
+    "description": "measurement of fresh fruit biomass at plot level"
+  },
+  {
+    "id": "22ddba3162f21c91165d",
+    "description": "measurement of fresh fruit biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "bfafbb3eeaee88b5bc7a",
+    "description": "measurement of fresh root biomass at plot level"
+  },
+  {
+    "id": "192ba086c1e12307d70b",
+    "description": "measurement of fresh root biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "c4f553bc0b77185c4138",
+    "description": "measurement of fresh stem biomass at plot level"
+  },
+  {
+    "id": "8c633060c2a053ea1d96",
+    "description": "measurement of fresh stem biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "3173e1249abe5cf5865c",
+    "description": "measurement of plant (or species) recovery by ceptometry"
+  },
+  {
+    "id": "fb54bfb3963168353cbb",
+    "description": "measurement of plant (or species) recovery by visual notation"
+  },
+  {
+    "id": "f7a2834171651061f62d",
+    "description": "measurement of root dry biomass at an individual level"
+  },
+  {
+    "id": "fb3e8fbf366c0e800c5b",
+    "description": "measurement of root dry biomass at plot level"
+  },
+  {
+    "id": "763316af2504152fe8a8",
+    "description": "measurement of total dry biomass at an individual level (plant scale)"
+  },
+  {
+    "id": "7f08a2c229f03d50ffc6",
+    "description": "measurement of total dry biomass at plot level"
+  },
+  {
+    "id": "a2d2b329e03b8546ac21",
+    "description": "measurement of total fresh biomass at plot level"
+  },
+  {
+    "id": "06e85ab7e011f2da55e0",
+    "description": "measurement of total fresh biomass at the individual level (plant scale)"
+  },
+  {
+    "id": "cc3b32c939ffb7faa7af",
+    "description": "measurementment of the height of the plant from the base to the apex"
+  },
+  {
+    "id": "919c04a090c6a72e6341",
+    "description": "number of full grains per square meter at harvest measured on several poquets"
+  },
+  {
+    "id": "dfa67237d51a2d426253",
+    "description": "number of panicles per plant at harvest measured on several pokets"
+  },
+  {
+    "id": "47052a3901b84b7d1523",
+    "description": "number of panicles per unit of area harvested measured on several poquets"
+  },
+  {
+    "id": "48f9587e589ff6b5f612",
+    "description": "number of plants at harvest per unit area per plot (by counting the number of poquets present)"
+  },
+  {
+    "id": "781762d99b3544d0a359",
+    "description": "number of spikelets per harvest panicle measured on several poquets"
+  },
+  {
+    "id": "74458b319ae8de22a7cf",
+    "description": "number of spikelets per square meter at harvest measured on several bags"
+  },
+  {
+    "id": "cf978be6bab8c6c93112",
+    "description": "number of stems"
+  },
+  {
+    "id": "6538794e051002ff38ac",
+    "description": "number of stems per square meter"
+  },
+  {
+    "id": "63fa7bc6dbc986dab5dc",
+    "description": "percentage of full grains at harvest (inverse to grain sterility) measured on several poquets"
+  },
+  {
+    "id": "342f7523115d967c2c09",
+    "description": "percentage of poquet presence at harvest (or inverse of missing poquet) measured on the plot"
+  },
+  {
+    "id": "3ae0eabf2e0c68ab7063",
+    "description": "phosphorus application rate for soil fertilization"
+  },
+  {
+    "id": "1f3155f08627d7a36ee6",
+    "description": "plant carbon measurement"
+  },
+  {
+    "id": "67c724b9c4d910e108cc",
+    "description": "plant carbon to nitrogen ratio calculation is an indicator of the plant's ability to decompose"
+  },
+  {
+    "id": "19d77c5f5bbf99a318d0",
+    "description": "plant leaf count"
+  },
+  {
+    "id": "dc02ec4863764e40c5f5",
+    "description": "plant nitrogen measurement"
+  },
+  {
+    "id": "36a9def4494efe59138f",
+    "description": "potassium application rate for soil fertilisation"
+  },
+  {
+    "id": "61e2dea30ab468056c3d",
+    "description": "potassium application rate for soil fertilization"
+  },
+  {
+    "id": "8a20355b385ddb42350d",
+    "description": "pourcentage of sugar of the fresh matter stem lab"
+  },
+  {
+    "id": "5ae7fd6faa8384323ca5",
+    "description": "purity juice of the stem"
+  },
+  {
+    "id": "629818ffdf7d7189d6ca",
+    "description": "sheet surface measurement"
+  },
+  {
+    "id": "a37db24acf815734146f",
+    "description": "silver total content in soil"
+  },
+  {
+    "id": "b4124caeacec057f53db",
+    "description": "soil ammoniacal nitrogen (N-NH4)"
+  },
+  {
+    "id": "40c161cc4d1ed45b0c4c",
+    "description": "soil carbon to nitrogen ratio calculation is an indicator of the soil's ability to decompose"
+  },
+  {
+    "id": "1f4d86c8095e301d6f0b",
+    "description": "soil nitric acid (N-NO3) content"
+  },
+  {
+    "id": "65963750df1f6fc568fc",
+    "description": "soil nitrogen measurement"
+  },
+  {
+    "id": "beff3529c96583058868",
+    "description": "soluble sugar concentration of stem"
+  },
+  {
+    "id": "bceafeaa2d56dd2bc819",
+    "description": "sowing date"
+  },
+  {
+    "id": "e0bb522f9945466bcfcf",
+    "description": "stalk fibre"
+  },
+  {
+    "id": "52c0a28f770ded29ec22",
+    "description": "total aluminium content in soil"
+  },
+  {
+    "id": "1edec6df63e72c4db9e1",
+    "description": "total number of leaf blades tracking labeled stems"
+  },
+  {
+    "id": "30ef5aef2cba8f73e835",
+    "description": "tvd height interpolated"
+  },
+  {
+    "id": "50f0af9909679aecfbcb",
+    "description": "weeding date"
+  },
+  {
+    "id": "1290f53160a01d6deb96",
+    "description": "weight of 1000 full grains at harvest measured on several poquets"
+  }
+]

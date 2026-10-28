@@ -1,0 +1,307 @@
+[
+  {
+    "id": "f1c8219d4e70a09e4960",
+    "name": "CO2sol",
+    "description": "daily amount of N2O-N emitted from soil"
+  },
+  {
+    "id": "532304da8a9ff8b47002",
+    "name": "DAF(1)",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "3a03ec46895740ea5726",
+    "name": "DAF(2)",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "66e6922c706234d76d35",
+    "name": "DAF(3)",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "5772e59b360a55034b15",
+    "name": "DAF(4)",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "a82aac20f34725b2044e",
+    "name": "DAF(5)",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "1b94a253621544a4b86d",
+    "name": "Hinitf(1)",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "049e069c34126cbfc751",
+    "name": "Hinitf(2)",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "a79c333b5f47e028f00a",
+    "name": "Hinitf(3)",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "0b5fc2ad0c02e7914676",
+    "name": "Hinitf(4)",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "213e6abe3029e64a5ecf",
+    "name": "Hinitf(5)",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "67c0f23198f5a75eb3a2",
+    "name": "NH4initf(1)",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "8d3a534d7d84ee16672d",
+    "name": "NH4initf(2)",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "3bbae5ec8a419ff99c87",
+    "name": "NH4initf(3)",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "c04fb6104816e2a74534",
+    "name": "NH4initf(4)",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "71ea270cb52ed9955f88",
+    "name": "NH4initf(5)",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "6d84b8a76811b443649d",
+    "name": "NO3initf(1)",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "a1dd4e233fe261e3d275",
+    "name": "NO3initf(2)",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "338448f6ecbbd8f61c85",
+    "name": "NO3initf(3)",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "7ddd1615e083aefa6c50",
+    "name": "NO3initf(4)",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "f7e936bee0b1bfb0a7c6",
+    "name": "NO3initf(5)",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "3d53b29818628e5dee01",
+    "name": "albedo",
+    "description": "albedo of the bare dry soil"
+  },
+  {
+    "id": "61d7afe369442c2a91f4",
+    "name": "altisimul",
+    "description": "altitude of simulated site"
+  },
+  {
+    "id": "6afac2497e9dfc40ebcd",
+    "name": "argi",
+    "description": "clay content after decarbonation"
+  },
+  {
+    "id": "1361a3eeb39edacb71d0",
+    "name": "cailloux",
+    "description": "volumetric content of pebbles per soil layer"
+  },
+  {
+    "id": "f94fca2973211dafafce",
+    "name": "daf",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "9b39bf9f1163a88b9b3c",
+    "name": "datedebut",
+    "description": "date of the beginning simulation"
+  },
+  {
+    "id": "9400c9ee99963e14a4b5",
+    "name": "datefin",
+    "description": "date of the end of the simulation"
+  },
+  {
+    "id": "fdb784216f89eb51d80b",
+    "name": "densitesem",
+    "description": "plant sowing density"
+  },
+  {
+    "id": "32f30195568a78d70d94",
+    "name": "doseI",
+    "description": "daily amount of irrigation water"
+  },
+  {
+    "id": "36ce814136303b99328f",
+    "name": "doseN",
+    "description": "daily amount of N added through fertilizers"
+  },
+  {
+    "id": "ed53069da0be64073bf7",
+    "name": "em_N2O",
+    "description": "daily amount of N2O-N emitted from soil"
+  },
+  {
+    "id": "026dd738b8e8049cb937",
+    "name": "engrais",
+    "description": "fertilizer type (1=ammonium nitrate, 2=UAN solution, 3=urea, 4=anhydrous ammonia, 5=ammonium sulfate, 6=ammonium phosphate, 7=calcium nitrate, 8= fixed efficiency fertiliser)"
+  },
+  {
+    "id": "3b8dbecdd787045c9e6b",
+    "name": "epc(1)",
+    "description": "thickness of soil layer 1"
+  },
+  {
+    "id": "bf4df6a80b96df622d1a",
+    "name": "epc(2)",
+    "description": "thickness of soil layer 2"
+  },
+  {
+    "id": "547a2380a4906bbcf9d1",
+    "name": "epc(3)",
+    "description": "thickness of soil layer 3"
+  },
+  {
+    "id": "ea4fa3b011a3893b2129",
+    "name": "epc(4)",
+    "description": "thickness of soil layer 1"
+  },
+  {
+    "id": "d3d82652ae3438c08b6e",
+    "name": "epc(5)",
+    "description": "thickness of soil layer 5"
+  },
+  {
+    "id": "34ab537f3a70b988a11f",
+    "name": "hauteur",
+    "description": "height of canopy"
+  },
+  {
+    "id": "6268c4aee748756f211f",
+    "name": "idrp",
+    "description": "day of the stage DRP (beginning of grain filling) when the stage is observed (else 999)"
+  },
+  {
+    "id": "5aff0771638ef99ac316",
+    "name": "idrps",
+    "description": "starting date of filling of harvested organs"
+  },
+  {
+    "id": "2053e523f89287bc05b3",
+    "name": "ilev",
+    "description": "day when the stage LEV is reached (999 if not observed)"
+  },
+  {
+    "id": "edfd289f15eef1cd0e3a",
+    "name": "ilevs",
+    "description": "date of emergence"
+  },
+  {
+    "id": "b04f452c57e6f653a4e0",
+    "name": "imat",
+    "description": "day when the stage MAT is reached (999 if not observed)"
+  },
+  {
+    "id": "52b6429eefe4c79bc9a1",
+    "name": "imats",
+    "description": "date of start of physiological maturity"
+  },
+  {
+    "id": "42b5e212975266585b20",
+    "name": "iplt0",
+    "description": "date of sowing"
+  },
+  {
+    "id": "9a17f7e595f27eb6746c",
+    "name": "iplt0",
+    "description": "date of sowing or planting"
+  },
+  {
+    "id": "bae9ac599a3d2d223761",
+    "name": "iplts",
+    "description": "date of sowing or planting"
+  },
+  {
+    "id": "89b5859dc389d6bd3fea",
+    "name": "julapI",
+    "description": "date(s) of irrigation"
+  },
+  {
+    "id": "bafcbb0b834e5d4e9f88",
+    "name": "julapN",
+    "description": "date(s) of fertilizer application"
+  },
+  {
+    "id": "fa09abb1638ce9867a46",
+    "name": "lai_n",
+    "description": "leaf area index (table)"
+  },
+  {
+    "id": "d6e6c58012217be352e6",
+    "name": "latitude",
+    "description": "latitude of the site"
+  },
+  {
+    "id": "b041c75e6e497e190dfa",
+    "name": "mafruit",
+    "description": "biomass of harvested organs"
+  },
+  {
+    "id": "e6eca732df8103181fdd",
+    "name": "masec_n",
+    "description": "biomass of aboveground plant (table)"
+  },
+  {
+    "id": "a91d31299b7ae5fe6a85",
+    "name": "norg",
+    "description": "soil organic N content in the first soil layer (supposed constant down to the depth profhum), equal to total nitrogen (Kjeldahl method)"
+  },
+  {
+    "id": "d265e65be3c094e5851a",
+    "name": "obstarac",
+    "description": "soil depth at which root growth is stopped due to physical constraints"
+  },
+  {
+    "id": "eb04e9e76d4c97ba2fc4",
+    "name": "ph",
+    "description": "Initial soil pH (water solution)"
+  },
+  {
+    "id": "2f5e74e348e6d4cc0027",
+    "name": "profmes",
+    "description": "depth of measurement of the soil water reserve"
+  },
+  {
+    "id": "1c3052bb15e67a909e69",
+    "name": "ruisolnu",
+    "description": "fraction of runoff (relative to total rainfall) in a bare soil when rain > PminRuis (5mm default value in general param)"
+  },
+  {
+    "id": "1751993ff4c8da1fc010",
+    "name": "typsol",
+    "description": "soil type"
+  },
+  {
+    "id": "cb1b947d603ef4dc14ca",
+    "name": "variete",
+    "description": "cultivar number corresponding to the cultivar name in the plant file"
+  }
+]

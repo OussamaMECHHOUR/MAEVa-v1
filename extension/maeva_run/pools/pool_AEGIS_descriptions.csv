@@ -1,0 +1,152 @@
+id,description
+7ba8c3739557fccddd35,Arsenic total content in soil
+d0d7c2f5422b2054c42f,"Calcium content in mulch, percentage of dry matter, measured on one of the 3 samples"
+f98719d4ddd75f993673,Calcium content in the leaves
+69f8d49876c0aae65e68,Carbon content in the leaves
+be8f650428fee15f52f3,Cd total content in soil
+13ba971675829fdcccc8,Co total content in soil
+74e45ba4acab1569ca0d,Cr total content in soil
+74cfbe97e39382395b7c,Cu total content in soil
+ec3993152c7024dc4095,Date of flowering
+105c812c5291bd915257,Exchangeable magnesium
+490ad672e4c455bc6a63,Frequency index of application of herbicide
+b495583a213c0d9762aa,Global radiation use efficiency based on aboveground dry mass measurements
+4c49c038792e95c51f16,"Grain yield at harvest per unit area, measured on one or more yield squares and adjusted to 14% moisture content."
+f8be8036291873c35f03,Height of the apex of the sugar stem sample
+100d52109fb2c4849143,Index of weed control efficiency based on weed dry mass
+9978cf137e47f8769f3f,Index of weed control efficiency based on weed ground cover
+223c1ca1de6fdff3d918,Manganese content in the leaves
+c46d2cd349b12c4d8d9e,Maximum aboveground dry mass observed during plant growth
+575b49be4ce21762a015,Maximum apex height of plant during the growth
+2d115047f16e92f55f7d,Mn total content in soil
+e381d007221f5ba99698,Molybdenum total content in soil
+1cc8fa6aa552d204c084,Ni total content in soil
+caca1a46e9d03c54965c,Nitrogen application rate for soil fertilization
+d26e46c4bf470f280a14,Nitrogen content in PRO
+5fa960aee5dec7fb129c,"Nitrogen content in mulch, g/kg dry matter, measured on one of the 3 samples"
+b4fa56bbc58996dc8431,Nitrogen content in the leaves
+70080d27f62714f912dc,Number of days to reach 50% of plant flowering in days since sowing
+32e300987f611fc00fa8,Number of days to reach 50% of plant fructification in days since sowing
+dc0a1886c2891dabfad5,Number of days to reach 50% of seed emergence in days since sowing
+946a5b867bb7bc4da997,Number of fertilization application
+9b0f00163e57a0d2dcd3,Organic carbon content in the soil
+da5db720a5d57684c1fe,Organic nitrogen content in the soil
+1d60c1c5b087ec6b9522,Pb total content in soil
+2d9c58586a2fe9bd622b,Phosphorus content in the leaves
+44d27fe12d893cf13c0e,Phosphorus content in the soil
+02c1bd4cfdf6ea5a5633,Plant heading date (dd/mm/yyyy)
+dc3a317bc5578403282b,Potassium content in the leaves
+86ac4b8b9e731341ff52,Rate of increase in ground cover by the plant
+4c371bd330711831e35c,Rate of increase in height of plant
+03d962aa3c70ff2b8d52,Soil enricher application rate
+a36952c885f2e6e944ae,"Soil pH (H2O measurement, dimensionless)"
+639966a151d3751ee4ca,"Soil pH (KCl measurement, dimensionless)"
+0f2229728d7df2907c45,Sum of degree days from sowing to reach 50% of plant flowering (base temperature of 0°C)
+6f2f42a0aea38de83197,Sum of degree days from sowing to reach 50% of plant fructification (base temperature of 0°C)
+cd0d0e279159beffa986,Sum of degree days from sowing to reach 50% of seed emergence (base temperature of 0°C)
+82eca1bb867b26e56f95,Zn total content in soil
+19e9321547775a337e68,aerial biomass of straw at the end of the dry season harvest of the associated plant per unit area measured on the plot
+6642ebd95a5501128a91,aerial biomass of straws at the harvest of the associated plant per unit area measured on the plot
+cc6d19b754899a190ff0,average air temperature in ° celsius
+4c167ed9716de39df51f,calcium oxide content in the organic waste product
+9d37c8b69f67edc2a685,calculation of leaf area per unit of soil area
+34a3004a776ee196b4e5,calculation of the growth rate of ground cover per unit of time
+eb9fd22d29f038c033f0,calculation of the proportion of water contained in the aerial part of the plant
+29eb4305aa148e6996ee,calculation of the proportion of water contained in the fruits
+5041453e795a072ead96,calculation of the proportion of water contained in the leaves
+78b24dc58491c18648a0,calculation of the proportion of water contained in the roots
+5ffa28deb1833dc0a103,calculation of the proportion of water contained in the stems
+742b04100dd51a111e51,calculation of the proportion of water contained in the whole plant
+60894d2df955ddf616f6,calculation of the rate of appearance of sheets per unit of time
+bbe012a8a7ef9ac7c49c,calculation of the ratio between fruit biomass and above-ground (dry) biomass
+6b4c74d11c3428b3c5fc,calculation of the ratio between fruit biomass and above-ground (fresh) biomass
+3adc04407e599d0b5ee7,calculation of the ratio between the surface area of the leaves and the dry biomass of the plant
+26e0d841d8699886c766,calculation of the ratio of above-ground biomass to root biomass (dry)
+abadbec8838695905cba,calculation of the ratio of above-ground biomass to root biomass (fresh)
+78cf0b2d53858cd709fa,calculation of the ratio of leaf biomass to above-ground (dry) biomass
+b309fefcf2d7fb8b26d3,calculation of the ratio of leaf biomass to above-ground (fresh) biomass
+68203b1aa1d0c289b1ba,canopy height measurement
+822695a460e17e2734d3,cation exchange capacity
+c8caab308ff3e7ef43e8,date of maturity plant
+a24df9b3db3cc5b060b0,date of potassium application for soil fertilisation
+bed261fc8e19e80ff0fa,date of urea input
+62dfcbf71ac28e13496a,date on which 100% of the plants emerged at plot level
+2348cab23b9287631605,date on which 50% of the plants emerged at plot level
+00f028f9eaf1ef6cef4e,date on which tillage takes place
+f880d444dfce8975ea97,determination of the germination capacity of a seed lot
+a15cc510be61661846c1,dose estimation of urea input
+a2c7f87f9fb4584020bc,exchangeable calcium
+44a7dc5d6dcdbe29e33f,exchangeable magnesium
+15c3bf57486cffa0d55e,exchangeable potassium
+112e42ae416de693c1c9,exchangeable sodium
+6f6cb3630c8f806cd7b8,fer total content in soil
+abf3369b8b988b7e7c8c,grain yield of the main crop at harvest per unit area measured on the plot
+97483f6b8d4bcaf64ea7,grain yield of the plant associated with the harvest per unit area measured on the plot
+d917eb73d11719c97f6c,harvesting date
+7893f61702ea163fb951,herbicide application date
+eed462213839099c3053,herbicide dose estimate
+d643b558ac13672532df,leaf appearance rate per plant (number of leaf / days)
+ab2e56bb4e8053de21b7,"magnesium content in the mulch, g/kg DM, measured on one of the 3 samples"
+c698f950e6dfe30661ea,maximum recovery rate of the plant (or species)
+f2f381c097dd5703b5f5,"measured on 30 plants per plot, on the last stripe leaf, at 1/3 of the leaf"
+fd71fc328f9df4ff4700,measurement of above-ground dry biomass at plot level
+90cba21c806d5e9c072d,measurement of above-ground dry biomass at the individual level  (plant scale)
+6e5d08be5cbdd265463a,measurement of above-ground dry biomass at the individual level (plant scale)
+60ab964805168d295584,measurement of above-ground fresh biomass at plot level
+061cfb10cc5735a648e6,measurement of above-ground fresh biomass at the individual level  (plant scale)
+cb04de6525e04728da03,measurement of dry fruit biomass at plot level
+be9ea689c263d27d276d,measurement of dry fruit biomass at the individual level (plant scale)
+d579e2f576467416c8a0,measurement of dry stem biomass at individual scale
+b4758b6a7572a7e6dc21,measurement of dry stem biomass at plot level
+8a24b7a18f8ae0aa527f,measurement of foliar dry biomass at plot level
+23d906a92066a4583503,measurement of foliar dry biomass at the individual level (plant scale)
+607dd85f2fee33c2747d,measurement of foliar fresh biomass at plot level
+d1800cb631842e8c5c9c,measurement of foliar fresh biomass at the individual level (plant scale)
+5df4ef33a27d062c3bc0,measurement of fresh fruit biomass at plot level
+22ddba3162f21c91165d,measurement of fresh fruit biomass at the individual level (plant scale)
+bfafbb3eeaee88b5bc7a,measurement of fresh root biomass at plot level
+192ba086c1e12307d70b,measurement of fresh root biomass at the individual level (plant scale)
+c4f553bc0b77185c4138,measurement of fresh stem biomass at plot level
+8c633060c2a053ea1d96,measurement of fresh stem biomass at the individual level (plant scale)
+3173e1249abe5cf5865c,measurement of plant (or species) recovery by ceptometry
+fb54bfb3963168353cbb,measurement of plant (or species) recovery by visual notation
+f7a2834171651061f62d,measurement of root dry biomass at an individual level
+fb3e8fbf366c0e800c5b,measurement of root dry biomass at plot level
+763316af2504152fe8a8,measurement of total dry biomass at an individual level (plant scale)
+7f08a2c229f03d50ffc6,measurement of total dry biomass at plot level
+a2d2b329e03b8546ac21,measurement of total fresh biomass at plot level
+06e85ab7e011f2da55e0,measurement of total fresh biomass at the individual level (plant scale)
+cc3b32c939ffb7faa7af,measurementment of the height of the plant from the base to the apex
+919c04a090c6a72e6341,number of full grains per square meter at harvest measured on several poquets
+dfa67237d51a2d426253,number of panicles per plant at harvest measured on several pokets
+47052a3901b84b7d1523,number of panicles per unit of area harvested measured on several poquets
+48f9587e589ff6b5f612,number of plants at harvest per unit area per plot (by counting the number of poquets present)
+781762d99b3544d0a359,number of spikelets per harvest panicle measured on several poquets
+74458b319ae8de22a7cf,number of spikelets per square meter at harvest measured on several bags
+cf978be6bab8c6c93112,number of stems
+6538794e051002ff38ac,number of stems per square meter
+63fa7bc6dbc986dab5dc,percentage of full grains at harvest (inverse to grain sterility) measured on several poquets
+342f7523115d967c2c09,percentage of poquet presence at harvest (or inverse of missing poquet) measured on the plot
+3ae0eabf2e0c68ab7063,phosphorus application rate for soil fertilization
+1f3155f08627d7a36ee6,plant carbon measurement
+67c724b9c4d910e108cc,plant carbon to nitrogen ratio calculation is an indicator of the plant's ability to decompose
+19d77c5f5bbf99a318d0,plant leaf count
+dc02ec4863764e40c5f5,plant nitrogen measurement
+36a9def4494efe59138f,potassium application rate for soil fertilisation
+61e2dea30ab468056c3d,potassium application rate for soil fertilization
+8a20355b385ddb42350d,pourcentage of sugar of the fresh matter stem lab
+5ae7fd6faa8384323ca5,purity juice of the stem
+629818ffdf7d7189d6ca,sheet surface measurement
+a37db24acf815734146f,silver total content in soil
+b4124caeacec057f53db,soil ammoniacal nitrogen (N-NH4)
+40c161cc4d1ed45b0c4c,soil carbon to nitrogen ratio calculation is an indicator of the soil's ability to decompose
+1f4d86c8095e301d6f0b,soil nitric acid (N-NO3) content
+65963750df1f6fc568fc,soil nitrogen measurement
+beff3529c96583058868,soluble sugar concentration of stem
+bceafeaa2d56dd2bc819,sowing date
+e0bb522f9945466bcfcf,stalk fibre
+52c0a28f770ded29ec22,total aluminium content in soil
+1edec6df63e72c4db9e1,total number of leaf blades tracking labeled stems
+30ef5aef2cba8f73e835,tvd height interpolated
+50f0af9909679aecfbcb,weeding date
+1290f53160a01d6deb96,weight of 1000 full grains at harvest measured on several poquets

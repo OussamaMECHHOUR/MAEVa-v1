@@ -11,7 +11,6 @@ import torch.nn as nn
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from transformers import BertTokenizer, BertModel, BertConfig
-from sentence_transformers import SentenceTransformer
 import nltk
 from nltk.corpus import stopwords, wordnet
 from nltk.stem import WordNetLemmatizer
@@ -160,7 +159,7 @@ if __name__ == "__main__":
     parser.add_argument("--context", type=str, default="datasets/corpora/Corpus (GPT-prompt 1).txt", help="Context corpus file path used in TF-IDF")
     parser.add_argument("--reference_file", type=str, default="Correspondances.xlsx", help="Excel file containing the correct matching between source and candidate variables (human annotations)")
     parser.add_argument("--output_path", type=str, default="outputs", help="Directory to save the result files")
-    parser.add_argument("--model", type=str, choices=["bert", "sbert", "simcse"], default="bert", help="Embedding model to use")
+    parser.add_argument("--model", type=str, choices=["bert"], default="bert", help="Embedding model to use")
     parser.add_argument("--num_heads", type=int, default=256, help="Number of heads in MultiHeadAttention")
     parser.add_argument("--seed", type=int, default=1751, help="Random seed for reproducibility")
     parser.add_argument("--no_attention", action="store_true", help="Disable MultiHeadAttention and use mean pooling instead")
@@ -206,34 +205,6 @@ if __name__ == "__main__":
                 src_attn = attn(src_out).mean(dim=1)
                 cand_attn = attn(cand_out).mean(dim=1)
         sim_name = torch.cosine_similarity(src_attn.unsqueeze(1), cand_attn.unsqueeze(0), dim=2).cpu().numpy()
-
-    elif args.model == "sbert":
-        sbert = SentenceTransformer("all-MiniLM-L6-v2")
-        src_emb = torch.tensor(sbert.encode(src_names_clean, convert_to_numpy=True))
-        cand_emb = torch.tensor(sbert.encode(cand_names_clean, convert_to_numpy=True))
-        if args.no_attention:
-            sim_name = cosine_similarity(src_emb.cpu().numpy(), cand_emb.cpu().numpy())
-        else:
-            attn = MultiHeadAttention(src_emb.shape[1], 8)
-            attn.init_weights_uniform(args.seed)
-            with torch.no_grad():
-                src_attn = attn(src_emb.unsqueeze(1)).squeeze(1)
-                cand_attn = attn(cand_emb.unsqueeze(1)).squeeze(1)
-                sim_name = cosine_similarity(src_attn.cpu().numpy(), cand_attn.cpu().numpy())
-
-    elif args.model == "simcse":
-        sim_model = SentenceTransformer("princeton-nlp/sup-simcse-bert-base-uncased")
-        src_emb = torch.tensor(sim_model.encode(src_names_clean, convert_to_numpy=True))
-        cand_emb = torch.tensor(sim_model.encode(cand_names_clean, convert_to_numpy=True))
-        if args.no_attention:
-            sim_name = cosine_similarity(src_emb.cpu().numpy(), cand_emb.cpu().numpy())
-        else:
-            attn = MultiHeadAttention(src_emb.shape[1], args.num_heads)
-            attn.init_weights_uniform(args.seed)
-            with torch.no_grad():
-                src_attn = attn(src_emb.unsqueeze(1)).mean(dim=1)
-                cand_attn = attn(cand_emb.unsqueeze(1)).mean(dim=1)
-                sim_name = cosine_similarity(src_attn.detach().cpu().numpy(), cand_attn.detach().cpu().numpy())
 
     vectorizer = TfidfVectorizer(stop_words='english', norm='l1')
     vectorizer.fit(sorted(context_clean))

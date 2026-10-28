@@ -1,0 +1,7 @@
+{
+  "selected_epoch": 8,
+  "validation_balance_P1_P10": 0.34259259259259256,
+  "model": "bert/ + attention.pt",
+  "pools": "pools/pool_DOMAIN_METHOD.json",
+  "tfidf": "tfidf.joblib"
+}

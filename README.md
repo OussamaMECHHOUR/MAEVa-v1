@@ -1,15 +1,20 @@
 # MAEVa: Matching Agroecological Experimental Variables
 
-**Description:** This repository provides the full pipeline used for our initial approach, called MAEVa, to match experimental agroecological variables using hybrid similarity techniques that combine name embeddings and description vectors. With this code, you can reproduce all the experiments described in our article and easily adapt the approach to your own task if you're working on a similar problem.
+**Description:** This repository provides the full pipeline used for our initial approach, called MAEVa, to match experimental agroecological variables using hybrid similarity techniques that combine name embeddings and description vectors. With this code, you can reproduce the BERT experiments described in our article and easily adapt the approach to your own task if you're working on a similar problem.
 
 **Abstract:**
 Source variables or observable properties used to describe agroecological experiments are heterogeneous, nonstandardized, and multilingual, which makes them challenging to understand, explain, and use in cropping system modeling and multicriteria evaluations of agroecological system performance. Data annotation via a controlled vocabulary, known as candidate variables from the agroecological global information system (AEGIS), offers a solution. Text similarity measures play crucial roles in tasks such as word sense disambiguation, schema matching in databases, and data annotation. Commonly used measures include 1) string-based similarity, 2) corpus-based similarity, 3) knowledge-based similarity, and 4) hybrid-based similarity, which combine two or more of these measures. This work presents a hybrid approach called Matching Agroecological Experiment Variables (MAEVa), designed to align source and candidate variables through the following components: (1) our key innovation, which consists of extending pretrained language models (PLMs), such as BERT, with an external multi-head attention layer for matching variable names; (2) an analysis of the relevance and impact of various context enrichment techniques (e.g., snippet extraction, data generation, and scientific articles) on corpus-based similarity measures for matching variable descriptions; (3) a linear combination of components (1) and (2); and (4) a voting-based method for selecting the final matching results. Experimental results demonstrate that extending PLMs with an external multi-head attention layer improves the matching of variable names. Furthermore, corpus-based methods benefit consistently from the presence of an enriched corpus, regardless of the specific enrichment technique employed. While the combination strategy itself is not novel, it yields statistically significant improvements, with performance gains exceeding 5\%.
 
 ---
 
-## 🚀 MAEVa: Complete Pipeline Usage Guide
+This repository contains two scenarios:
 
-This script performs the full MAEVa pipeline for matching experimental agroecological variables.
+1. **Scenario 1: MAEVa Published in the NLP Journal.** The existing pipeline corresponds to the BERT experiments published in the *Natural Language Processing Journal*. It performs no task-specific training: BERT uses two pretrained hidden layers with fixed weights, and the additional attention layer is randomly initialized with the selected seed and used without learning. With only 84 manually annotated pairs available initially, training the additional parameters would risk overfitting and leave little independent data for evaluation. This motivated the original setting without supervised learning.
+2. **Scenario 2: MAEVa with Learning.** Developed several months after the published version, this extension learns the attention weights while keeping BERT fixed and introduces new training and held-out test benchmarks for a broader evaluation. The scripts and required files are located in `extension/`. This later extension is separate from the experiments reported in the published article.
+
+## 🚀 Scenario 1 (MAEVa Published in the NLP Journal): Complete Pipeline Usage Guide
+
+This script performs the full MAEVa pipeline for matching experimental agroecological variables (Scenario 1).
 
 ### 🔍 What it does
 
@@ -28,10 +33,8 @@ This script performs the full MAEVa pipeline for matching experimental agroecolo
    All input variable files and the reference matching file are located in the `datasets/benchmarks/` folder.
 
 2. **Generates embeddings for variable names**  
-   Variable names are often acronyms and lack sufficient context, making them challenging to interpret using PLMs. Our intuition is that PLMs are capable of effectively embedding such variable names. For this reason, our innovation consists of extending existing PLMs with an external multi-head attention layer applied to their frozen embeddings. We compare the performance of this extended architecture with that of the original PLMs to evaluate their effectiveness in representing variable names. We chose three known models for this purpose:
+   Variable names are often acronyms and lack sufficient context, making them challenging to interpret using PLMs. Our intuition is that PLMs are capable of effectively embedding such variable names. For this reason, our innovation consists of extending existing PLMs with an external multi-head attention layer applied to their frozen embeddings. We compare the performance of this extended architecture with that of the original PLMs to evaluate their effectiveness in representing variable names. We use BERT for this purpose:
    - [`BERT`](https://huggingface.co/bert-base-uncased): we used the "bert-base-uncased" checkpoint with 2 hidden layers
-   - [`SBERT`](https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2): we applied the "all-MiniLM-L6-v2" checkpoint
-   - [`SimCSE`](https://huggingface.co/princeton-nlp/sup-simcse-bert-base-uncased): we applied the "sup-simcse-bert-base-uncased" checkpoint
 
 3. **Applies MultiHeadAttention (MHA)**  
    - Enabled by default for refining name embeddings  
@@ -68,7 +71,7 @@ This script performs the full MAEVa pipeline for matching experimental agroecolo
 | `--cand_desc`          | Filename for candidate variable descriptions                                 | `candidate_variable(descriptions).txt`       |
 | `--context`            | Full path to the context corpus used for TF-IDF (independent of base_path)  | `datasets/corpora/Corpus (GPT-prompt 1).txt` |
 | `--reference_file`     | Excel file mapping source variables to their correct candidates              | `Correspondances.xlsx`                       |
-| `--model`              | Embedding model for names: `bert`, `sbert`, or `simcse`                      | `bert`                                       |
+| `--model`              | Embedding model for names: `bert`                                            | `bert`                                       |
 | `--seed`               | Random seed for reproducibility                                              | `1751`                                       |
 | `--num_heads`          | Number of attention heads in MultiHeadAttention                              | `256`                                        |
 | `--no_attention`       | Add this flag to disable MultiHeadAttention                                  | *(enabled by default)*                      |
@@ -103,7 +106,7 @@ This will execute the full pipeline with:
 | `--cand_desc`       | `candidate_variable(descriptions).txt`             | File of candidate variable descriptions          |
 | `--context`         | `datasets/corpora/Corpus (GPT-prompt 1).txt`       | File path to external corpus for TF-IDF          |
 | `--reference_file`  | `Correspondances.xlsx`                              | Excel file with ground-truth correspondences     |
-| `--model`           | `bert`                                              | Name embedding model: `bert`, `sbert`, or `simcse` |
+| `--model`           | `bert`                                              | Name embedding model: `bert`                     |
 | `--seed`            | `1751`                                              | Random seed for reproducibility                  |
 | `--num_heads`       | `256`                                               | Number of heads in MultiHeadAttention            |
 | `--output_path`     | `outputs`                                           | Output folder for result `.xlsx` files           |
@@ -175,6 +178,112 @@ All evaluation files are saved as `.xlsx` inside the folder specified by `--outp
 | `matching_descriptions_{model}_noatt({seed}).xlsx` | Top-10 matches and precision using TF-IDF         |
 | `combination_method_{model}_noatt({seed}).xlsx`    | Combined scores (TF-IDF + names)                  |
 | `final_results_{model}_noatt({seed}).xlsx`         | Global Precision@K evaluation                     |
+
+---
+
+## 🚀 Scenario 2 (MAEVa with Learning): Complete Pipeline Usage Guide
+This script performs the evaluation of MAEVa after supervised training of its attention layer (Scenario 2).
+
+### 🔍 What it does
+
+1. **Loads the trained model**  
+   - Uses the saved two-layer BERT encoder, tokenizer and learned 256-head attention from `extension/maeva_run/`
+   - Loads the fitted TF-IDF vectorizer and precomputed candidate pools
+   - Performs no additional training during testing
+
+2. **Applies the name and description preprocessing**  
+   - Retains the preprocessing operations used in Scenario 1
+   - Computes name and description similarities and their combination: `0.75 * sim_name + 0.25 * sim_description`
+
+3. **Evaluates matching accuracy**  
+   - Compares each source with the complete candidate pool for its target domain: DSSAT, STICS or AEGIS
+   - Uses separate pools for names, descriptions and exact name–description pairs
+   - Computes Precision@K for K ∈ {1, 3, 5, 10}, using the number of annotated test pairs as the denominator
+   - Saves per-benchmark precision, macro averages and top-10 candidates for each pair
+
+   The training and test Excel files, scripts, dependencies and context corpus are located in `extension/`. The saved model, tokenizer, attention, TF-IDF and candidate pools are in `extension/maeva_run/`.
+
+---
+
+## ⚙️ Available Arguments (Scenario 2)
+
+| Argument | Description | Default |
+|----------|-------------|---------|
+| `--checkpoint` | Directory containing the saved model, tokenizer, attention and TF-IDF | Required |
+| `--pool-dir` | Directory containing the candidate pool JSON files and their manifest | Required |
+| `--test` | One or more test Excel files, separated by spaces | Required |
+| `--output-dir` | Folder where evaluation files will be saved | `maeva_test_results` |
+| `--batch-size` | Batch size for encoding variable names | `32` |
+| `--device` | Execution device: `auto`, `cpu` or `cuda` | `auto` |
+| `--no-attention` | Disable the additional attention using the same two-layer BERT checkpoint | Attention enabled by default |
+
+---
+
+## 🧪 Command Line Usage (Scenario 2)
+
+Run these commands from the repository root. Use a separate environment because the dependency versions differ from Scenario 1:
+
+```bash
+python3 -m venv .venv-extension
+source .venv-extension/bin/activate
+pip install -r extension/requirements.txt
+python -m nltk.downloader stopwords wordnet omw-1.4
+```
+
+The supplied package list is retained in `extension/installed_environment.txt`.
+
+### ▶️ With the supplied trained model:
+
+```bash
+PYTHONHASHSEED=1751 python "extension/test_maeva.py" \
+  --checkpoint "extension/maeva_run" \
+  --pool-dir "extension/maeva_run/pools" \
+  --test \
+    "extension/ACME-DSSAT (ground truth)_test.xlsx" \
+    "extension/ACME-STICS (ground truth)_test.xlsx" \
+    "extension/ICASA-DSSAT (ground truth)_test.xlsx" \
+    "extension/IntercropValues-STICS (ground truth)_test.xlsx" \
+    "extension/SourceAEGIS-CandidateAEGIS (ground truth)_test.xlsx" \
+  --output-dir "outputs_trained" \
+  --batch-size 32 \
+  --device auto
+```
+
+To test one benchmark, pass only its Excel path to `--test`. Select `--device cpu` or `--device cuda` if needed. Add `--no-attention` to disable the additional attention.
+
+### ⚙️ Training:
+
+The supplied training script is also included. It keeps BERT fixed and optimizes the additional attention. Test correspondence labels are excluded from training and validation; only the target columns of the test files are used when constructing candidate pools.
+
+```bash
+PYTHONHASHSEED=1751 python "extension/train_maeva.py" \
+  --data-dir "extension" \
+  --train "*_train*.xlsx" \
+  --pool-test "*_test*.xlsx" \
+  --context "extension/Corpus (GPT-prompt 1).txt" \
+  --output-dir "extension/maeva_run" \
+  --seed 1751 \
+  --device auto
+```
+
+Use `python "extension/train_maeva.py" --help` for the training arguments. To test a newly trained model, set `--checkpoint` to its output folder and `--pool-dir` to the `pools/` subfolder.
+
+---
+
+## 📦 Output Files (Scenario 2)
+
+Evaluation files are generated inside the folder specified by `--output-dir`:
+
+| Filename | Description |
+|----------|-------------|
+| `precision_by_benchmark.csv` | Precision@K for each benchmark and method |
+| `macro_average.csv` | Unweighted mean of the benchmark scores for each method |
+| `rankings_top10_each_pair.csv` | Top-10 candidates, scores and ground-truth rank for each annotated pair |
+| `run_manifest.json` | Run configuration and input/model checksums |
+
+Precision values in the CSV files range from 0 to 1. The macro average gives each benchmark equal weight and differs from the any-method global score of Scenario 1.
+
+For a GitHub update, install Git LFS and run `git lfs install` before committing the bundled model; its tracking rule is included in `.gitattributes`.
 
 ---
 

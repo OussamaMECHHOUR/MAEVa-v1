@@ -1,0 +1,239 @@
+id,name,description
+97a445e9016a5ee1720a,ADAT,Anthesis date (YrDoy)
+964b9ea21202e14f0261,BWAM,By-product produced (stalk) at maturity (kg[dm]/ha)
+350836dec08d7afcba57,C,Crop component number (default = 1)
+c73eb13ea8e6c42a5fbb,CDATE,"Application date, year + day or days from planting"
+3fdb541787a769626bba,CHAMT,"Chemical application amount, kg ha-1"
+b9e75b7b45a6364404a3,CHCOD,"Chemical material, code"
+74cbccf79f574d88d621,CHDEP,"Chemical application depth, cm"
+40b8ba906725c6b61a2b,CHME,"Chemical application method, code"
+8fd15d490f2a996fdc1e,CHTA,Canopy height (m)
+70acea641860eb350c4e,CHTD,Canopy height (m)
+b18d097eb1955c652355,CNAM,Tops N at maturity (kg/ha)
+0d1b61cd1341dfa74aa3,CNAME,Cultivar name
+04e9c98064b1e4149765,CR,Crop code
+6d29aab66ca132eaed1f,CU,Cultivar level
+902c356d80e0d6540e0f,CWAA,Tops weight at anthesis (kg [dm]/ha)
+af04ab24eab9f11d2c22,CWAD,Total crop weight minus roots (kg [dm]/ha)
+e8dbd0ebd4d7edf2f307,CWAM,Biomass at maturity (total crop minus roots) (kg[dm]/ha)
+f067b872ce8b0b422717,E#AD,Ear number (no/m2)
+2103424ae103b1c5555d,ECO2,"CO2 adjustment, A,S,M,R + vpm"
+a9705519d4b8f74270c2,EDATE,"Emergence date, earliest treatment"
+139107cc4a75a2a699a5,EDAY,"Daylength adjustment, A,S,M,R+h (Add;Subtract;Multiply;Replace)"
+b3b3449d8867d963c19e,EDEW,"Humidity adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+9568bd3d6815bd9009aa,ELEV,Elevation (m)
+e6802f079e4094300338,EMAX,"Temp (max) adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+ca444e5949b5d5ead6ab,EMIN,"Temp (min) adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+96c6020a53fe1db74438,ERAD,"Radn adjustment, A,S,M,R+MJ m-2day-1 (Add;Subtract;Multiply;Replace)"
+06490460a3bb2e4e2c56,ERAIN,"Precipitation adjustment, A,S,M,R+mm (Add;Subtract;Multiply;Replace)"
+1887c817c8a95c274c7b,EWAD,Ear (grain+chaff) or eye weight (kg [dm]/ha)
+e16d9c0caaadb4339ad5,EWIND,"Wind adjustment, A,S,M,R + km day-1 (Add;Subtract;Multiply;Replace)"
+ec4dd85641cc45b98d20,FACD,"Fertilizer application/placement, code"
+e1e080a9da42876c8e0e,FAMC,"Ca in applied fertilizer, kg ha-1"
+b73117638891dd43b5ef,FAMN,"N in applied fertilizer, kg ha-1"
+92d8b43c32d5fad75944,FAMO,"Other elements in applied fertilizer, kg ha-1"
+2d97fef5354c31ee585a,FAMP,"P in applied fertilizer, kg ha-1"
+00e24ac773ac87b475c2,FDEP,"Fertilizer incorporation/application depth, cm"
+dbbc71e27526fefda308,FL,Field level
+c105cbbe9634d9b180d1,FLDD,"Drain depth, cm"
+794dff0554341ac75ab9,FLDS,"Drain spacing, m"
+5299a1d49783de05ea56,FLDT,"Drainage type, code"
+476af8e9719d57f34020,FLHST,Field history (5 character lookup)
+a22bfc0b7b7e12ddcb47,FLNAM,Field name
+e8c31e5ac15c5a4c13fe,FLOB,"Obstruction to sun, degrees"
+7e00312bf2799cfdb90d,FLSA,"Slope and aspect, degrees from horizontal plus direction (W, NW, etc.)"
+a4f6bc6199519b579b1b,FLST,"Surface stones (Abundance, % + Size, S,M,L)"
+d77003cb113fba11df23,FMCD,"Fertilizer material, code"
+62c649c55aec342ac008,FOCD,"Other element code, e.g.,. MG"
+01b0dcfde0d5937c0abf,GN%M,Grain N at maturity (%)
+c83498f49cbce3b6f18c,GNAM,Grain N at maturity (kg/ha)
+cd3a4f3f7844c12f8492,GWAM,Grain wt at maturity (kg [dm]/ha)
+3f5cc19e601512a28a43,H#UM,Number at maturity (no/unit)
+81a23529c900f0e800ba,HAREA,"Harvest area, m-2"
+ca8b52e60093a99b8259,HARM,Harvest method
+e1318f08b7d8a2f00eec,HCOM,"Harvest component, code"
+abec2380f8c5bcbfab2a,HDATE,"Harvest date, year + day or days from planting"
+58c96576ed4df2ef34ee,HIAM,Harvest index at maturity
+71f8935b3cc20eb76e38,HIPM,Pod harvest index at maturity
+63fbbef598920f5a1028,HL,Harvest level
+f7cc6d382467c7673aa1,HLATE,Latest day of the year to harvest; last day of window. (units: )
+080c94f7e6a0d4e6d7ae,HLEN,"Harvest row length, m"
+ecfa3d80bd422b2135c6,HPC,"Harvest percentage, %"
+5e4067a5c6992691cb2a,HRNO,Harvest row number
+1d2883c965b3971c1864,HSTG,Harvest stage
+c82f0ada0011af00aa0b,HWAH,Harvested yield (kg [dm]/ha)
+092d10bf27d0cd16c456,HWAM,Yield at harvest maturity (kg [dm]/ha)
+dbfe254b0310d6f7f657,IC,Initial conditions level
+0a3f7f7c21f4e5929738,ICBL,"Depth, base of layer, cm"
+70bd0b1ae9f67940479d,ICDAT,"Initial conditions measurement date, year + days"
+0b8fe8f5afba698d8e8b,ICNAME,Name of initial conditions level
+47c3835765d180e6d34b,ICND,"Nodule weight from previous crop, kg ha-1"
+a94382ab11f713909deb,ICRE,"Rhizobia effectiveness, 0 to 1 scale"
+2a1909455102e18aa1fb,ICREN,"N content of surface residue, %"
+9d0364564fff6aeee571,ICREP,"P content of surface residue, %"
+507dde986994599102d8,ICRES,"Initial surface residue, kg ha-1"
+12fd6690c4431a94a6a5,ICRID,"Incorporation depth for surface residue, cm"
+673de2a70bd9becff23d,ICRIP,"Incorporation amount for surface resiude, %"
+e24516fef9c88dce90bb,ICRN,"Rhizobia number, 0 to 1 scale"
+119533751f89d2c6323e,ICRT,"Root weight from previous crop, kg ha-1"
+9a0f617e33af899975e1,ICWD,"Initial water table depth, cm"
+febe9d930d9fdf090c17,IDATE,"Irrigation date, year + day or days from planting"
+92def96b48b970d490a3,IDAYIC,"Initial conditions measurement date, year + days"
+e638113b891ab3e6436d,IDEP,"Management depth for automatic application, cm"
+f67abeece04989fcbc4c,ID_FIELD,Field ID (Institute + Site + Field)
+17aaa41dbf97f9615b22,ID_SOIL,Soil ID (Institute + Site + Year + Soil)
+775f7be1539a7c136b25,IEPT,"End point for automatic appl., % of max. available"
+5792b4e44d1a33c61247,IOFF,"End of automatic applications, growth stage"
+1ca9505566973334119c,IROP,"Irrigation operation, code"
+0d1ac223356cca9d15e1,IRVAL,"Irrigation amount, depth of water/watertable, etc., mm"
+b65ff48efcb83dc26449,ITHR,"Threshold for automatic appl., % of max. available"
+811340e4ea62d55b6665,LAID,Leaf area index
+3f0259895986c8871cab,LAIX,"Leaf area index, maximum"
+d7c84ee7bbc5896ca768,LAT,"Latitude, degrees (decimals;+ve north)"
+84e76af3cd362da59fbf,LI%D,Light (PAR) interception (%)
+c7611f33bb734836fc7c,LONG,"Longitude, degrees (decimals;+ve east)"
+963fbd942bda091e662c,LWAD,Leaf weight (kg [dm]/ha)
+b9bd4fa6e4034e8866c3,LWAM,Leaf weight (kg/ha)
+8f09d252b59af1e7f663,MC,Chemical applications level
+b7e09b733468c916c518,MDAT,Physiological maturity date (YrDoy)
+97876dd537b63a356e28,ME,Environment modifications level
+5e44dbc319edb3eb7571,MF,Fertilizer applications level
+1849a7ad269e27fb13f1,MH,Harvest level
+f0b06d9a1f69db41f570,MI,Irrigation level
+f113b12bdceb3ccff2a3,ML,Pearl millet
+66158677f5bb86592dae,MP,Planting level
+4e29c7e7768a9c2d8409,MR,Residue level
+956b5fd5430cedd0806d,MT,Tillage level
+3048ac76f5b568fdef33,NFTD,N factor for tillering (0-1)
+94a72d800bb0b84534f1,NI1D,"NO3, soil layer 1 (mg[N]/kg[soil])"
+5847ca3c2460bb05cafb,O,Rotation component - option (default = 1)
+39281d531a21b7da5247,ODATE,"Environmental modification date, year + day or days from planting"
+d11c9a09c9d022865e40,PAGE,"Transplant age, days"
+575a609a834e03c4d2d5,PAR,"Daily photosynthetic radiation, moles m-2 day-1"
+c70c515441a073e86bb8,PAREA,"Gross plot area per rep, m-2"
+4e578eaccea8f28ea1a1,PCR,Previous crop code
+db95afc812b231b69b87,PDATE,"Planting date, year + days from Jan. 1"
+107736d1c937d97cc5e7,PDFT,First seed date (YrDoy)
+92d4232741516c4d3be6,PENV,"Transplant environment, oC"
+7febd8297ca9b8e67830,PLANTS,"Plant population at seeding, m-2"
+8e3abd8e3e524c50a099,PLDP,"Planting depth, cm"
+f55802297b49a33489d9,PLDS,"Planting distribution, row R, broadcast B, hill H"
+237647c4452a4fe3ca17,PLEN,"Plot length, m"
+e0d19dbc1de436ae6022,PLME,"Planting method, code"
+a6b4eca68d057b1ebedd,PLOR,"Plot orientation, degrees from N"
+373375b4fbfbf5a72976,PLPH,Plants per hill (if appropriate)
+11cd64e9e16e62cdfb1b,PLRD,"Row direction, degrees from N"
+660d78b010212012d00e,PLRS,"Row spacing, cm"
+e61d99183ac28c5a7786,PLSP,"Plot spacing, cm"
+87489e0b4f7645341339,PLWT,"Planting material dry weight, kg ha-1"
+ae567588133459182f96,PMWD,Planting material wt (kg/ha)
+c5d9c3638c9455a22b87,PPOE,"Plant population at emergence, m-2"
+cf94010e33fd4195dda8,PPOP,"Plant population at seeding, m-2"
+37b59c1cbbddcbfeef93,PRNO,Rows per plot
+a289189c3c781f467acb,PRSD,Partitioning of wt to shoot (ratio)
+bedc2e1f8d267c34d967,PWAD,Pod weight (kg [dm]/ha)
+e4141225a000bafdc8c2,PWAM,Pod/Ear/Panicle weight at maturity (kg [dm]/ha)
+d9e0b8acdee18df33288,R,Rotation component - number (default = 1)
+0fb6736b1f5711087f8d,RAIN,"Daily rainfall (incl. snow), mm day-1"
+f943b67de62f2d3396b8,RAMT,"Residue amount, kg ha-1"
+4913ff1435e2d19b984f,RCOD,"Residue material, code"
+da8d5740bb6472a3f0da,RDATE,"Incorporation date, year + days"
+880e9bee3170940b4867,RDEP,"Residue incorporation depth, cm"
+ba5304cad654363922e6,RECM,Residue applied (kg/ha)
+9f62cf35911253523009,REFHT,"Reference height for weather measurements, m"
+68f9c81aa6b840eecb34,RESK,"Residue potassium concentration, %"
+9b392ab4ff7572e49305,RESN,"Residue nitrogen concentration, %"
+ff06fa006d29f2e0171c,RESP,"Residue phosphorus concentration, %"
+bb538105c120d6e1e227,RINP,"Residue incorporation percentage, %"
+61d14a1579a275c862e3,RNAH,Root N uptake (kg/ha)
+60e7eb0f22638fa5fec2,SA,Soil analysis level
+6ca0e07d4a5b4f0d216e,SABL,"Depth, base of layer, cm"
+df9cc679c2b8306f598d,SADAT,"Analysis date, year + days from Jan. 1"
+4223eef10204c9a69329,SADC,"Anion adsorption coefficient (reduced nitrate flow), cm3 (H2O) g [soil]-1"
+d955d10b97713fedebc4,SADM,"Bulk density, moist, g cm-3"
+fcc26ba281b2ab7197bb,SAID,Stem area index (m2/m2)
+f2f2bb501777816dc723,SAKE,"Potassium, exchangeable, cmol kg-1"
+8ab0b0eb5410c67297e4,SALB,"Albedo, fraction"
+8aef0599f62bc6d36f1e,SANAM,Soil analysis level name
+1b09fb2b412548808d6a,SANI,"Total nitrogen, %"
+4e6a1f4f8a6fc0ce47e8,SAOC,"Organic carbon, %"
+002e048be4adfe6e43a4,SAPHB,pH in buffer
+dd1d9734908362c53b4d,SAPHW,pH in water
+9eeebfa25fcb422ef107,SAPX,"Phosphorus, extractable, mg kg-1"
+565b789d31da9989dba6,SASC,"Measured stable organic carbon, %"
+519f5ed25ac7746b8b02,SBDM,"Bulk density, moist, g cm-3"
+c89f6b80fc1b5acdd963,SCEC,"Cation exchange capacity, cmol kg-1"
+2283bdb6464941068d13,SCOM,"Color, moist, Munsell hue"
+414951e18dd5982a17ba,SDATE,Start Date
+e06fd4e26ec3865e3a8c,SDUL,"Drained upper limit, cm3 cm-3"
+f39a983cab9b3e56bb7b,SH2O,"Water, cm3 cm-3"
+a68be31cd50bac75454b,SHAD,Shell weight (kg [dm]/ha)
+c9d9a4d5fcc2886ef608,SLAD,Specific leaf area (cm2/g)
+c3c989b830754ffbe9f8,SLB,"Depth, base of layer, cm"
+25ddd36fb25f684d2959,SLCF,"Coarse fraction (>2 mm), %"
+19eeb4879f5ee5f60ad3,SLCL,"Clay (<0.002 mm), %"
+32ece8570fa62906f5ce,SLDP,"Soil depth, cm"
+e41d6127cf36f7a487a6,SLDR,"Drainage rate, fraction day-1"
+9cd63da7be97c988f6f0,SLHB,pH in buffer
+1183b8eb3340025b54ce,SLHW,pH in water
+25d49afb54be7ff67783,SLLL,"Lower limit of plant extractable soil water, cm3 cm-3"
+ed6ec37eb6de74102551,SLMH,Master horizon
+8fed555b2785f09ed42d,SLNF,"Mineralization factor, 0 to 1 scale"
+1d5f76dc6d847213b940,SLNI,"Total nitrogen, %"
+3b05cefd1eec38cdee66,SLOC,"Organic carbon, %"
+282ad639d37e796d2a03,SLPF,"Soil fertility factor, 0 to 1 scale [for soil factors not simulated by the model]"
+33157767f42e4add8e4a,SLRO,Runoff curve no. [Soil Conservation Service/NRCS]
+36abe51569d09ebe97c8,SLSI,"Silt (0.05 to 0.002 mm), %"
+44595453041769ae3fe3,SLTX,Soil texture
+d83a29a234acf07187fd,SLU1,"Stage 1 evaporation limit, mm"
+cc12c5e52859aa64d914,SM,Simulation control level
+8f50b6a01c5529ff1c53,SMHB,"pH in buffer determination method, code"
+bb8e30e0136c856ee0e1,SMKE,"Potassium determination method, code"
+0b6fd5b4e867ce17936c,SMPX,"Phosphorus determination method, code"
+4218123da3dcdf93890e,SNAM,Stem N at maturity (kg/ha)
+c3ecf6263c83747a8e7d,SNH4,"Ammonium, KCl, g elemental N Mg-1 soil"
+94924f4196bffb43a77a,SNO3,"Nitrate, KCl, g elemental N Mg-1 soil"
+3abe3e8e3c557d816737,SRAD,"Daily solar radiation, MJ m-2 day-1"
+ecf0072e41753164e36f,SRGF,"Root growth factor, soil only, 0.0 to 1.0"
+d50ac1d833857bc28363,SSAT,"Upper limit, saturated, cm3 cm-3"
+de3a4681075600f9b298,SSKS,"Sat. hydraulic conductivity, macropore, cm h-1"
+9338913423a5977708e4,SWAD,Stem weight (kg [dm]/ha)
+fcdb5daa9be0ed09bcd1,TAV,"Temperature average for whole year [long-term], oC"
+592b523d025141ad40c8,TDATE,"Tillage date, year + day"
+6c1506385e905a8e7900,TDEP,"Tillage depth, cm"
+3b1f759903d2136d4213,TDEW,"Dew/Frost point temperature at 2 m, oC"
+3bf85226852e362a0191,TIMPL,"Tillage implement, code"
+5d6df12568880d88423c,TL,Tillage level
+c0cc1310cc046e036d8c,TMAX,"Daily temperature maximum, oC"
+3e15560ff1a9771a1aa9,TMIN,"Daily temperature minimum, oC"
+b85935b5f727976233e8,TMND,Minimum daily temperature (oC)
+0c00b4101aa86c42a586,TN,Treatment number
+fdb83cd0b0b307024afe,TN%H,Tuber N at harvest (%)
+533cc5421c8e7f7ab41d,TNAME,Treatment name
+e62fd139c3a4a46ceaab,TS10,"Soil temperature, soil layer 10(oC)"
+ac569a698dd6d358afdf,VARNO,Cultivar identifier
+f2d51c30be280d61a5ec,VNAM,Vegetative N at maturity (kg/ha)
+a553702664c01e6a7ff6,WIND,Daily wind speed (km d-1)
+347d20b2641e432b45f5,WNDHT,"Reference height for windspeed measurements, m"
+82475c2984399b54d572,WSTA,Weather station code (Institute + Site)
+3ce9e454e4c9c21406c8,WSTD,Water stress factor for tillering (0-1)
+3bd6cc05574e17c26dd5,elev,"Elevation, m"
+0e0f71dd834206f9e9da,lat,"Latitude, degrees (decimals;+ve north)"
+7878fce5d6d9b6490bf3,long,"Longitude, degrees (decimals;+ve east)"
+0b675bceccaf3c1b92ee,rain,"Daily rainfall (incl.snow), mm day-1"
+f513a14958eda4a33557,rhum,"Relative humidity average, %"
+6cf321a47233e08eafaf,salb,"Albedo, fraction"
+7f8ff6b6954b5f420bd7,sbdm,"Bulk density, moist, g cm-3"
+eb081697f3cb707c7898,sdul,"Upper limit, drained, cm3 cm-3"
+639928c47a70137e769a,slb,"Depth, base of layer, cm"
+6bc234a50744f3282aec,slcf,"Coarse fraction (>2 mm), %"
+e0d40e7b93f9c707b823,slcl,"Clay (<0.002 mm), %"
+629c69a0696c6b178645,slhw,pH in water
+b73b6a8a9039e101246d,slll,"Lower limit, cm3 cm-3"
+901b236c375c00fc2af1,slni,"Total nitrogen, %"
+6d1e49dabb8629b9d3f8,sloc,"Organic carbon, %"
+85a05c6c9bb0e57eba53,slro,Runoff curve no. (Soil Conservation Service)
+80e570a7de435679904b,slsi,"Silt (0.05 to 0.002 mm), %"
+f48c7e18ad851a1c5ac4,srad,"Daily solar radiation, MJ m-2 day-1"
+7079e379d6cb7ddff8ba,tmax,"Daily temperature maximum, C"
+5921f479334d208b8ad1,tmin,"Daily temperature minimum, C"

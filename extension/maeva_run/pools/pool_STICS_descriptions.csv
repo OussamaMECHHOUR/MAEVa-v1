@@ -1,0 +1,42 @@
+id,description
+d839b93dc15ef70b6296,Initial soil pH (water solution)
+d0a664fb68795c53d462,albedo of the bare dry soil
+1eabdb590fd522e019bc,altitude of simulated site
+7840d78a0e44055ecd2c,biomass of aboveground plant (table)
+64c672c255a578ce7151,biomass of harvested organs
+29dbe54c7280442381bd,bulk density of fine earth fraction in each soil layer
+84209e54a3081d902a19,clay content after decarbonation
+d4ff4b275396a9ad8ff2,cultivar number corresponding to the cultivar name in the plant file
+193d7bbba88139a148d5,daily amount of N added through fertilizers
+a0b08a7dcc705b589d12,daily amount of N2O-N emitted from soil
+fe632b939ec9a5849284,daily amount of irrigation water
+4b21fdce88367f886b92,date of emergence
+ce9c651de35d983fe14e,date of sowing
+790a4f79ec1878818614,date of sowing or planting
+99c4166de7299b0f386b,date of start of physiological maturity
+7386e3707b37e1868361,date of the beginning simulation
+98f1092baeb4f0b7de20,date of the end of the simulation
+7b8e26131674f716124f,date(s) of fertilizer application
+fbbe4edc8ee507af6eab,date(s) of irrigation
+45582e47cf5622ca93fb,day of the stage DRP (beginning of grain filling) when the stage is observed (else 999)
+3cd1e71196c6980bd404,day when the stage LEV is reached (999 if not observed)
+eac4eeae25a8b2efa025,day when the stage MAT is reached (999 if not observed)
+3d9a07a86bcfa4b4b029,depth of measurement of the soil water reserve
+1a7825cda9f83d01173a,"fertilizer type (1=ammonium nitrate, 2=UAN solution, 3=urea, 4=anhydrous ammonia, 5=ammonium sulfate, 6=ammonium phosphate, 7=calcium nitrate, 8= fixed efficiency fertiliser)"
+cad86e9085a91cf17d45,fraction of runoff (relative to total rainfall) in a bare soil when rain > PminRuis (5mm default value in general param)
+c89c6238dfb4e4f6edc2,height of canopy
+2d801c52bd7fddd2b503,initial amount of NH4-N in each of the soil layers (in fine earth)
+f790e687017edfb11532,initial amount of NO3-N in each of the soil layers (in fine earth)
+d4b595900f2d615f7f72,"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+f0e0bbc6395d90e85c2f,latitude of the site
+21331bba747aa55cb595,leaf area index (table)
+9565bf19e6480bc48492,plant sowing density
+bd4637884ad34e273c92,soil depth at which root growth is stopped due to physical constraints
+799c988065dd760941af,"soil organic N content in the first soil layer (supposed constant down to the depth profhum), equal to total nitrogen (Kjeldahl method)"
+bdcfb62ef8f38fded0ea,soil type
+fbb6726f2b0bda736bd3,starting date of filling of harvested organs
+a812b5493a25cd3dbaa9,thickness of soil layer 1
+050327feca680f7d7a5a,thickness of soil layer 2
+6c76c37d6bc6c7fd4120,thickness of soil layer 3
+9b09ba0f4fa69038114c,thickness of soil layer 5
+e61006f431d3089422ab,volumetric content of pebbles per soil layer

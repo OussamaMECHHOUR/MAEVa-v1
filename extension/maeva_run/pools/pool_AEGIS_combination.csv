@@ -1,0 +1,157 @@
+id,name,description
+a76c1aa7d4a6c64a53db,Herbicide_application_frequence_index,Frequency index of application of herbicide
+c23fe9deffe92628992e,abv_asso_crop_yield_dm_t.ha-1,aerial biomass of straws at the harvest of the associated plant per unit area measured on the plot
+065a183ce8037f4bf639,abv_crop_yield_dm_t.ha-1,measurement of above-ground dry biomass at plot level
+e2b42a4ec9cc2dcb7267,abv_crop_yield_fm_t.ha-1,measurement of above-ground fresh biomass at plot level
+f07b16f5bbccf97f2c1a,abv_max_dm_t.ha-1,Maximum aboveground dry mass observed during plant growth
+f3d579a5ddf8f1fee8e3,abv_plant_dm.kg,measurement of above-ground dry biomass at the individual level (plant scale)
+ec9d8101f9eb8dfb5d6f,abv_plant_dm_kg,measurement of above-ground dry biomass at the individual level  (plant scale)
+15a90e85e96a7d164821,abv_plant_fm_kg,measurement of above-ground fresh biomass at the individual level  (plant scale)
+e50ad1c6c63e56a3ca32,abv_plant_wc_%,calculation of the proportion of water contained in the aerial part of the plant
+1336c881c078807b5d42,abv_radiation_use_efficiency_g.MJ-1,Global radiation use efficiency based on aboveground dry mass measurements
+888e6a51b630a4ea6577,abv_to_root_dm_ratio_kg.kg-1,calculation of the ratio of above-ground biomass to root biomass (dry)
+1be45f8a25c8e8c3128f,abv_to_root_fm_ratio_kg.kg-1,calculation of the ratio of above-ground biomass to root biomass (fresh)
+8b2e2c4376e4d9fc8129,air_temp_avg_day_°C,average air temperature in ° celsius
+17908b41c00d1f3e7273,ferti_K_app_rate_kg.ha-1,potassium application rate for soil fertilization
+619e037f14411287f0a6,ferti_NPK_app_date_dd/mm/yyyy,date of potassium application for soil fertilisation
+1d3c24375e08f7a7c7d7,ferti_NPK_app_rate_kg.ha-1,potassium application rate for soil fertilisation
+74208231e6ea31443071,ferti_N_app_rate_kg.ha-1,Nitrogen application rate for soil fertilization
+fd22791948730c6a2af2,ferti_P_app_rate_kg.ha-1,phosphorus application rate for soil fertilization
+19f8962c19ca52af162d,ferti_urea_app_date_dd/mm/yyyy,date of urea input
+d8d2379351083d8fa90b,ferti_urea_app_rate_kg.ha-1,dose estimation of urea input
+b0807397a2df509fba6a,fruit_crop_yield_dm_t.ha-1,measurement of dry fruit biomass at plot level
+d6dd6468dd55cb049131,fruit_crop_yield_fm_t.ha-1,measurement of fresh fruit biomass at plot level
+d21089566a98577070f2,fruit_plant_dm_kg,measurement of dry fruit biomass at the individual level (plant scale)
+8b3ea88b816c518172cd,fruit_plant_fm_kg,measurement of fresh fruit biomass at the individual level (plant scale)
+5e76404427d6c90f5d85,fruit_plant_wc_%,calculation of the proportion of water contained in the fruits
+8166c30d841c7939c2ea,fruit_to_abv_dm_ratio_kg.kg-1,calculation of the ratio between fruit biomass and above-ground (dry) biomass
+abb75eff8143b29245f5,fruit_to_abv_fm_ratio_kg.kg-1,calculation of the ratio between fruit biomass and above-ground (fresh) biomass
+b1c05a03c011975c0da3,grain_1000_dm_g,weight of 1000 full grains at harvest measured on several poquets
+27307961952ac0c133aa,grain_asso_crop_yield_dm_kg.ha-1,grain yield of the plant associated with the harvest per unit area measured on the plot
+74d0521e01f24729bb60,grain_crop_yield_14%humidity_mass_t.ha-1,"Grain yield at harvest per unit area, measured on one or more yield squares and adjusted to 14% moisture content."
+67ac645b9a053ae2faab,grain_crop_yield_dm_t.ha-1,grain yield of the main crop at harvest per unit area measured on the plot
+aa141ca1e28c52a50d2c,grain_mature_%,percentage of full grains at harvest (inverse to grain sterility) measured on several poquets
+02868863015d80f91157,grain_mature_nb.m-2,number of full grains per square meter at harvest measured on several poquets
+6057aed3d3dc8fb31deb,grain_mature_nb.plant-1,number of panicles per plant at harvest measured on several pokets
+847c58374b15b403b33a,harvesting_date_dd/mm/yyyy,harvesting date
+c98070604da202a0cda1,herb_app_date_dd/mm/yyyy,herbicide application date
+83b7c7a0088feceaa470,herb_app_rate_l.ha-1,herbicide dose estimate
+49ff9bd5b6f5b1cf32f2,leaf_C_content_g.kg-1,Carbon content in the leaves
+928fb963442d1ca4b267,leaf_Ca_content_g.kg-1,Calcium content in the leaves
+668b523063588bc7d660,leaf_K_content_g.kg-1,Potassium content in the leaves
+241edd06da493363a043,leaf_Mg_content_g.kg-1,Manganese content in the leaves
+05ec786cdd36435116d1,leaf_N_content_g.kg-1,Nitrogen content in the leaves
+eb84f0d18cf2529cc3bf,leaf_P_content_g.kg-1,Phosphorus content in the leaves
+2aaafcb7bedbd28dd43d,leaf_area_index_m2.m-2,calculation of leaf area per unit of soil area
+6080568963d1f1b37a7d,leaf_crop_yield_dm_t.ha-1,measurement of foliar dry biomass at plot level
+aea5881fdfb393a07751,leaf_crop_yield_fm_t.ha-1,measurement of foliar fresh biomass at plot level
+1e3a4402eab44b1f6afc,leaf_nb.plant-1,total number of leaf blades tracking labeled stems
+601ac9a5be909a77b9c6,leaf_plant_dm_kg,measurement of foliar dry biomass at the individual level (plant scale)
+1cd600e42a59004aedab,leaf_plant_fm_kg,measurement of foliar fresh biomass at the individual level (plant scale)
+02d22016dc1eb855acb1,leaf_plant_wc_%,calculation of the proportion of water contained in the leaves
+451972a759a02234c890,leaf_to_abv_dm_ratio_kg.kg-1,calculation of the ratio of leaf biomass to above-ground (dry) biomass
+25638b6099ca7a3fd4cb,leaf_to_abv_fm_ratio_kg.kg-1,calculation of the ratio of leaf biomass to above-ground (fresh) biomass
+eb009b6b36f3191d22c2,mulch_asso_crop_yield_dm_t.ha-1,aerial biomass of straw at the end of the dry season harvest of the associated plant per unit area measured on the plot
+8f6981ac1263d168a8ca,nb_fertilization_application,Number of fertilization application
+977b9e6996c883df1fad,pan_nb.m-2,number of panicles per unit of area harvested measured on several poquets
+7d8ca0347eba61db34a6,pan_nb_plant.m-2,number of plants at harvest per unit area per plot (by counting the number of poquets present)
+78dea88fd3085962ee1b,plant_CN_dm_ratio_g_g-1,plant carbon to nitrogen ratio calculation is an indicator of the plant's ability to decompose
+e0d60be8798e860ff5a1,plant_C_dm_content_g.kg-1,plant carbon measurement
+d6be1a0b7671aa1b2f15,plant_N_dm_content_g.kg-1,plant nitrogen measurement
+b01fa3b4a4ac936b67e9,plant_TVD_height_cm,tvd height interpolated
+90b541df0c51e2739682,plant_apex_height_cm,Height of the apex of the sugar stem sample
+931357a4a6481ba8cc3d,plant_apex_height_cm,measurementment of the height of the plant from the base to the apex
+1e3bb03d0b080317ecd4,plant_canopy_height_cm,canopy height measurement
+b960e5acec690e7f0fbe,plant_flowering_50%_DAP,Number of days to reach 50% of plant flowering in days since sowing
+57edc5c2ad86a2dc04c9,plant_flowering_50%_date_dd/mm/yyyy,Date of flowering
+9406389a8183963ea739,plant_flowering_50%_sdd_°C.d,Sum of degree days from sowing to reach 50% of plant flowering (base temperature of 0°C)
+a49c25db9cd1ce2fb3b8,plant_flowering_90%_date_dd/mm/yyyy,Date of flowering
+be8fd2b1e3b539269ab1,plant_fructification_50%_DAP,Number of days to reach 50% of plant fructification in days since sowing
+45e1e5983b144b77eea6,plant_fructification_50%_sdd_°C.d,Sum of degree days from sowing to reach 50% of plant fructification (base temperature of 0°C)
+5f5d5a3aa91d5a5c70d9,plant_ground_cover_%,measurement of plant (or species) recovery by ceptometry
+b6cb1b1096caabf4aab9,plant_ground_cover_%,measurement of plant (or species) recovery by visual notation
+907942eea1c421d834be,plant_heading_date_dd/mm/yyyy,Plant heading date (dd/mm/yyyy)
+8121671125f998e31b32,plant_leaf_appearance_rate_n.d-1,leaf appearance rate per plant (number of leaf / days)
+7a52e8e03e3088652fc9,plant_leaf_appearance_rate_n_°d-1,calculation of the rate of appearance of sheets per unit of time
+32a097b3dc5f73339df0,plant_leaf_area_cm2,sheet surface measurement
+b717371a5847d651c6ac,plant_leaf_nb,plant leaf count
+d313e686c37d951102c7,plant_maturity_date_dd/mm/yyyy,date of maturity plant
+ba25afb27f732ab90762,plant_max_ground_cover_%,maximum recovery rate of the plant (or species)
+253525483b570f364cf4,plant_max_height_cm,Maximum apex height of plant during the growth
+fdf1deda5c1c1fe6d4f6,plant_rate_increase_ground_cover_%.d-1,Rate of increase in ground cover by the plant
+7b8e9eabe73036f63295,plant_rate_increase_ground_cover_%.°d-1,calculation of the growth rate of ground cover per unit of time
+26aea32b0426562367f2,plant_rate_increase_height_cm.d-1,Rate of increase in height of plant
+f52043973ab1137ce29a,pro_CaO_tot_dm_40_total_HF_g.kg-1,calcium oxide content in the organic waste product
+ae541331887bf9677a12,pro_N_tot_dm_40_CN_Dumas_g.kg-1,Nitrogen content in PRO
+7cd908180691a107edc2,root_crop_yield_dm_t.ha-1,measurement of root dry biomass at plot level
+bd7dc4ac552fdecd3a4c,root_crop_yield_fm_t.ha-1,measurement of fresh root biomass at plot level
+dcc42bfa09f44b6b296c,root_plant_dm_kg,measurement of root dry biomass at an individual level
+5fc22f5e70a8843f428e,root_plant_fm_kg,measurement of fresh root biomass at the individual level (plant scale)
+42aa6cfb59cb1119c931,root_plant_wc_%,calculation of the proportion of water contained in the roots
+6b9abeac052d0434ce48,sample_within_plot_%,percentage of poquet presence at harvest (or inverse of missing poquet) measured on the plot
+6be8e0550a8f3a52d5e2,seed_emergence_100%_date_dd/mm/yyyy,date on which 100% of the plants emerged at plot level
+c654406f26bf4c7cd031,seed_emergence_50%_DAP,Number of days to reach 50% of seed emergence in days since sowing
+0c58ad1fbf7d23b0d884,seed_emergence_50%_date_dd/mm/yyyy,date on which 50% of the plants emerged at plot level
+335e7be652bf2eb90672,seed_emergence_50%_sdd_°C.d,Sum of degree days from sowing to reach 50% of seed emergence (base temperature of 0°C)
+788edafddafa87f6fe92,seed_germination_rate_%,determination of the germination capacity of a seed lot
+213bb4e6a6b13c926c65,seed_sowing_date_dd/mm/yyyy,sowing date
+d42ce3694cd4d8deba3d,soil_Ag_tot_dm_105°_M_mg.kg-1,silver total content in soil
+302e0cea8089a26a0205,soil_Al_tot_dm_105°_M_g.kg-1,total aluminium content in soil
+060f2a41565e1b42bf43,soil_As_tot_105°_M_mg.kg-1,Arsenic total content in soil
+86ead46dbfe4b37f81b7,soil_CEC_dm_105_cob_exch_cmol+.kg-1,cation exchange capacity
+c6cffcc16aa9f2b34cb3,soil_CEC_dm_cmol.kg-1,cation exchange capacity
+f7b03727520fc748cc8f,soil_CN_dm_ratio_g_g-1,soil carbon to nitrogen ratio calculation is an indicator of the soil's ability to decompose
+e6070af03ad9fe0fca51,soil_C_tot_dm_105°_g.kg-1,"Calcium content in mulch, percentage of dry matter, measured on one of the 3 samples"
+80a9c3e05cf810b4f7bf,soil_Ca_ech_dm_105_cob_exch_g.kg-1,exchangeable calcium
+294c1f1e8cefc04eaf56,soil_Cd_tot_dm_105°_M_mg.kg-1,Cd total content in soil
+f9923c9804d803c18721,soil_Co_tot_dm_105°_M_mg.kg-1,Co total content in soil
+393856eb1ddbe7369b03,soil_Cr_tot_dm_105°_M_mg.kg-1,Cr total content in soil
+9029f49a0506f4f93e6a,soil_Cu_tot_dm_105°_M_mg.kg-1,Cu total content in soil
+c16ee88e411fd390409b,soil_Fe_tot_dm_105°_M_g.kg-1,fer total content in soil
+526403044fb76f828f42,soil_K_exch_dm_105°_E_g.kg-1,exchangeable potassium
+d4cb86d449d0071c284c,soil_Mg_ech_dm_105_cob_exch_g.kg-1,Exchangeable magnesium
+5ba07fe938aa340c23c4,soil_Mg_tot_dm_105°_M_g.kg-1,"magnesium content in the mulch, g/kg DM, measured on one of the 3 samples"
+567169c1d7e39d319d69,soil_Mn_tot_dm_105°_M_mg.kg-1,Mn total content in soil
+b677e5265cef392e769b,soil_Mo_tot_dm_105°_M_mg.kg-1,Molybdenum total content in soil
+32250e448c185826d14b,soil_N_NH4_fm_N_KCl_fresh_mg.kg-1,soil ammoniacal nitrogen (N-NH4)
+03b05e89c686f9ff31c0,soil_N_NO3_fm_N_KCl_fresh_mg.kg-1,soil nitric acid (N-NO3) content
+fdb27a6619b5c871b298,soil_N_tot_dm_105°_Dumas_g.kg-1,"Nitrogen content in mulch, g/kg dry matter, measured on one of the 3 samples"
+d94f21f4d4ba3be7c1de,soil_Na_ech_dm_105_cob_exch_g.kg-1,exchangeable sodium
+d3e5fb9fc7e32d8d1e3f,soil_Ni_tot_dm_105°_M_mg.kg-1,Ni total content in soil
+8c96e05a6b53d3423e51,soil_P_content_g.kg-1,Phosphorus content in the soil
+205fbbf8d7b02aeb84e4,soil_Pb_tot_dm_105°_M_mg.kg-1,Pb total content in soil
+0c183fdbe8bfdd166b40,soil_Zn_tot_dm_105°_M_mg.kg-1,Zn total content in soil
+98338359b8e4bbe58b9d,soil_enricher_app_rate_kg.ha-1,Soil enricher application rate
+f7a1464f4c3285406c5a,soil_exchange_Ca_cmol.kg-1,exchangeable calcium
+34e9aa92f025d39b936b,soil_exchange_K_cmol.kg-1,exchangeable potassium
+e6614e6132e39862817f,soil_exchange_Mg_cmol.kg-1,exchangeable magnesium
+092abcd289d35d484953,soil_exchange_Na_cmol.kg-1,exchangeable sodium
+0910d5bd535af7827614,soil_org_C_content_g.kg-1,Organic carbon content in the soil
+69159240acc475d8f509,soil_org_N_content_g.kg-1,Organic nitrogen content in the soil
+7af8e28c298eb680785d,soil_organic_N_dm_content_g_g-1,soil nitrogen measurement
+5322509912506ad389ba,soil_pH_H2O,"Soil pH (H2O measurement, dimensionless)"
+cbe0959cb41242b48b56,soil_pH_KCl,"Soil pH (KCl measurement, dimensionless)"
+e93cb30f495e78aac711,soil_till_date_dd/mm/yyyy,date on which tillage takes place
+a450d1a2b9b81701780d,spad_chlorophyll_index,"measured on 30 plants per plot, on the last stripe leaf, at 1/3 of the leaf"
+8779f37171270a7e24d6,specific_leaf_area_cm2_g-1,calculation of the ratio between the surface area of the leaves and the dry biomass of the plant
+52dc4ee6d441ca220c6d,spike_nb.m-2,number of spikelets per square meter at harvest measured on several bags
+1efde5468d2e7e3a533c,spike_nb.pan-1,number of spikelets per harvest panicle measured on several poquets
+3c15a5e2ccfbc5c14ccc,stem_crop_yield_dm_t.ha-1,measurement of dry stem biomass at plot level
+2811781999c681b78fd9,stem_crop_yield_fm_t.ha-1,measurement of fresh stem biomass at plot level
+ed61c7ea976265383f6d,stem_fiber_fm_content_%,stalk fibre
+00ba0b8e1adac11e5c55,stem_juice_purity_%,purity juice of the stem
+ce34a2a17df900cf1b7e,stem_nb.m-2,number of stems
+04eb895edd6207acf1c8,stem_nb.m-2,number of stems per square meter
+44871739347f527afe1c,stem_plant_dm_kg,measurement of dry stem biomass at individual scale
+6f9306bfbd0bb5e33477,stem_plant_fm_kg,measurement of fresh stem biomass at the individual level (plant scale)
+1f2a2a06a4aa24a24197,stem_plant_wc_%,calculation of the proportion of water contained in the stems
+a96efc8a29991d956d0a,stem_sucrose_fm_content_%,soluble sugar concentration of stem
+02b02c373ceb0efc0ac9,stem_sugar_fm_content_%,pourcentage of sugar of the fresh matter stem lab
+ad6a1e6224a008139c68,tot_crop_yield_dm_t.ha-1,measurement of total dry biomass at plot level
+730dfbd30d4e5955ee20,tot_crop_yield_fm_t.ha-1,measurement of total fresh biomass at plot level
+1a4fa7c040a019ffb372,tot_plant_dm_kg,measurement of total dry biomass at an individual level (plant scale)
+d5f55d788d2e0496ff17,tot_plant_fm_kg,measurement of total fresh biomass at the individual level (plant scale)
+c34eb30aaacb9ab7ec32,tot_plant_wc_%,calculation of the proportion of water contained in the whole plant
+db03291f34ae76b78d03,weed_control_efficiency_dry_mass,Index of weed control efficiency based on weed dry mass
+3a1133a8c2245cd7cbb2,weed_control_efficiency_ground_cover,Index of weed control efficiency based on weed ground cover
+4398c6773c88aa8eb909,weeding_date_dd/mm/yyyy,weeding date

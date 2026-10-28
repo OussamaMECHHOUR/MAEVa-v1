@@ -1,0 +1,95 @@
+{
+  "identity_rules": {
+    "names": [
+      "name"
+    ],
+    "descriptions": [
+      "description"
+    ],
+    "combination": [
+      "name",
+      "description"
+    ]
+  },
+  "duplicate_rule": "exact text after trim; never merge a (name,description) pair for combination unless both equal",
+  "source_files": [
+    {
+      "file": "ACME-DSSAT (ground truth)_train.xlsx",
+      "sha256": "0ab1fdfdaca34d847585e561e55177da15b207736099464f8d535b9a808759cc",
+      "used_for": "training pairs and target catalog"
+    },
+    {
+      "file": "ACME-STICS (ground truth)_train.xlsx",
+      "sha256": "9361d45e357cc1f3d47629a2f226d7f2bbd6b091acae71f0e5103b3d1cd44503",
+      "used_for": "training pairs and target catalog"
+    },
+    {
+      "file": "ICASA-DSSAT (ground truth)_train.xlsx",
+      "sha256": "ede1d2c6350801089c3fec21e145cfd9820317a11e63258846c3fa95b32ab36f",
+      "used_for": "training pairs and target catalog"
+    },
+    {
+      "file": "IntercropValues-STICS (ground truth)_train.xlsx",
+      "sha256": "08189db708a7100dc93e5baa29799ec2ebddeb2e1104a45c7b5155d8710d5074",
+      "used_for": "training pairs and target catalog"
+    },
+    {
+      "file": "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx",
+      "sha256": "ca8524515d4456a941e160ece6c1a18b70308619f9bda59d41b22edffb585bbb",
+      "used_for": "training pairs and target catalog"
+    },
+    {
+      "file": "ACME-DSSAT (ground truth)_test.xlsx",
+      "sha256": "cfaf081da0938c7da568ea66bf511e72680fcbd27fcdbc94e0037023175681da",
+      "used_for": "target columns ONLY, not source labels"
+    },
+    {
+      "file": "ACME-STICS (ground truth)_test.xlsx",
+      "sha256": "9c92a1f7f0cbfa9d787b0aa5a8a4e86e3f9cee82b57071e6fb0ad9fb7df41673",
+      "used_for": "target columns ONLY, not source labels"
+    },
+    {
+      "file": "ICASA-DSSAT (ground truth)_test.xlsx",
+      "sha256": "74f0fb9543904eb707e1382a3cb942181f78cc06fafe1da08593f2f89d57aedf",
+      "used_for": "target columns ONLY, not source labels"
+    },
+    {
+      "file": "IntercropValues-STICS (ground truth)_test.xlsx",
+      "sha256": "c497496bdeec66dfd0914e8217a1ae58638232d2142e0d9ec8d59f97fadda345",
+      "used_for": "target columns ONLY, not source labels"
+    },
+    {
+      "file": "SourceAEGIS-CandidateAEGIS (ground truth)_test.xlsx",
+      "sha256": "963eac8224aa259f5f393f2c9ee305eb300b0ab1672a43f7ef4a9464e42b2a28",
+      "used_for": "target columns ONLY, not source labels"
+    }
+  ],
+  "counts": {
+    "DSSAT": {
+      "names": 238,
+      "descriptions": 214,
+      "combination": 238
+    },
+    "STICS": {
+      "names": 60,
+      "descriptions": 41,
+      "combination": 61
+    },
+    "AEGIS": {
+      "names": 153,
+      "descriptions": 151,
+      "combination": 156
+    }
+  },
+  "sha256": {
+    "pool_DSSAT_names.json": "f00546745fb445f9fbcdedefba1a452134c9609d3798fba0818419e2110c0936",
+    "pool_DSSAT_descriptions.json": "f490429c32db1784a66d1dc2f0716300af27d3714818550c831e6db3478093a2",
+    "pool_DSSAT_combination.json": "4c95b0ece8d34fee805a20d6862aedb8258d823f5407499b889bf78f5641962c",
+    "pool_STICS_names.json": "d9ae6a218aea43e65dc5022d56174c2496d0efdd32b469327e84610b0f69a442",
+    "pool_STICS_descriptions.json": "c8ed116ed3c93d6d58639fe231566a36f6ea1ff0631e068ddb7b0e1d502a1eba",
+    "pool_STICS_combination.json": "47e8155f324b10d950e265665238c10274e472cd9a4da963636979a1b47152b5",
+    "pool_AEGIS_names.json": "32b42495109f7c9b2795027feee0975971937c2e1bf5b78b68912e4b191a8dbf",
+    "pool_AEGIS_descriptions.json": "5c72ca9342781ae25725fcaef6096677b2bc28f43eaf51ca53ad08eaa61e6ebc",
+    "pool_AEGIS_combination.json": "3fc4c990c84a5bcdb32c45350e1d35ff76e8c55e46d65dc1e1d2e4642f682982"
+  }
+}

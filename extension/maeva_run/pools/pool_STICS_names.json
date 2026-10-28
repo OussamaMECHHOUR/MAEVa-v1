@@ -1,0 +1,242 @@
+[
+  {
+    "id": "32c13bb5140790183d63",
+    "name": "CO2sol"
+  },
+  {
+    "id": "bbfb20e1417af11f20b0",
+    "name": "DAF(1)"
+  },
+  {
+    "id": "868dbeed50186c44c116",
+    "name": "DAF(2)"
+  },
+  {
+    "id": "c3c227d53dc7ac8e23a0",
+    "name": "DAF(3)"
+  },
+  {
+    "id": "b1bf161e744e29a54d01",
+    "name": "DAF(4)"
+  },
+  {
+    "id": "656fd64b6ec6a216e70f",
+    "name": "DAF(5)"
+  },
+  {
+    "id": "b82ecaa368d177b63dea",
+    "name": "Hinitf(1)"
+  },
+  {
+    "id": "6daac5f4b311b4c7565e",
+    "name": "Hinitf(2)"
+  },
+  {
+    "id": "f7c0bb2a3e6099da41c3",
+    "name": "Hinitf(3)"
+  },
+  {
+    "id": "13df6a0629394adcaf68",
+    "name": "Hinitf(4)"
+  },
+  {
+    "id": "ace371ad5c86accd02a4",
+    "name": "Hinitf(5)"
+  },
+  {
+    "id": "68c469be49066bccc4cd",
+    "name": "NH4initf(1)"
+  },
+  {
+    "id": "00d07b237c12da393987",
+    "name": "NH4initf(2)"
+  },
+  {
+    "id": "ab3f4ca68882e92f975f",
+    "name": "NH4initf(3)"
+  },
+  {
+    "id": "6b68b0470b2433265eec",
+    "name": "NH4initf(4)"
+  },
+  {
+    "id": "054d309ac5bc907cc63c",
+    "name": "NH4initf(5)"
+  },
+  {
+    "id": "8830e67790827d8eea29",
+    "name": "NO3initf(1)"
+  },
+  {
+    "id": "78dd481f7fb06b1da881",
+    "name": "NO3initf(2)"
+  },
+  {
+    "id": "3b1ad0235cc053bd32f1",
+    "name": "NO3initf(3)"
+  },
+  {
+    "id": "bde85f244ace53b17ca4",
+    "name": "NO3initf(4)"
+  },
+  {
+    "id": "3421fd673f3390b659be",
+    "name": "NO3initf(5)"
+  },
+  {
+    "id": "9423f9d509aa201b5fc0",
+    "name": "albedo"
+  },
+  {
+    "id": "916736ca263c52ddd327",
+    "name": "altisimul"
+  },
+  {
+    "id": "1c98093548d69b1d587e",
+    "name": "argi"
+  },
+  {
+    "id": "3b5ad3a76b80742d6894",
+    "name": "cailloux"
+  },
+  {
+    "id": "a6d59497ce4e494f3e36",
+    "name": "daf"
+  },
+  {
+    "id": "7c0d86ad5f21c230ad7c",
+    "name": "datedebut"
+  },
+  {
+    "id": "23f0ffa2b9498f63b0a2",
+    "name": "datefin"
+  },
+  {
+    "id": "2e7b7327658e21b16cc1",
+    "name": "densitesem"
+  },
+  {
+    "id": "923ac80f6b44e37b3d72",
+    "name": "doseI"
+  },
+  {
+    "id": "cf76e5518b19e66245a9",
+    "name": "doseN"
+  },
+  {
+    "id": "6fd716a785bee7aadf4f",
+    "name": "em_N2O"
+  },
+  {
+    "id": "8b00f77b084b7d4b93b5",
+    "name": "engrais"
+  },
+  {
+    "id": "b90e5f550208306fdec1",
+    "name": "epc(1)"
+  },
+  {
+    "id": "ad88ab28acd4dca5cbfc",
+    "name": "epc(2)"
+  },
+  {
+    "id": "bd04517c41fc08f36e13",
+    "name": "epc(3)"
+  },
+  {
+    "id": "dca9f049748f96f5177c",
+    "name": "epc(4)"
+  },
+  {
+    "id": "d00ee4b80dbb2e65aab5",
+    "name": "epc(5)"
+  },
+  {
+    "id": "a40a9cec48533859d464",
+    "name": "hauteur"
+  },
+  {
+    "id": "971f9a553d3df8567754",
+    "name": "idrp"
+  },
+  {
+    "id": "e61e796e6eb0b9bc9f1c",
+    "name": "idrps"
+  },
+  {
+    "id": "e8e3e9c02295ea3a369a",
+    "name": "ilev"
+  },
+  {
+    "id": "5897b4ed60e62aaaabe3",
+    "name": "ilevs"
+  },
+  {
+    "id": "41145414adc9b0a4d00f",
+    "name": "imat"
+  },
+  {
+    "id": "7c14fc026062a5ad7dca",
+    "name": "imats"
+  },
+  {
+    "id": "3c03e4a58a1fa800a067",
+    "name": "iplt0"
+  },
+  {
+    "id": "f2db9d7986df2ed09e84",
+    "name": "iplts"
+  },
+  {
+    "id": "03dba4891ca558fb0bab",
+    "name": "julapI"
+  },
+  {
+    "id": "c1692d0a8ee31e08af71",
+    "name": "julapN"
+  },
+  {
+    "id": "ed9a63c2bcadafc46aed",
+    "name": "lai_n"
+  },
+  {
+    "id": "cf18da5c957a23a90ba5",
+    "name": "latitude"
+  },
+  {
+    "id": "8ccf05ac033315783e9f",
+    "name": "mafruit"
+  },
+  {
+    "id": "8f6c4349c06e7879610e",
+    "name": "masec_n"
+  },
+  {
+    "id": "bd26790e7c640bf65aa2",
+    "name": "norg"
+  },
+  {
+    "id": "93ac093569bb7c8d275e",
+    "name": "obstarac"
+  },
+  {
+    "id": "516a1e2ae79fe280358a",
+    "name": "ph"
+  },
+  {
+    "id": "6dc007e8ea058f88de29",
+    "name": "profmes"
+  },
+  {
+    "id": "5154c7cddf05fc408595",
+    "name": "ruisolnu"
+  },
+  {
+    "id": "c85f2e9f2a536a150349",
+    "name": "typsol"
+  },
+  {
+    "id": "203ba29cbe94b3649237",
+    "name": "variete"
+  }
+]

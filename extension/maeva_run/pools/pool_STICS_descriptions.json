@@ -1,0 +1,166 @@
+[
+  {
+    "id": "d839b93dc15ef70b6296",
+    "description": "Initial soil pH (water solution)"
+  },
+  {
+    "id": "d0a664fb68795c53d462",
+    "description": "albedo of the bare dry soil"
+  },
+  {
+    "id": "1eabdb590fd522e019bc",
+    "description": "altitude of simulated site"
+  },
+  {
+    "id": "7840d78a0e44055ecd2c",
+    "description": "biomass of aboveground plant (table)"
+  },
+  {
+    "id": "64c672c255a578ce7151",
+    "description": "biomass of harvested organs"
+  },
+  {
+    "id": "29dbe54c7280442381bd",
+    "description": "bulk density of fine earth fraction in each soil layer"
+  },
+  {
+    "id": "84209e54a3081d902a19",
+    "description": "clay content after decarbonation"
+  },
+  {
+    "id": "d4ff4b275396a9ad8ff2",
+    "description": "cultivar number corresponding to the cultivar name in the plant file"
+  },
+  {
+    "id": "193d7bbba88139a148d5",
+    "description": "daily amount of N added through fertilizers"
+  },
+  {
+    "id": "a0b08a7dcc705b589d12",
+    "description": "daily amount of N2O-N emitted from soil"
+  },
+  {
+    "id": "fe632b939ec9a5849284",
+    "description": "daily amount of irrigation water"
+  },
+  {
+    "id": "4b21fdce88367f886b92",
+    "description": "date of emergence"
+  },
+  {
+    "id": "ce9c651de35d983fe14e",
+    "description": "date of sowing"
+  },
+  {
+    "id": "790a4f79ec1878818614",
+    "description": "date of sowing or planting"
+  },
+  {
+    "id": "99c4166de7299b0f386b",
+    "description": "date of start of physiological maturity"
+  },
+  {
+    "id": "7386e3707b37e1868361",
+    "description": "date of the beginning simulation"
+  },
+  {
+    "id": "98f1092baeb4f0b7de20",
+    "description": "date of the end of the simulation"
+  },
+  {
+    "id": "7b8e26131674f716124f",
+    "description": "date(s) of fertilizer application"
+  },
+  {
+    "id": "fbbe4edc8ee507af6eab",
+    "description": "date(s) of irrigation"
+  },
+  {
+    "id": "45582e47cf5622ca93fb",
+    "description": "day of the stage DRP (beginning of grain filling) when the stage is observed (else 999)"
+  },
+  {
+    "id": "3cd1e71196c6980bd404",
+    "description": "day when the stage LEV is reached (999 if not observed)"
+  },
+  {
+    "id": "eac4eeae25a8b2efa025",
+    "description": "day when the stage MAT is reached (999 if not observed)"
+  },
+  {
+    "id": "3d9a07a86bcfa4b4b029",
+    "description": "depth of measurement of the soil water reserve"
+  },
+  {
+    "id": "1a7825cda9f83d01173a",
+    "description": "fertilizer type (1=ammonium nitrate, 2=UAN solution, 3=urea, 4=anhydrous ammonia, 5=ammonium sulfate, 6=ammonium phosphate, 7=calcium nitrate, 8= fixed efficiency fertiliser)"
+  },
+  {
+    "id": "cad86e9085a91cf17d45",
+    "description": "fraction of runoff (relative to total rainfall) in a bare soil when rain > PminRuis (5mm default value in general param)"
+  },
+  {
+    "id": "c89c6238dfb4e4f6edc2",
+    "description": "height of canopy"
+  },
+  {
+    "id": "2d801c52bd7fddd2b503",
+    "description": "initial amount of NH4-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "f790e687017edfb11532",
+    "description": "initial amount of NO3-N in each of the soil layers (in fine earth)"
+  },
+  {
+    "id": "d4b595900f2d615f7f72",
+    "description": "initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+  },
+  {
+    "id": "f0e0bbc6395d90e85c2f",
+    "description": "latitude of the site"
+  },
+  {
+    "id": "21331bba747aa55cb595",
+    "description": "leaf area index (table)"
+  },
+  {
+    "id": "9565bf19e6480bc48492",
+    "description": "plant sowing density"
+  },
+  {
+    "id": "bd4637884ad34e273c92",
+    "description": "soil depth at which root growth is stopped due to physical constraints"
+  },
+  {
+    "id": "799c988065dd760941af",
+    "description": "soil organic N content in the first soil layer (supposed constant down to the depth profhum), equal to total nitrogen (Kjeldahl method)"
+  },
+  {
+    "id": "bdcfb62ef8f38fded0ea",
+    "description": "soil type"
+  },
+  {
+    "id": "fbb6726f2b0bda736bd3",
+    "description": "starting date of filling of harvested organs"
+  },
+  {
+    "id": "a812b5493a25cd3dbaa9",
+    "description": "thickness of soil layer 1"
+  },
+  {
+    "id": "050327feca680f7d7a5a",
+    "description": "thickness of soil layer 2"
+  },
+  {
+    "id": "6c76c37d6bc6c7fd4120",
+    "description": "thickness of soil layer 3"
+  },
+  {
+    "id": "9b09ba0f4fa69038114c",
+    "description": "thickness of soil layer 5"
+  },
+  {
+    "id": "e61006f431d3089422ab",
+    "description": "volumetric content of pebbles per soil layer"
+  }
+]

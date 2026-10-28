@@ -1,0 +1,14 @@
+# Tested target: Python 3.11, CUDA on server requires an NVIDIA-compatible PyTorch wheel.
+# Pin application/library versions; save server wheel/environment hashes for exact audits.
+torch==2.5.1
+transformers==4.44.2
+numpy==1.26.4
+scipy==1.14.1
+scikit-learn==1.5.2
+pandas==2.2.3
+openpyxl==3.1.5
+nltk==3.9.1
+joblib==1.4.2
+safetensors==0.4.5
+huggingface-hub==0.25.2
+tokenizers==0.19.1

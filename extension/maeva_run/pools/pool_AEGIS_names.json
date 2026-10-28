@@ -1,0 +1,614 @@
+[
+  {
+    "id": "1608530750c6fb7e2ef6",
+    "name": "Herbicide_application_frequence_index"
+  },
+  {
+    "id": "93243f7959c48c214e48",
+    "name": "abv_asso_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "5090f99ae15ad5cb8ad8",
+    "name": "abv_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "25f6ab25f53e45c702f9",
+    "name": "abv_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "282380bdabb2997dd747",
+    "name": "abv_max_dm_t.ha-1"
+  },
+  {
+    "id": "03cce1e2d9088626da1e",
+    "name": "abv_plant_dm.kg"
+  },
+  {
+    "id": "dbd2c77cbd1be12f9479",
+    "name": "abv_plant_dm_kg"
+  },
+  {
+    "id": "2af3c1dc5fcb5f734135",
+    "name": "abv_plant_fm_kg"
+  },
+  {
+    "id": "5175eec47c1c4007c09f",
+    "name": "abv_plant_wc_%"
+  },
+  {
+    "id": "828ae91acb51265ae2d7",
+    "name": "abv_radiation_use_efficiency_g.MJ-1"
+  },
+  {
+    "id": "f135ea132b33a8038858",
+    "name": "abv_to_root_dm_ratio_kg.kg-1"
+  },
+  {
+    "id": "6918c93e0e7a0a062d90",
+    "name": "abv_to_root_fm_ratio_kg.kg-1"
+  },
+  {
+    "id": "b0eb590e9ab4cd737122",
+    "name": "air_temp_avg_day_°C"
+  },
+  {
+    "id": "b9584c7c3365494c2535",
+    "name": "ferti_K_app_rate_kg.ha-1"
+  },
+  {
+    "id": "9d15063c3ed779f08c97",
+    "name": "ferti_NPK_app_date_dd/mm/yyyy"
+  },
+  {
+    "id": "534307e8db4a9ad1330a",
+    "name": "ferti_NPK_app_rate_kg.ha-1"
+  },
+  {
+    "id": "5ea921049854a47cc73d",
+    "name": "ferti_N_app_rate_kg.ha-1"
+  },
+  {
+    "id": "d75475687d1a3e9b5169",
+    "name": "ferti_P_app_rate_kg.ha-1"
+  },
+  {
+    "id": "7f8a4b7d3ecdc398b6ec",
+    "name": "ferti_urea_app_date_dd/mm/yyyy"
+  },
+  {
+    "id": "26aa60b98f2976366e59",
+    "name": "ferti_urea_app_rate_kg.ha-1"
+  },
+  {
+    "id": "434aafa9d828d2b339e2",
+    "name": "fruit_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "27af1902a3f935fc70cc",
+    "name": "fruit_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "f2f06dd0a22961944f44",
+    "name": "fruit_plant_dm_kg"
+  },
+  {
+    "id": "04af89a029501ec0291a",
+    "name": "fruit_plant_fm_kg"
+  },
+  {
+    "id": "c8a8231e80dfe2cac3c0",
+    "name": "fruit_plant_wc_%"
+  },
+  {
+    "id": "2529f6575af2b439de65",
+    "name": "fruit_to_abv_dm_ratio_kg.kg-1"
+  },
+  {
+    "id": "f0adc7f4e496ae4c4898",
+    "name": "fruit_to_abv_fm_ratio_kg.kg-1"
+  },
+  {
+    "id": "b62731a8b70cbac51c8b",
+    "name": "grain_1000_dm_g"
+  },
+  {
+    "id": "d64bab576cf3365dd673",
+    "name": "grain_asso_crop_yield_dm_kg.ha-1"
+  },
+  {
+    "id": "50a2d54c76fe212473fe",
+    "name": "grain_crop_yield_14%humidity_mass_t.ha-1"
+  },
+  {
+    "id": "3e9d4fa3cf0d737f60e0",
+    "name": "grain_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "eeecb85fc2c59d44f12b",
+    "name": "grain_mature_%"
+  },
+  {
+    "id": "527163adf701a95ccdc2",
+    "name": "grain_mature_nb.m-2"
+  },
+  {
+    "id": "f58c56feb1a4f0aa57da",
+    "name": "grain_mature_nb.plant-1"
+  },
+  {
+    "id": "1f79454f3c287feef945",
+    "name": "harvesting_date_dd/mm/yyyy"
+  },
+  {
+    "id": "c2943711707635b2a014",
+    "name": "herb_app_date_dd/mm/yyyy"
+  },
+  {
+    "id": "c426b1a8f8dbaf1f5c5c",
+    "name": "herb_app_rate_l.ha-1"
+  },
+  {
+    "id": "7959a5f82ee2f3eff190",
+    "name": "leaf_C_content_g.kg-1"
+  },
+  {
+    "id": "fdcef57a5d17f6aa7db7",
+    "name": "leaf_Ca_content_g.kg-1"
+  },
+  {
+    "id": "50a1266315b78560a09c",
+    "name": "leaf_K_content_g.kg-1"
+  },
+  {
+    "id": "74c5dd391d5c69cb7b2f",
+    "name": "leaf_Mg_content_g.kg-1"
+  },
+  {
+    "id": "0fb55e0bac6cc9eb71a3",
+    "name": "leaf_N_content_g.kg-1"
+  },
+  {
+    "id": "2b8fb725b3cec2f0f6b1",
+    "name": "leaf_P_content_g.kg-1"
+  },
+  {
+    "id": "5e0a2cd770d24b6def55",
+    "name": "leaf_area_index_m2.m-2"
+  },
+  {
+    "id": "bf3d4d142dc8ee7c19ad",
+    "name": "leaf_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "cbdfdc9b10a46b924cd0",
+    "name": "leaf_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "fee27d6d61dce059d27b",
+    "name": "leaf_nb.plant-1"
+  },
+  {
+    "id": "01705b7acf1a2f29eab0",
+    "name": "leaf_plant_dm_kg"
+  },
+  {
+    "id": "b46ab015fb71bf267fe9",
+    "name": "leaf_plant_fm_kg"
+  },
+  {
+    "id": "6b07153a4b604e215020",
+    "name": "leaf_plant_wc_%"
+  },
+  {
+    "id": "ff95913333cba4d06406",
+    "name": "leaf_to_abv_dm_ratio_kg.kg-1"
+  },
+  {
+    "id": "d501bab78348b0b51f49",
+    "name": "leaf_to_abv_fm_ratio_kg.kg-1"
+  },
+  {
+    "id": "7f752cfc9d68aa2c7576",
+    "name": "mulch_asso_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "415b17ca7bd79574db5b",
+    "name": "nb_fertilization_application"
+  },
+  {
+    "id": "bb698afc79f56bba806f",
+    "name": "pan_nb.m-2"
+  },
+  {
+    "id": "98cc766fef73cf246896",
+    "name": "pan_nb_plant.m-2"
+  },
+  {
+    "id": "65ce54e8ee75717160c0",
+    "name": "plant_CN_dm_ratio_g_g-1"
+  },
+  {
+    "id": "1fd8ee60b115a5820cb3",
+    "name": "plant_C_dm_content_g.kg-1"
+  },
+  {
+    "id": "9e8d2b22736a67932fcb",
+    "name": "plant_N_dm_content_g.kg-1"
+  },
+  {
+    "id": "d07caa22ce2fec1b521a",
+    "name": "plant_TVD_height_cm"
+  },
+  {
+    "id": "87779464a7232f22bdeb",
+    "name": "plant_apex_height_cm"
+  },
+  {
+    "id": "cadfecaa6d1d59aaba3d",
+    "name": "plant_canopy_height_cm"
+  },
+  {
+    "id": "2114cd59443472f1d594",
+    "name": "plant_flowering_50%_DAP"
+  },
+  {
+    "id": "860053eea36ceed0f4bc",
+    "name": "plant_flowering_50%_date_dd/mm/yyyy"
+  },
+  {
+    "id": "4ea4a5089dbee9839bd3",
+    "name": "plant_flowering_50%_sdd_°C.d"
+  },
+  {
+    "id": "f9310bdab498b7e8b20c",
+    "name": "plant_flowering_90%_date_dd/mm/yyyy"
+  },
+  {
+    "id": "8e7bbdba31cea5d46e1c",
+    "name": "plant_fructification_50%_DAP"
+  },
+  {
+    "id": "ee70b4acafbc406d70ac",
+    "name": "plant_fructification_50%_sdd_°C.d"
+  },
+  {
+    "id": "ce7c5a8f1340dc25c4b7",
+    "name": "plant_ground_cover_%"
+  },
+  {
+    "id": "5a85a33b3d5b3e5d1f53",
+    "name": "plant_heading_date_dd/mm/yyyy"
+  },
+  {
+    "id": "4ba3624b797a049fe8e7",
+    "name": "plant_leaf_appearance_rate_n.d-1"
+  },
+  {
+    "id": "8d0b562265b712719f95",
+    "name": "plant_leaf_appearance_rate_n_°d-1"
+  },
+  {
+    "id": "02c63c097ffe9399ca27",
+    "name": "plant_leaf_area_cm2"
+  },
+  {
+    "id": "e6376b5c19e8af4630f1",
+    "name": "plant_leaf_nb"
+  },
+  {
+    "id": "2b0ed327884676fff5f8",
+    "name": "plant_maturity_date_dd/mm/yyyy"
+  },
+  {
+    "id": "24732e98d6827b79ad0e",
+    "name": "plant_max_ground_cover_%"
+  },
+  {
+    "id": "8e24fb8bcf6b0004549a",
+    "name": "plant_max_height_cm"
+  },
+  {
+    "id": "bc254f3a9de83c52ce82",
+    "name": "plant_rate_increase_ground_cover_%.d-1"
+  },
+  {
+    "id": "d4e649ac57394bafbd83",
+    "name": "plant_rate_increase_ground_cover_%.°d-1"
+  },
+  {
+    "id": "6978bbbad9b78c571c94",
+    "name": "plant_rate_increase_height_cm.d-1"
+  },
+  {
+    "id": "3ec85b364bdaecfef412",
+    "name": "pro_CaO_tot_dm_40_total_HF_g.kg-1"
+  },
+  {
+    "id": "b148a387d88a2c789618",
+    "name": "pro_N_tot_dm_40_CN_Dumas_g.kg-1"
+  },
+  {
+    "id": "3108cf5a9f9bdef15696",
+    "name": "root_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "16e00120fe4b82bdde86",
+    "name": "root_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "040b0940b0b4f7b8184d",
+    "name": "root_plant_dm_kg"
+  },
+  {
+    "id": "231d5828c902a3c880cc",
+    "name": "root_plant_fm_kg"
+  },
+  {
+    "id": "3b1121a3731644225b4f",
+    "name": "root_plant_wc_%"
+  },
+  {
+    "id": "9f3e5315aa64d670989c",
+    "name": "sample_within_plot_%"
+  },
+  {
+    "id": "51009b864e8ae7cb2a33",
+    "name": "seed_emergence_100%_date_dd/mm/yyyy"
+  },
+  {
+    "id": "cc9d8b77ba04d268cc9d",
+    "name": "seed_emergence_50%_DAP"
+  },
+  {
+    "id": "5a2d6cf10f206fa9abd0",
+    "name": "seed_emergence_50%_date_dd/mm/yyyy"
+  },
+  {
+    "id": "508df18271f5f7a8fd01",
+    "name": "seed_emergence_50%_sdd_°C.d"
+  },
+  {
+    "id": "677ac904b6145e09d6ef",
+    "name": "seed_germination_rate_%"
+  },
+  {
+    "id": "74b60664b6fa061fc7cd",
+    "name": "seed_sowing_date_dd/mm/yyyy"
+  },
+  {
+    "id": "cdbf8e43980b1de7edda",
+    "name": "soil_Ag_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "002448b8148643f8b297",
+    "name": "soil_Al_tot_dm_105°_M_g.kg-1"
+  },
+  {
+    "id": "704de8c2c1337380a0b9",
+    "name": "soil_As_tot_105°_M_mg.kg-1"
+  },
+  {
+    "id": "baf7c1fa322d2b89da37",
+    "name": "soil_CEC_dm_105_cob_exch_cmol+.kg-1"
+  },
+  {
+    "id": "458b6543dbff1f3bea89",
+    "name": "soil_CEC_dm_cmol.kg-1"
+  },
+  {
+    "id": "2ceeb2a8097f12d05d16",
+    "name": "soil_CN_dm_ratio_g_g-1"
+  },
+  {
+    "id": "2ca3c57934be8fdb9245",
+    "name": "soil_C_tot_dm_105°_g.kg-1"
+  },
+  {
+    "id": "3e13164a30c6e94f3561",
+    "name": "soil_Ca_ech_dm_105_cob_exch_g.kg-1"
+  },
+  {
+    "id": "7195118fca7a84b09d10",
+    "name": "soil_Cd_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "6ed7f887af3be989ebea",
+    "name": "soil_Co_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "b2e51c4368b2e75efd1e",
+    "name": "soil_Cr_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "814b71510c3af44181b3",
+    "name": "soil_Cu_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "1132807594d4e1b0e84e",
+    "name": "soil_Fe_tot_dm_105°_M_g.kg-1"
+  },
+  {
+    "id": "7bc121f15579eccff9d2",
+    "name": "soil_K_exch_dm_105°_E_g.kg-1"
+  },
+  {
+    "id": "9ef740e8e6db1296eeea",
+    "name": "soil_Mg_ech_dm_105_cob_exch_g.kg-1"
+  },
+  {
+    "id": "707000f31e4a26614934",
+    "name": "soil_Mg_tot_dm_105°_M_g.kg-1"
+  },
+  {
+    "id": "320b1a01bcfeefffa493",
+    "name": "soil_Mn_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "26db9cca98441cf86cfb",
+    "name": "soil_Mo_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "b311ba1c88aa26771bd2",
+    "name": "soil_N_NH4_fm_N_KCl_fresh_mg.kg-1"
+  },
+  {
+    "id": "c2a4a347d7a3f3288470",
+    "name": "soil_N_NO3_fm_N_KCl_fresh_mg.kg-1"
+  },
+  {
+    "id": "a1db2f6cfce366cca0eb",
+    "name": "soil_N_tot_dm_105°_Dumas_g.kg-1"
+  },
+  {
+    "id": "fe7945cffba2294671c4",
+    "name": "soil_Na_ech_dm_105_cob_exch_g.kg-1"
+  },
+  {
+    "id": "3071e8860ddb91d9588a",
+    "name": "soil_Ni_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "e63be7ea9389b37dae4f",
+    "name": "soil_P_content_g.kg-1"
+  },
+  {
+    "id": "d3d4064211de614617bd",
+    "name": "soil_Pb_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "56a7f60dff4649ef5791",
+    "name": "soil_Zn_tot_dm_105°_M_mg.kg-1"
+  },
+  {
+    "id": "3c586cd818e0e8012a56",
+    "name": "soil_enricher_app_rate_kg.ha-1"
+  },
+  {
+    "id": "293651862b3744deefa5",
+    "name": "soil_exchange_Ca_cmol.kg-1"
+  },
+  {
+    "id": "d19b7c7c46b68edc90ac",
+    "name": "soil_exchange_K_cmol.kg-1"
+  },
+  {
+    "id": "b06a6172f4691240ac89",
+    "name": "soil_exchange_Mg_cmol.kg-1"
+  },
+  {
+    "id": "fda736634a9fd9bab6ba",
+    "name": "soil_exchange_Na_cmol.kg-1"
+  },
+  {
+    "id": "6177590c54a0de1e26b1",
+    "name": "soil_org_C_content_g.kg-1"
+  },
+  {
+    "id": "c2832b46be3b79795913",
+    "name": "soil_org_N_content_g.kg-1"
+  },
+  {
+    "id": "bed89d03ae61311feb74",
+    "name": "soil_organic_N_dm_content_g_g-1"
+  },
+  {
+    "id": "f2d018ae3246427d27de",
+    "name": "soil_pH_H2O"
+  },
+  {
+    "id": "44876c45f9b5cf917d32",
+    "name": "soil_pH_KCl"
+  },
+  {
+    "id": "8a8cedf47986179e3c93",
+    "name": "soil_till_date_dd/mm/yyyy"
+  },
+  {
+    "id": "e084b24f32c83ee153b9",
+    "name": "spad_chlorophyll_index"
+  },
+  {
+    "id": "77afac0d2d3e658c531f",
+    "name": "specific_leaf_area_cm2_g-1"
+  },
+  {
+    "id": "5d1d7674fd4ed013c8a1",
+    "name": "spike_nb.m-2"
+  },
+  {
+    "id": "a1652062a1934f727f6e",
+    "name": "spike_nb.pan-1"
+  },
+  {
+    "id": "e458dea3f81a6b6fa756",
+    "name": "stem_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "fe258cebf068c5a0f337",
+    "name": "stem_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "743b3954e0773539e461",
+    "name": "stem_fiber_fm_content_%"
+  },
+  {
+    "id": "08234d3339fd15b3468f",
+    "name": "stem_juice_purity_%"
+  },
+  {
+    "id": "cf5e88ded8c2f09a7b2a",
+    "name": "stem_nb.m-2"
+  },
+  {
+    "id": "2deaf7c2e79de45fc301",
+    "name": "stem_plant_dm_kg"
+  },
+  {
+    "id": "1a22af3e1b291ce1f4a6",
+    "name": "stem_plant_fm_kg"
+  },
+  {
+    "id": "e1726bdd0d8406169785",
+    "name": "stem_plant_wc_%"
+  },
+  {
+    "id": "58801fca1c74249d42a1",
+    "name": "stem_sucrose_fm_content_%"
+  },
+  {
+    "id": "25f55b5113a7631efed2",
+    "name": "stem_sugar_fm_content_%"
+  },
+  {
+    "id": "a9573786fb215507e81a",
+    "name": "tot_crop_yield_dm_t.ha-1"
+  },
+  {
+    "id": "5b73e3a848ce322f3e94",
+    "name": "tot_crop_yield_fm_t.ha-1"
+  },
+  {
+    "id": "bca6ac83f81cbbd40a5d",
+    "name": "tot_plant_dm_kg"
+  },
+  {
+    "id": "5c964dc327e450e9a17f",
+    "name": "tot_plant_fm_kg"
+  },
+  {
+    "id": "11af6aec5a528e15bce1",
+    "name": "tot_plant_wc_%"
+  },
+  {
+    "id": "788f46448e423443d12c",
+    "name": "weed_control_efficiency_dry_mass"
+  },
+  {
+    "id": "a8bf16690a2da7b6f6ef",
+    "name": "weed_control_efficiency_ground_cover"
+  },
+  {
+    "id": "46264fd216b2772b98bf",
+    "name": "weeding_date_dd/mm/yyyy"
+  }
+]

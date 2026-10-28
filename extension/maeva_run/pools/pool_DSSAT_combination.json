@@ -1,0 +1,1192 @@
+[
+  {
+    "id": "97a445e9016a5ee1720a",
+    "name": "ADAT",
+    "description": "Anthesis date (YrDoy)"
+  },
+  {
+    "id": "964b9ea21202e14f0261",
+    "name": "BWAM",
+    "description": "By-product produced (stalk) at maturity (kg[dm]/ha)"
+  },
+  {
+    "id": "350836dec08d7afcba57",
+    "name": "C",
+    "description": "Crop component number (default = 1)"
+  },
+  {
+    "id": "c73eb13ea8e6c42a5fbb",
+    "name": "CDATE",
+    "description": "Application date, year + day or days from planting"
+  },
+  {
+    "id": "3fdb541787a769626bba",
+    "name": "CHAMT",
+    "description": "Chemical application amount, kg ha-1"
+  },
+  {
+    "id": "b9e75b7b45a6364404a3",
+    "name": "CHCOD",
+    "description": "Chemical material, code"
+  },
+  {
+    "id": "74cbccf79f574d88d621",
+    "name": "CHDEP",
+    "description": "Chemical application depth, cm"
+  },
+  {
+    "id": "40b8ba906725c6b61a2b",
+    "name": "CHME",
+    "description": "Chemical application method, code"
+  },
+  {
+    "id": "8fd15d490f2a996fdc1e",
+    "name": "CHTA",
+    "description": "Canopy height (m)"
+  },
+  {
+    "id": "70acea641860eb350c4e",
+    "name": "CHTD",
+    "description": "Canopy height (m)"
+  },
+  {
+    "id": "b18d097eb1955c652355",
+    "name": "CNAM",
+    "description": "Tops N at maturity (kg/ha)"
+  },
+  {
+    "id": "0d1b61cd1341dfa74aa3",
+    "name": "CNAME",
+    "description": "Cultivar name"
+  },
+  {
+    "id": "04e9c98064b1e4149765",
+    "name": "CR",
+    "description": "Crop code"
+  },
+  {
+    "id": "6d29aab66ca132eaed1f",
+    "name": "CU",
+    "description": "Cultivar level"
+  },
+  {
+    "id": "902c356d80e0d6540e0f",
+    "name": "CWAA",
+    "description": "Tops weight at anthesis (kg [dm]/ha)"
+  },
+  {
+    "id": "af04ab24eab9f11d2c22",
+    "name": "CWAD",
+    "description": "Total crop weight minus roots (kg [dm]/ha)"
+  },
+  {
+    "id": "e8dbd0ebd4d7edf2f307",
+    "name": "CWAM",
+    "description": "Biomass at maturity (total crop minus roots) (kg[dm]/ha)"
+  },
+  {
+    "id": "f067b872ce8b0b422717",
+    "name": "E#AD",
+    "description": "Ear number (no/m2)"
+  },
+  {
+    "id": "2103424ae103b1c5555d",
+    "name": "ECO2",
+    "description": "CO2 adjustment, A,S,M,R + vpm"
+  },
+  {
+    "id": "a9705519d4b8f74270c2",
+    "name": "EDATE",
+    "description": "Emergence date, earliest treatment"
+  },
+  {
+    "id": "139107cc4a75a2a699a5",
+    "name": "EDAY",
+    "description": "Daylength adjustment, A,S,M,R+h (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "b3b3449d8867d963c19e",
+    "name": "EDEW",
+    "description": "Humidity adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "9568bd3d6815bd9009aa",
+    "name": "ELEV",
+    "description": "Elevation (m)"
+  },
+  {
+    "id": "e6802f079e4094300338",
+    "name": "EMAX",
+    "description": "Temp (max) adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "ca444e5949b5d5ead6ab",
+    "name": "EMIN",
+    "description": "Temp (min) adjustment, A,S,M,R+oC (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "96c6020a53fe1db74438",
+    "name": "ERAD",
+    "description": "Radn adjustment, A,S,M,R+MJ m-2day-1 (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "06490460a3bb2e4e2c56",
+    "name": "ERAIN",
+    "description": "Precipitation adjustment, A,S,M,R+mm (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "1887c817c8a95c274c7b",
+    "name": "EWAD",
+    "description": "Ear (grain+chaff) or eye weight (kg [dm]/ha)"
+  },
+  {
+    "id": "e16d9c0caaadb4339ad5",
+    "name": "EWIND",
+    "description": "Wind adjustment, A,S,M,R + km day-1 (Add;Subtract;Multiply;Replace)"
+  },
+  {
+    "id": "ec4dd85641cc45b98d20",
+    "name": "FACD",
+    "description": "Fertilizer application/placement, code"
+  },
+  {
+    "id": "e1e080a9da42876c8e0e",
+    "name": "FAMC",
+    "description": "Ca in applied fertilizer, kg ha-1"
+  },
+  {
+    "id": "b73117638891dd43b5ef",
+    "name": "FAMN",
+    "description": "N in applied fertilizer, kg ha-1"
+  },
+  {
+    "id": "92d8b43c32d5fad75944",
+    "name": "FAMO",
+    "description": "Other elements in applied fertilizer, kg ha-1"
+  },
+  {
+    "id": "2d97fef5354c31ee585a",
+    "name": "FAMP",
+    "description": "P in applied fertilizer, kg ha-1"
+  },
+  {
+    "id": "00e24ac773ac87b475c2",
+    "name": "FDEP",
+    "description": "Fertilizer incorporation/application depth, cm"
+  },
+  {
+    "id": "dbbc71e27526fefda308",
+    "name": "FL",
+    "description": "Field level"
+  },
+  {
+    "id": "c105cbbe9634d9b180d1",
+    "name": "FLDD",
+    "description": "Drain depth, cm"
+  },
+  {
+    "id": "794dff0554341ac75ab9",
+    "name": "FLDS",
+    "description": "Drain spacing, m"
+  },
+  {
+    "id": "5299a1d49783de05ea56",
+    "name": "FLDT",
+    "description": "Drainage type, code"
+  },
+  {
+    "id": "476af8e9719d57f34020",
+    "name": "FLHST",
+    "description": "Field history (5 character lookup)"
+  },
+  {
+    "id": "a22bfc0b7b7e12ddcb47",
+    "name": "FLNAM",
+    "description": "Field name"
+  },
+  {
+    "id": "e8c31e5ac15c5a4c13fe",
+    "name": "FLOB",
+    "description": "Obstruction to sun, degrees"
+  },
+  {
+    "id": "7e00312bf2799cfdb90d",
+    "name": "FLSA",
+    "description": "Slope and aspect, degrees from horizontal plus direction (W, NW, etc.)"
+  },
+  {
+    "id": "a4f6bc6199519b579b1b",
+    "name": "FLST",
+    "description": "Surface stones (Abundance, % + Size, S,M,L)"
+  },
+  {
+    "id": "d77003cb113fba11df23",
+    "name": "FMCD",
+    "description": "Fertilizer material, code"
+  },
+  {
+    "id": "62c649c55aec342ac008",
+    "name": "FOCD",
+    "description": "Other element code, e.g.,. MG"
+  },
+  {
+    "id": "01b0dcfde0d5937c0abf",
+    "name": "GN%M",
+    "description": "Grain N at maturity (%)"
+  },
+  {
+    "id": "c83498f49cbce3b6f18c",
+    "name": "GNAM",
+    "description": "Grain N at maturity (kg/ha)"
+  },
+  {
+    "id": "cd3a4f3f7844c12f8492",
+    "name": "GWAM",
+    "description": "Grain wt at maturity (kg [dm]/ha)"
+  },
+  {
+    "id": "3f5cc19e601512a28a43",
+    "name": "H#UM",
+    "description": "Number at maturity (no/unit)"
+  },
+  {
+    "id": "81a23529c900f0e800ba",
+    "name": "HAREA",
+    "description": "Harvest area, m-2"
+  },
+  {
+    "id": "ca8b52e60093a99b8259",
+    "name": "HARM",
+    "description": "Harvest method"
+  },
+  {
+    "id": "e1318f08b7d8a2f00eec",
+    "name": "HCOM",
+    "description": "Harvest component, code"
+  },
+  {
+    "id": "abec2380f8c5bcbfab2a",
+    "name": "HDATE",
+    "description": "Harvest date, year + day or days from planting"
+  },
+  {
+    "id": "58c96576ed4df2ef34ee",
+    "name": "HIAM",
+    "description": "Harvest index at maturity"
+  },
+  {
+    "id": "71f8935b3cc20eb76e38",
+    "name": "HIPM",
+    "description": "Pod harvest index at maturity"
+  },
+  {
+    "id": "63fbbef598920f5a1028",
+    "name": "HL",
+    "description": "Harvest level"
+  },
+  {
+    "id": "f7cc6d382467c7673aa1",
+    "name": "HLATE",
+    "description": "Latest day of the year to harvest; last day of window. (units: )"
+  },
+  {
+    "id": "080c94f7e6a0d4e6d7ae",
+    "name": "HLEN",
+    "description": "Harvest row length, m"
+  },
+  {
+    "id": "ecfa3d80bd422b2135c6",
+    "name": "HPC",
+    "description": "Harvest percentage, %"
+  },
+  {
+    "id": "5e4067a5c6992691cb2a",
+    "name": "HRNO",
+    "description": "Harvest row number"
+  },
+  {
+    "id": "1d2883c965b3971c1864",
+    "name": "HSTG",
+    "description": "Harvest stage"
+  },
+  {
+    "id": "c82f0ada0011af00aa0b",
+    "name": "HWAH",
+    "description": "Harvested yield (kg [dm]/ha)"
+  },
+  {
+    "id": "092d10bf27d0cd16c456",
+    "name": "HWAM",
+    "description": "Yield at harvest maturity (kg [dm]/ha)"
+  },
+  {
+    "id": "dbfe254b0310d6f7f657",
+    "name": "IC",
+    "description": "Initial conditions level"
+  },
+  {
+    "id": "0a3f7f7c21f4e5929738",
+    "name": "ICBL",
+    "description": "Depth, base of layer, cm"
+  },
+  {
+    "id": "70bd0b1ae9f67940479d",
+    "name": "ICDAT",
+    "description": "Initial conditions measurement date, year + days"
+  },
+  {
+    "id": "0b8fe8f5afba698d8e8b",
+    "name": "ICNAME",
+    "description": "Name of initial conditions level"
+  },
+  {
+    "id": "47c3835765d180e6d34b",
+    "name": "ICND",
+    "description": "Nodule weight from previous crop, kg ha-1"
+  },
+  {
+    "id": "a94382ab11f713909deb",
+    "name": "ICRE",
+    "description": "Rhizobia effectiveness, 0 to 1 scale"
+  },
+  {
+    "id": "2a1909455102e18aa1fb",
+    "name": "ICREN",
+    "description": "N content of surface residue, %"
+  },
+  {
+    "id": "9d0364564fff6aeee571",
+    "name": "ICREP",
+    "description": "P content of surface residue, %"
+  },
+  {
+    "id": "507dde986994599102d8",
+    "name": "ICRES",
+    "description": "Initial surface residue, kg ha-1"
+  },
+  {
+    "id": "12fd6690c4431a94a6a5",
+    "name": "ICRID",
+    "description": "Incorporation depth for surface residue, cm"
+  },
+  {
+    "id": "673de2a70bd9becff23d",
+    "name": "ICRIP",
+    "description": "Incorporation amount for surface resiude, %"
+  },
+  {
+    "id": "e24516fef9c88dce90bb",
+    "name": "ICRN",
+    "description": "Rhizobia number, 0 to 1 scale"
+  },
+  {
+    "id": "119533751f89d2c6323e",
+    "name": "ICRT",
+    "description": "Root weight from previous crop, kg ha-1"
+  },
+  {
+    "id": "9a0f617e33af899975e1",
+    "name": "ICWD",
+    "description": "Initial water table depth, cm"
+  },
+  {
+    "id": "febe9d930d9fdf090c17",
+    "name": "IDATE",
+    "description": "Irrigation date, year + day or days from planting"
+  },
+  {
+    "id": "92def96b48b970d490a3",
+    "name": "IDAYIC",
+    "description": "Initial conditions measurement date, year + days"
+  },
+  {
+    "id": "e638113b891ab3e6436d",
+    "name": "IDEP",
+    "description": "Management depth for automatic application, cm"
+  },
+  {
+    "id": "f67abeece04989fcbc4c",
+    "name": "ID_FIELD",
+    "description": "Field ID (Institute + Site + Field)"
+  },
+  {
+    "id": "17aaa41dbf97f9615b22",
+    "name": "ID_SOIL",
+    "description": "Soil ID (Institute + Site + Year + Soil)"
+  },
+  {
+    "id": "775f7be1539a7c136b25",
+    "name": "IEPT",
+    "description": "End point for automatic appl., % of max. available"
+  },
+  {
+    "id": "5792b4e44d1a33c61247",
+    "name": "IOFF",
+    "description": "End of automatic applications, growth stage"
+  },
+  {
+    "id": "1ca9505566973334119c",
+    "name": "IROP",
+    "description": "Irrigation operation, code"
+  },
+  {
+    "id": "0d1ac223356cca9d15e1",
+    "name": "IRVAL",
+    "description": "Irrigation amount, depth of water/watertable, etc., mm"
+  },
+  {
+    "id": "b65ff48efcb83dc26449",
+    "name": "ITHR",
+    "description": "Threshold for automatic appl., % of max. available"
+  },
+  {
+    "id": "811340e4ea62d55b6665",
+    "name": "LAID",
+    "description": "Leaf area index"
+  },
+  {
+    "id": "3f0259895986c8871cab",
+    "name": "LAIX",
+    "description": "Leaf area index, maximum"
+  },
+  {
+    "id": "d7c84ee7bbc5896ca768",
+    "name": "LAT",
+    "description": "Latitude, degrees (decimals;+ve north)"
+  },
+  {
+    "id": "84e76af3cd362da59fbf",
+    "name": "LI%D",
+    "description": "Light (PAR) interception (%)"
+  },
+  {
+    "id": "c7611f33bb734836fc7c",
+    "name": "LONG",
+    "description": "Longitude, degrees (decimals;+ve east)"
+  },
+  {
+    "id": "963fbd942bda091e662c",
+    "name": "LWAD",
+    "description": "Leaf weight (kg [dm]/ha)"
+  },
+  {
+    "id": "b9bd4fa6e4034e8866c3",
+    "name": "LWAM",
+    "description": "Leaf weight (kg/ha)"
+  },
+  {
+    "id": "8f09d252b59af1e7f663",
+    "name": "MC",
+    "description": "Chemical applications level"
+  },
+  {
+    "id": "b7e09b733468c916c518",
+    "name": "MDAT",
+    "description": "Physiological maturity date (YrDoy)"
+  },
+  {
+    "id": "97876dd537b63a356e28",
+    "name": "ME",
+    "description": "Environment modifications level"
+  },
+  {
+    "id": "5e44dbc319edb3eb7571",
+    "name": "MF",
+    "description": "Fertilizer applications level"
+  },
+  {
+    "id": "1849a7ad269e27fb13f1",
+    "name": "MH",
+    "description": "Harvest level"
+  },
+  {
+    "id": "f0b06d9a1f69db41f570",
+    "name": "MI",
+    "description": "Irrigation level"
+  },
+  {
+    "id": "f113b12bdceb3ccff2a3",
+    "name": "ML",
+    "description": "Pearl millet"
+  },
+  {
+    "id": "66158677f5bb86592dae",
+    "name": "MP",
+    "description": "Planting level"
+  },
+  {
+    "id": "4e29c7e7768a9c2d8409",
+    "name": "MR",
+    "description": "Residue level"
+  },
+  {
+    "id": "956b5fd5430cedd0806d",
+    "name": "MT",
+    "description": "Tillage level"
+  },
+  {
+    "id": "3048ac76f5b568fdef33",
+    "name": "NFTD",
+    "description": "N factor for tillering (0-1)"
+  },
+  {
+    "id": "94a72d800bb0b84534f1",
+    "name": "NI1D",
+    "description": "NO3, soil layer 1 (mg[N]/kg[soil])"
+  },
+  {
+    "id": "5847ca3c2460bb05cafb",
+    "name": "O",
+    "description": "Rotation component - option (default = 1)"
+  },
+  {
+    "id": "39281d531a21b7da5247",
+    "name": "ODATE",
+    "description": "Environmental modification date, year + day or days from planting"
+  },
+  {
+    "id": "d11c9a09c9d022865e40",
+    "name": "PAGE",
+    "description": "Transplant age, days"
+  },
+  {
+    "id": "575a609a834e03c4d2d5",
+    "name": "PAR",
+    "description": "Daily photosynthetic radiation, moles m-2 day-1"
+  },
+  {
+    "id": "c70c515441a073e86bb8",
+    "name": "PAREA",
+    "description": "Gross plot area per rep, m-2"
+  },
+  {
+    "id": "4e578eaccea8f28ea1a1",
+    "name": "PCR",
+    "description": "Previous crop code"
+  },
+  {
+    "id": "db95afc812b231b69b87",
+    "name": "PDATE",
+    "description": "Planting date, year + days from Jan. 1"
+  },
+  {
+    "id": "107736d1c937d97cc5e7",
+    "name": "PDFT",
+    "description": "First seed date (YrDoy)"
+  },
+  {
+    "id": "92d4232741516c4d3be6",
+    "name": "PENV",
+    "description": "Transplant environment, oC"
+  },
+  {
+    "id": "7febd8297ca9b8e67830",
+    "name": "PLANTS",
+    "description": "Plant population at seeding, m-2"
+  },
+  {
+    "id": "8e3abd8e3e524c50a099",
+    "name": "PLDP",
+    "description": "Planting depth, cm"
+  },
+  {
+    "id": "f55802297b49a33489d9",
+    "name": "PLDS",
+    "description": "Planting distribution, row R, broadcast B, hill H"
+  },
+  {
+    "id": "237647c4452a4fe3ca17",
+    "name": "PLEN",
+    "description": "Plot length, m"
+  },
+  {
+    "id": "e0d19dbc1de436ae6022",
+    "name": "PLME",
+    "description": "Planting method, code"
+  },
+  {
+    "id": "a6b4eca68d057b1ebedd",
+    "name": "PLOR",
+    "description": "Plot orientation, degrees from N"
+  },
+  {
+    "id": "373375b4fbfbf5a72976",
+    "name": "PLPH",
+    "description": "Plants per hill (if appropriate)"
+  },
+  {
+    "id": "11cd64e9e16e62cdfb1b",
+    "name": "PLRD",
+    "description": "Row direction, degrees from N"
+  },
+  {
+    "id": "660d78b010212012d00e",
+    "name": "PLRS",
+    "description": "Row spacing, cm"
+  },
+  {
+    "id": "e61d99183ac28c5a7786",
+    "name": "PLSP",
+    "description": "Plot spacing, cm"
+  },
+  {
+    "id": "87489e0b4f7645341339",
+    "name": "PLWT",
+    "description": "Planting material dry weight, kg ha-1"
+  },
+  {
+    "id": "ae567588133459182f96",
+    "name": "PMWD",
+    "description": "Planting material wt (kg/ha)"
+  },
+  {
+    "id": "c5d9c3638c9455a22b87",
+    "name": "PPOE",
+    "description": "Plant population at emergence, m-2"
+  },
+  {
+    "id": "cf94010e33fd4195dda8",
+    "name": "PPOP",
+    "description": "Plant population at seeding, m-2"
+  },
+  {
+    "id": "37b59c1cbbddcbfeef93",
+    "name": "PRNO",
+    "description": "Rows per plot"
+  },
+  {
+    "id": "a289189c3c781f467acb",
+    "name": "PRSD",
+    "description": "Partitioning of wt to shoot (ratio)"
+  },
+  {
+    "id": "bedc2e1f8d267c34d967",
+    "name": "PWAD",
+    "description": "Pod weight (kg [dm]/ha)"
+  },
+  {
+    "id": "e4141225a000bafdc8c2",
+    "name": "PWAM",
+    "description": "Pod/Ear/Panicle weight at maturity (kg [dm]/ha)"
+  },
+  {
+    "id": "d9e0b8acdee18df33288",
+    "name": "R",
+    "description": "Rotation component - number (default = 1)"
+  },
+  {
+    "id": "0fb6736b1f5711087f8d",
+    "name": "RAIN",
+    "description": "Daily rainfall (incl. snow), mm day-1"
+  },
+  {
+    "id": "f943b67de62f2d3396b8",
+    "name": "RAMT",
+    "description": "Residue amount, kg ha-1"
+  },
+  {
+    "id": "4913ff1435e2d19b984f",
+    "name": "RCOD",
+    "description": "Residue material, code"
+  },
+  {
+    "id": "da8d5740bb6472a3f0da",
+    "name": "RDATE",
+    "description": "Incorporation date, year + days"
+  },
+  {
+    "id": "880e9bee3170940b4867",
+    "name": "RDEP",
+    "description": "Residue incorporation depth, cm"
+  },
+  {
+    "id": "ba5304cad654363922e6",
+    "name": "RECM",
+    "description": "Residue applied (kg/ha)"
+  },
+  {
+    "id": "9f62cf35911253523009",
+    "name": "REFHT",
+    "description": "Reference height for weather measurements, m"
+  },
+  {
+    "id": "68f9c81aa6b840eecb34",
+    "name": "RESK",
+    "description": "Residue potassium concentration, %"
+  },
+  {
+    "id": "9b392ab4ff7572e49305",
+    "name": "RESN",
+    "description": "Residue nitrogen concentration, %"
+  },
+  {
+    "id": "ff06fa006d29f2e0171c",
+    "name": "RESP",
+    "description": "Residue phosphorus concentration, %"
+  },
+  {
+    "id": "bb538105c120d6e1e227",
+    "name": "RINP",
+    "description": "Residue incorporation percentage, %"
+  },
+  {
+    "id": "61d14a1579a275c862e3",
+    "name": "RNAH",
+    "description": "Root N uptake (kg/ha)"
+  },
+  {
+    "id": "60e7eb0f22638fa5fec2",
+    "name": "SA",
+    "description": "Soil analysis level"
+  },
+  {
+    "id": "6ca0e07d4a5b4f0d216e",
+    "name": "SABL",
+    "description": "Depth, base of layer, cm"
+  },
+  {
+    "id": "df9cc679c2b8306f598d",
+    "name": "SADAT",
+    "description": "Analysis date, year + days from Jan. 1"
+  },
+  {
+    "id": "4223eef10204c9a69329",
+    "name": "SADC",
+    "description": "Anion adsorption coefficient (reduced nitrate flow), cm3 (H2O) g [soil]-1"
+  },
+  {
+    "id": "d955d10b97713fedebc4",
+    "name": "SADM",
+    "description": "Bulk density, moist, g cm-3"
+  },
+  {
+    "id": "fcc26ba281b2ab7197bb",
+    "name": "SAID",
+    "description": "Stem area index (m2/m2)"
+  },
+  {
+    "id": "f2f2bb501777816dc723",
+    "name": "SAKE",
+    "description": "Potassium, exchangeable, cmol kg-1"
+  },
+  {
+    "id": "8ab0b0eb5410c67297e4",
+    "name": "SALB",
+    "description": "Albedo, fraction"
+  },
+  {
+    "id": "8aef0599f62bc6d36f1e",
+    "name": "SANAM",
+    "description": "Soil analysis level name"
+  },
+  {
+    "id": "1b09fb2b412548808d6a",
+    "name": "SANI",
+    "description": "Total nitrogen, %"
+  },
+  {
+    "id": "4e6a1f4f8a6fc0ce47e8",
+    "name": "SAOC",
+    "description": "Organic carbon, %"
+  },
+  {
+    "id": "002e048be4adfe6e43a4",
+    "name": "SAPHB",
+    "description": "pH in buffer"
+  },
+  {
+    "id": "dd1d9734908362c53b4d",
+    "name": "SAPHW",
+    "description": "pH in water"
+  },
+  {
+    "id": "9eeebfa25fcb422ef107",
+    "name": "SAPX",
+    "description": "Phosphorus, extractable, mg kg-1"
+  },
+  {
+    "id": "565b789d31da9989dba6",
+    "name": "SASC",
+    "description": "Measured stable organic carbon, %"
+  },
+  {
+    "id": "519f5ed25ac7746b8b02",
+    "name": "SBDM",
+    "description": "Bulk density, moist, g cm-3"
+  },
+  {
+    "id": "c89f6b80fc1b5acdd963",
+    "name": "SCEC",
+    "description": "Cation exchange capacity, cmol kg-1"
+  },
+  {
+    "id": "2283bdb6464941068d13",
+    "name": "SCOM",
+    "description": "Color, moist, Munsell hue"
+  },
+  {
+    "id": "414951e18dd5982a17ba",
+    "name": "SDATE",
+    "description": "Start Date"
+  },
+  {
+    "id": "e06fd4e26ec3865e3a8c",
+    "name": "SDUL",
+    "description": "Drained upper limit, cm3 cm-3"
+  },
+  {
+    "id": "f39a983cab9b3e56bb7b",
+    "name": "SH2O",
+    "description": "Water, cm3 cm-3"
+  },
+  {
+    "id": "a68be31cd50bac75454b",
+    "name": "SHAD",
+    "description": "Shell weight (kg [dm]/ha)"
+  },
+  {
+    "id": "c9d9a4d5fcc2886ef608",
+    "name": "SLAD",
+    "description": "Specific leaf area (cm2/g)"
+  },
+  {
+    "id": "c3c989b830754ffbe9f8",
+    "name": "SLB",
+    "description": "Depth, base of layer, cm"
+  },
+  {
+    "id": "25ddd36fb25f684d2959",
+    "name": "SLCF",
+    "description": "Coarse fraction (>2 mm), %"
+  },
+  {
+    "id": "19eeb4879f5ee5f60ad3",
+    "name": "SLCL",
+    "description": "Clay (<0.002 mm), %"
+  },
+  {
+    "id": "32ece8570fa62906f5ce",
+    "name": "SLDP",
+    "description": "Soil depth, cm"
+  },
+  {
+    "id": "e41d6127cf36f7a487a6",
+    "name": "SLDR",
+    "description": "Drainage rate, fraction day-1"
+  },
+  {
+    "id": "9cd63da7be97c988f6f0",
+    "name": "SLHB",
+    "description": "pH in buffer"
+  },
+  {
+    "id": "1183b8eb3340025b54ce",
+    "name": "SLHW",
+    "description": "pH in water"
+  },
+  {
+    "id": "25d49afb54be7ff67783",
+    "name": "SLLL",
+    "description": "Lower limit of plant extractable soil water, cm3 cm-3"
+  },
+  {
+    "id": "ed6ec37eb6de74102551",
+    "name": "SLMH",
+    "description": "Master horizon"
+  },
+  {
+    "id": "8fed555b2785f09ed42d",
+    "name": "SLNF",
+    "description": "Mineralization factor, 0 to 1 scale"
+  },
+  {
+    "id": "1d5f76dc6d847213b940",
+    "name": "SLNI",
+    "description": "Total nitrogen, %"
+  },
+  {
+    "id": "3b05cefd1eec38cdee66",
+    "name": "SLOC",
+    "description": "Organic carbon, %"
+  },
+  {
+    "id": "282ad639d37e796d2a03",
+    "name": "SLPF",
+    "description": "Soil fertility factor, 0 to 1 scale [for soil factors not simulated by the model]"
+  },
+  {
+    "id": "33157767f42e4add8e4a",
+    "name": "SLRO",
+    "description": "Runoff curve no. [Soil Conservation Service/NRCS]"
+  },
+  {
+    "id": "36abe51569d09ebe97c8",
+    "name": "SLSI",
+    "description": "Silt (0.05 to 0.002 mm), %"
+  },
+  {
+    "id": "44595453041769ae3fe3",
+    "name": "SLTX",
+    "description": "Soil texture"
+  },
+  {
+    "id": "d83a29a234acf07187fd",
+    "name": "SLU1",
+    "description": "Stage 1 evaporation limit, mm"
+  },
+  {
+    "id": "cc12c5e52859aa64d914",
+    "name": "SM",
+    "description": "Simulation control level"
+  },
+  {
+    "id": "8f50b6a01c5529ff1c53",
+    "name": "SMHB",
+    "description": "pH in buffer determination method, code"
+  },
+  {
+    "id": "bb8e30e0136c856ee0e1",
+    "name": "SMKE",
+    "description": "Potassium determination method, code"
+  },
+  {
+    "id": "0b6fd5b4e867ce17936c",
+    "name": "SMPX",
+    "description": "Phosphorus determination method, code"
+  },
+  {
+    "id": "4218123da3dcdf93890e",
+    "name": "SNAM",
+    "description": "Stem N at maturity (kg/ha)"
+  },
+  {
+    "id": "c3ecf6263c83747a8e7d",
+    "name": "SNH4",
+    "description": "Ammonium, KCl, g elemental N Mg-1 soil"
+  },
+  {
+    "id": "94924f4196bffb43a77a",
+    "name": "SNO3",
+    "description": "Nitrate, KCl, g elemental N Mg-1 soil"
+  },
+  {
+    "id": "3abe3e8e3c557d816737",
+    "name": "SRAD",
+    "description": "Daily solar radiation, MJ m-2 day-1"
+  },
+  {
+    "id": "ecf0072e41753164e36f",
+    "name": "SRGF",
+    "description": "Root growth factor, soil only, 0.0 to 1.0"
+  },
+  {
+    "id": "d50ac1d833857bc28363",
+    "name": "SSAT",
+    "description": "Upper limit, saturated, cm3 cm-3"
+  },
+  {
+    "id": "de3a4681075600f9b298",
+    "name": "SSKS",
+    "description": "Sat. hydraulic conductivity, macropore, cm h-1"
+  },
+  {
+    "id": "9338913423a5977708e4",
+    "name": "SWAD",
+    "description": "Stem weight (kg [dm]/ha)"
+  },
+  {
+    "id": "fcdb5daa9be0ed09bcd1",
+    "name": "TAV",
+    "description": "Temperature average for whole year [long-term], oC"
+  },
+  {
+    "id": "592b523d025141ad40c8",
+    "name": "TDATE",
+    "description": "Tillage date, year + day"
+  },
+  {
+    "id": "6c1506385e905a8e7900",
+    "name": "TDEP",
+    "description": "Tillage depth, cm"
+  },
+  {
+    "id": "3b1f759903d2136d4213",
+    "name": "TDEW",
+    "description": "Dew/Frost point temperature at 2 m, oC"
+  },
+  {
+    "id": "3bf85226852e362a0191",
+    "name": "TIMPL",
+    "description": "Tillage implement, code"
+  },
+  {
+    "id": "5d6df12568880d88423c",
+    "name": "TL",
+    "description": "Tillage level"
+  },
+  {
+    "id": "c0cc1310cc046e036d8c",
+    "name": "TMAX",
+    "description": "Daily temperature maximum, oC"
+  },
+  {
+    "id": "3e15560ff1a9771a1aa9",
+    "name": "TMIN",
+    "description": "Daily temperature minimum, oC"
+  },
+  {
+    "id": "b85935b5f727976233e8",
+    "name": "TMND",
+    "description": "Minimum daily temperature (oC)"
+  },
+  {
+    "id": "0c00b4101aa86c42a586",
+    "name": "TN",
+    "description": "Treatment number"
+  },
+  {
+    "id": "fdb83cd0b0b307024afe",
+    "name": "TN%H",
+    "description": "Tuber N at harvest (%)"
+  },
+  {
+    "id": "533cc5421c8e7f7ab41d",
+    "name": "TNAME",
+    "description": "Treatment name"
+  },
+  {
+    "id": "e62fd139c3a4a46ceaab",
+    "name": "TS10",
+    "description": "Soil temperature, soil layer 10(oC)"
+  },
+  {
+    "id": "ac569a698dd6d358afdf",
+    "name": "VARNO",
+    "description": "Cultivar identifier"
+  },
+  {
+    "id": "f2d51c30be280d61a5ec",
+    "name": "VNAM",
+    "description": "Vegetative N at maturity (kg/ha)"
+  },
+  {
+    "id": "a553702664c01e6a7ff6",
+    "name": "WIND",
+    "description": "Daily wind speed (km d-1)"
+  },
+  {
+    "id": "347d20b2641e432b45f5",
+    "name": "WNDHT",
+    "description": "Reference height for windspeed measurements, m"
+  },
+  {
+    "id": "82475c2984399b54d572",
+    "name": "WSTA",
+    "description": "Weather station code (Institute + Site)"
+  },
+  {
+    "id": "3ce9e454e4c9c21406c8",
+    "name": "WSTD",
+    "description": "Water stress factor for tillering (0-1)"
+  },
+  {
+    "id": "3bd6cc05574e17c26dd5",
+    "name": "elev",
+    "description": "Elevation, m"
+  },
+  {
+    "id": "0e0f71dd834206f9e9da",
+    "name": "lat",
+    "description": "Latitude, degrees (decimals;+ve north)"
+  },
+  {
+    "id": "7878fce5d6d9b6490bf3",
+    "name": "long",
+    "description": "Longitude, degrees (decimals;+ve east)"
+  },
+  {
+    "id": "0b675bceccaf3c1b92ee",
+    "name": "rain",
+    "description": "Daily rainfall (incl.snow), mm day-1"
+  },
+  {
+    "id": "f513a14958eda4a33557",
+    "name": "rhum",
+    "description": "Relative humidity average, %"
+  },
+  {
+    "id": "6cf321a47233e08eafaf",
+    "name": "salb",
+    "description": "Albedo, fraction"
+  },
+  {
+    "id": "7f8ff6b6954b5f420bd7",
+    "name": "sbdm",
+    "description": "Bulk density, moist, g cm-3"
+  },
+  {
+    "id": "eb081697f3cb707c7898",
+    "name": "sdul",
+    "description": "Upper limit, drained, cm3 cm-3"
+  },
+  {
+    "id": "639928c47a70137e769a",
+    "name": "slb",
+    "description": "Depth, base of layer, cm"
+  },
+  {
+    "id": "6bc234a50744f3282aec",
+    "name": "slcf",
+    "description": "Coarse fraction (>2 mm), %"
+  },
+  {
+    "id": "e0d40e7b93f9c707b823",
+    "name": "slcl",
+    "description": "Clay (<0.002 mm), %"
+  },
+  {
+    "id": "629c69a0696c6b178645",
+    "name": "slhw",
+    "description": "pH in water"
+  },
+  {
+    "id": "b73b6a8a9039e101246d",
+    "name": "slll",
+    "description": "Lower limit, cm3 cm-3"
+  },
+  {
+    "id": "901b236c375c00fc2af1",
+    "name": "slni",
+    "description": "Total nitrogen, %"
+  },
+  {
+    "id": "6d1e49dabb8629b9d3f8",
+    "name": "sloc",
+    "description": "Organic carbon, %"
+  },
+  {
+    "id": "85a05c6c9bb0e57eba53",
+    "name": "slro",
+    "description": "Runoff curve no. (Soil Conservation Service)"
+  },
+  {
+    "id": "80e570a7de435679904b",
+    "name": "slsi",
+    "description": "Silt (0.05 to 0.002 mm), %"
+  },
+  {
+    "id": "f48c7e18ad851a1c5ac4",
+    "name": "srad",
+    "description": "Daily solar radiation, MJ m-2 day-1"
+  },
+  {
+    "id": "7079e379d6cb7ddff8ba",
+    "name": "tmax",
+    "description": "Daily temperature maximum, C"
+  },
+  {
+    "id": "5921f479334d208b8ad1",
+    "name": "tmin",
+    "description": "Daily temperature minimum, C"
+  }
+]

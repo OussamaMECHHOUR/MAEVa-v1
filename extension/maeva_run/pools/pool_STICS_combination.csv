@@ -1,0 +1,62 @@
+id,name,description
+f1c8219d4e70a09e4960,CO2sol,daily amount of N2O-N emitted from soil
+532304da8a9ff8b47002,DAF(1),bulk density of fine earth fraction in each soil layer
+3a03ec46895740ea5726,DAF(2),bulk density of fine earth fraction in each soil layer
+66e6922c706234d76d35,DAF(3),bulk density of fine earth fraction in each soil layer
+5772e59b360a55034b15,DAF(4),bulk density of fine earth fraction in each soil layer
+a82aac20f34725b2044e,DAF(5),bulk density of fine earth fraction in each soil layer
+1b94a253621544a4b86d,Hinitf(1),"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+049e069c34126cbfc751,Hinitf(2),"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+a79c333b5f47e028f00a,Hinitf(3),"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+0b5fc2ad0c02e7914676,Hinitf(4),"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+213e6abe3029e64a5ecf,Hinitf(5),"initial gravimetric water content of each soil layer (in fine earth, dry soil)"
+67c0f23198f5a75eb3a2,NH4initf(1),initial amount of NH4-N in each of the soil layers (in fine earth)
+8d3a534d7d84ee16672d,NH4initf(2),initial amount of NH4-N in each of the soil layers (in fine earth)
+3bbae5ec8a419ff99c87,NH4initf(3),initial amount of NH4-N in each of the soil layers (in fine earth)
+c04fb6104816e2a74534,NH4initf(4),initial amount of NH4-N in each of the soil layers (in fine earth)
+71ea270cb52ed9955f88,NH4initf(5),initial amount of NH4-N in each of the soil layers (in fine earth)
+6d84b8a76811b443649d,NO3initf(1),initial amount of NO3-N in each of the soil layers (in fine earth)
+a1dd4e233fe261e3d275,NO3initf(2),initial amount of NO3-N in each of the soil layers (in fine earth)
+338448f6ecbbd8f61c85,NO3initf(3),initial amount of NO3-N in each of the soil layers (in fine earth)
+7ddd1615e083aefa6c50,NO3initf(4),initial amount of NO3-N in each of the soil layers (in fine earth)
+f7e936bee0b1bfb0a7c6,NO3initf(5),initial amount of NO3-N in each of the soil layers (in fine earth)
+3d53b29818628e5dee01,albedo,albedo of the bare dry soil
+61d7afe369442c2a91f4,altisimul,altitude of simulated site
+6afac2497e9dfc40ebcd,argi,clay content after decarbonation
+1361a3eeb39edacb71d0,cailloux,volumetric content of pebbles per soil layer
+f94fca2973211dafafce,daf,bulk density of fine earth fraction in each soil layer
+9b39bf9f1163a88b9b3c,datedebut,date of the beginning simulation
+9400c9ee99963e14a4b5,datefin,date of the end of the simulation
+fdb784216f89eb51d80b,densitesem,plant sowing density
+32f30195568a78d70d94,doseI,daily amount of irrigation water
+36ce814136303b99328f,doseN,daily amount of N added through fertilizers
+ed53069da0be64073bf7,em_N2O,daily amount of N2O-N emitted from soil
+026dd738b8e8049cb937,engrais,"fertilizer type (1=ammonium nitrate, 2=UAN solution, 3=urea, 4=anhydrous ammonia, 5=ammonium sulfate, 6=ammonium phosphate, 7=calcium nitrate, 8= fixed efficiency fertiliser)"
+3b8dbecdd787045c9e6b,epc(1),thickness of soil layer 1
+bf4df6a80b96df622d1a,epc(2),thickness of soil layer 2
+547a2380a4906bbcf9d1,epc(3),thickness of soil layer 3
+ea4fa3b011a3893b2129,epc(4),thickness of soil layer 1
+d3d82652ae3438c08b6e,epc(5),thickness of soil layer 5
+34ab537f3a70b988a11f,hauteur,height of canopy
+6268c4aee748756f211f,idrp,day of the stage DRP (beginning of grain filling) when the stage is observed (else 999)
+5aff0771638ef99ac316,idrps,starting date of filling of harvested organs
+2053e523f89287bc05b3,ilev,day when the stage LEV is reached (999 if not observed)
+edfd289f15eef1cd0e3a,ilevs,date of emergence
+b04f452c57e6f653a4e0,imat,day when the stage MAT is reached (999 if not observed)
+52b6429eefe4c79bc9a1,imats,date of start of physiological maturity
+42b5e212975266585b20,iplt0,date of sowing
+9a17f7e595f27eb6746c,iplt0,date of sowing or planting
+bae9ac599a3d2d223761,iplts,date of sowing or planting
+89b5859dc389d6bd3fea,julapI,date(s) of irrigation
+bafcbb0b834e5d4e9f88,julapN,date(s) of fertilizer application
+fa09abb1638ce9867a46,lai_n,leaf area index (table)
+d6e6c58012217be352e6,latitude,latitude of the site
+b041c75e6e497e190dfa,mafruit,biomass of harvested organs
+e6eca732df8103181fdd,masec_n,biomass of aboveground plant (table)
+a91d31299b7ae5fe6a85,norg,"soil organic N content in the first soil layer (supposed constant down to the depth profhum), equal to total nitrogen (Kjeldahl method)"
+d265e65be3c094e5851a,obstarac,soil depth at which root growth is stopped due to physical constraints
+eb04e9e76d4c97ba2fc4,ph,Initial soil pH (water solution)
+2f5e74e348e6d4cc0027,profmes,depth of measurement of the soil water reserve
+1c3052bb15e67a909e69,ruisolnu,fraction of runoff (relative to total rainfall) in a bare soil when rain > PminRuis (5mm default value in general param)
+1751993ff4c8da1fc010,typsol,soil type
+cb1b947d603ef4dc14ca,variete,cultivar number corresponding to the cultivar name in the plant file

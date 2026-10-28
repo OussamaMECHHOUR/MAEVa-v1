@@ -1,0 +1,742 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 2.6147469021379948,
+    "validation_balance_P1_P10": 0.22777777777777775,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.25,
+        "P@10": 0.25
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.08333333333333333,
+        "P@5": 0.125,
+        "P@10": 0.125
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.0,
+        "P@5": 0.0,
+        "P@10": 0.0
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.75
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.18518518518518517,
+        "P@3": 0.4444444444444444,
+        "P@5": 0.5185185185185185,
+        "P@10": 0.5925925925925926
+      }
+    }
+  },
+  {
+    "epoch": 2,
+    "train_loss": 1.7074775472283363,
+    "validation_balance_P1_P10": 0.2060185185185185,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.25,
+        "P@10": 0.25
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.08333333333333333,
+        "P@5": 0.08333333333333333,
+        "P@10": 0.16666666666666666
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.0,
+        "P@5": 0.0,
+        "P@10": 0.0
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.18518518518518517,
+        "P@3": 0.48148148148148145,
+        "P@5": 0.5925925925925926,
+        "P@10": 0.6666666666666666
+      }
+    }
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.9545532055199146,
+    "validation_balance_P1_P10": 0.2796296296296296,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.25,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.125,
+        "P@5": 0.125,
+        "P@10": 0.20833333333333334
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.25925925925925924,
+        "P@3": 0.5555555555555556,
+        "P@5": 0.6666666666666666,
+        "P@10": 0.7037037037037037
+      }
+    }
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.2988708149641752,
+    "validation_balance_P1_P10": 0.3023148148148148,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.37037037037037035,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.7777777777777778
+      }
+    }
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.09192999580409378,
+    "validation_balance_P1_P10": 0.30231481481481476,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.25,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.125,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.3333333333333333,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.6666666666666666,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.05491534748580307,
+    "validation_balance_P1_P10": 0.3138888888888889,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4074074074074074,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.04460571147501469,
+    "validation_balance_P1_P10": 0.3175925925925926,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.25,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.03756712161703035,
+    "validation_balance_P1_P10": 0.34259259259259256,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7407407407407407,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.03506853710860014,
+    "validation_balance_P1_P10": 0.3175925925925926,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7407407407407407,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.03195651061832905,
+    "validation_balance_P1_P10": 0.34259259259259256,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7407407407407407,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.031451969873160124,
+    "validation_balance_P1_P10": 0.3175925925925926,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7407407407407407,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.03195444250013679,
+    "validation_balance_P1_P10": 0.34259259259259256,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7777777777777778,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.027056728809839115,
+    "validation_balance_P1_P10": 0.34259259259259256,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7407407407407407,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.02419094619108364,
+    "validation_balance_P1_P10": 0.3175925925925926,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.2916666666666667
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 15,
+    "train_loss": 0.028192108497023582,
+    "validation_balance_P1_P10": 0.3384259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.25,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 16,
+    "train_loss": 0.026532340794801712,
+    "validation_balance_P1_P10": 0.3134259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 17,
+    "train_loss": 0.02510123699903488,
+    "validation_balance_P1_P10": 0.3134259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.5925925925925926,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 18,
+    "train_loss": 0.024233050033217296,
+    "validation_balance_P1_P10": 0.3134259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.6296296296296297,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 19,
+    "train_loss": 0.026440857909619808,
+    "validation_balance_P1_P10": 0.3134259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.6296296296296297,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  },
+  {
+    "epoch": 20,
+    "train_loss": 0.02292824289179407,
+    "validation_balance_P1_P10": 0.3134259259259259,
+    "validation": {
+      "ACME-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.25,
+        "P@5": 0.5,
+        "P@10": 0.5
+      },
+      "ICASA-DSSAT (ground truth)_train.xlsx": {
+        "P@1": 0.041666666666666664,
+        "P@3": 0.16666666666666666,
+        "P@5": 0.16666666666666666,
+        "P@10": 0.25
+      },
+      "ACME-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.0,
+        "P@3": 0.3333333333333333,
+        "P@5": 0.3333333333333333,
+        "P@10": 0.3333333333333333
+      },
+      "IntercropValues-STICS (ground truth)_train.xlsx": {
+        "P@1": 0.125,
+        "P@3": 0.375,
+        "P@5": 0.625,
+        "P@10": 0.625
+      },
+      "SourceAEGIS-CandidateAEGIS (ground truth)_train.xlsx": {
+        "P@1": 0.4444444444444444,
+        "P@3": 0.6296296296296297,
+        "P@5": 0.7037037037037037,
+        "P@10": 0.8148148148148148
+      }
+    }
+  }
+]

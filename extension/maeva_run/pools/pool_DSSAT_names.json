@@ -1,0 +1,954 @@
+[
+  {
+    "id": "352a8f7ad9c7d02012bb",
+    "name": "ADAT"
+  },
+  {
+    "id": "0ca5ce494849b0a0b29f",
+    "name": "BWAM"
+  },
+  {
+    "id": "c2a38d9a226024050399",
+    "name": "C"
+  },
+  {
+    "id": "f74082c9bb71df128106",
+    "name": "CDATE"
+  },
+  {
+    "id": "0d125f54506ff4b7cc44",
+    "name": "CHAMT"
+  },
+  {
+    "id": "00eb0fd5d14d9d463492",
+    "name": "CHCOD"
+  },
+  {
+    "id": "ca77d5f7d0faf6895ea5",
+    "name": "CHDEP"
+  },
+  {
+    "id": "9a6353590a148fc9d146",
+    "name": "CHME"
+  },
+  {
+    "id": "af53c1752c3916dd6522",
+    "name": "CHTA"
+  },
+  {
+    "id": "841715e76b67324f3135",
+    "name": "CHTD"
+  },
+  {
+    "id": "40a961b966a16ecb70cc",
+    "name": "CNAM"
+  },
+  {
+    "id": "24ffede24c68a2c85e73",
+    "name": "CNAME"
+  },
+  {
+    "id": "25bd898ce123b61e577c",
+    "name": "CR"
+  },
+  {
+    "id": "3d9f6bd5930411f48f2c",
+    "name": "CU"
+  },
+  {
+    "id": "a96d094953c45702ba16",
+    "name": "CWAA"
+  },
+  {
+    "id": "8fd21d7470e6e9147b87",
+    "name": "CWAD"
+  },
+  {
+    "id": "e61ccc94160eb6cfdbb3",
+    "name": "CWAM"
+  },
+  {
+    "id": "d9ec29439166a3d22b75",
+    "name": "E#AD"
+  },
+  {
+    "id": "9f8078a30316648432ca",
+    "name": "ECO2"
+  },
+  {
+    "id": "4b260a654a345f497c42",
+    "name": "EDATE"
+  },
+  {
+    "id": "06f3057ccaaecb791123",
+    "name": "EDAY"
+  },
+  {
+    "id": "0be48517829ffdae8d05",
+    "name": "EDEW"
+  },
+  {
+    "id": "67d82c96f39cd0dcd67f",
+    "name": "ELEV"
+  },
+  {
+    "id": "7fd7ff7e6ddab75c7493",
+    "name": "EMAX"
+  },
+  {
+    "id": "55701231427bec747362",
+    "name": "EMIN"
+  },
+  {
+    "id": "6ba9a574430944d7955e",
+    "name": "ERAD"
+  },
+  {
+    "id": "c18e614a4057b194bc96",
+    "name": "ERAIN"
+  },
+  {
+    "id": "5668bf650f19755656d2",
+    "name": "EWAD"
+  },
+  {
+    "id": "be4e26a53d0d883a3cbe",
+    "name": "EWIND"
+  },
+  {
+    "id": "ed1f113f113c8ce0d632",
+    "name": "FACD"
+  },
+  {
+    "id": "3cf77910272ee053c12b",
+    "name": "FAMC"
+  },
+  {
+    "id": "02b6ac3a2cb042146dcc",
+    "name": "FAMN"
+  },
+  {
+    "id": "d5441c8e3b3499a239f3",
+    "name": "FAMO"
+  },
+  {
+    "id": "dbbd646edf5b7cb7ee32",
+    "name": "FAMP"
+  },
+  {
+    "id": "906d298aa0d7f11e9548",
+    "name": "FDEP"
+  },
+  {
+    "id": "c025c5776ba4088b0c0d",
+    "name": "FL"
+  },
+  {
+    "id": "fc328386d42bd301e36b",
+    "name": "FLDD"
+  },
+  {
+    "id": "47b5ce23db6b6f01a2fb",
+    "name": "FLDS"
+  },
+  {
+    "id": "75d85828556489b51814",
+    "name": "FLDT"
+  },
+  {
+    "id": "a5da5443148425e7a526",
+    "name": "FLHST"
+  },
+  {
+    "id": "9c74f6a248e469ffb480",
+    "name": "FLNAM"
+  },
+  {
+    "id": "7aa74fe7b1c0a2149add",
+    "name": "FLOB"
+  },
+  {
+    "id": "0c9340aba3e05193f62d",
+    "name": "FLSA"
+  },
+  {
+    "id": "72d2d4d270a89cd64027",
+    "name": "FLST"
+  },
+  {
+    "id": "6328fd9c5dcce32badaf",
+    "name": "FMCD"
+  },
+  {
+    "id": "c0c4a45a6f469184f1c6",
+    "name": "FOCD"
+  },
+  {
+    "id": "93ef8e5cdf544c35a0e0",
+    "name": "GN%M"
+  },
+  {
+    "id": "47bbd3ccbd026bfefaa8",
+    "name": "GNAM"
+  },
+  {
+    "id": "77298cae06d828e09ba1",
+    "name": "GWAM"
+  },
+  {
+    "id": "4f518ec2018a7e7961c0",
+    "name": "H#UM"
+  },
+  {
+    "id": "ad741a77543e8d85fd9f",
+    "name": "HAREA"
+  },
+  {
+    "id": "769f9e672da0a1dd336c",
+    "name": "HARM"
+  },
+  {
+    "id": "e6b8ea2824f816fc8c76",
+    "name": "HCOM"
+  },
+  {
+    "id": "b45650ea5738a6d7737f",
+    "name": "HDATE"
+  },
+  {
+    "id": "1c7ca8d506667423eee2",
+    "name": "HIAM"
+  },
+  {
+    "id": "6c9176cfc3031b89d935",
+    "name": "HIPM"
+  },
+  {
+    "id": "cc4ba111fd736304c5c7",
+    "name": "HL"
+  },
+  {
+    "id": "5f77ab9196f3b312716a",
+    "name": "HLATE"
+  },
+  {
+    "id": "c34d1fb4613ca53a952d",
+    "name": "HLEN"
+  },
+  {
+    "id": "f8a6f9b640326e7d84a9",
+    "name": "HPC"
+  },
+  {
+    "id": "a6e23e86bc24045b76bd",
+    "name": "HRNO"
+  },
+  {
+    "id": "34252087748103853c71",
+    "name": "HSTG"
+  },
+  {
+    "id": "24296e521fbe62baacb2",
+    "name": "HWAH"
+  },
+  {
+    "id": "73692a0eceed50214db7",
+    "name": "HWAM"
+  },
+  {
+    "id": "559a1726bf692922e8b7",
+    "name": "IC"
+  },
+  {
+    "id": "9be9a1e14f2853774a5c",
+    "name": "ICBL"
+  },
+  {
+    "id": "5ac1e332b3a952240ef6",
+    "name": "ICDAT"
+  },
+  {
+    "id": "ddaef8c67ab8eaa4df2d",
+    "name": "ICNAME"
+  },
+  {
+    "id": "698435f613ee896853a2",
+    "name": "ICND"
+  },
+  {
+    "id": "fc06cc377de111469444",
+    "name": "ICRE"
+  },
+  {
+    "id": "da4ad6b5ec01a2efb965",
+    "name": "ICREN"
+  },
+  {
+    "id": "f2b761ea91acfacad434",
+    "name": "ICREP"
+  },
+  {
+    "id": "f138c3c0f22d0f9fa185",
+    "name": "ICRES"
+  },
+  {
+    "id": "d4a597a344109f1a02e1",
+    "name": "ICRID"
+  },
+  {
+    "id": "6e5647411169904b6df5",
+    "name": "ICRIP"
+  },
+  {
+    "id": "bd8f33a80af468214d8f",
+    "name": "ICRN"
+  },
+  {
+    "id": "aa211b75890a0fe44661",
+    "name": "ICRT"
+  },
+  {
+    "id": "de9f44e2f99d8b4129f8",
+    "name": "ICWD"
+  },
+  {
+    "id": "5a6c5b4e8ec6dd2cb636",
+    "name": "IDATE"
+  },
+  {
+    "id": "d9caaec25600d29d7ade",
+    "name": "IDAYIC"
+  },
+  {
+    "id": "01511496f8c11f3810a1",
+    "name": "IDEP"
+  },
+  {
+    "id": "fe70ee22340676a2e1ff",
+    "name": "ID_FIELD"
+  },
+  {
+    "id": "1c6194e9619819b82a82",
+    "name": "ID_SOIL"
+  },
+  {
+    "id": "ca0ab56fb0c41c123a28",
+    "name": "IEPT"
+  },
+  {
+    "id": "8a82984e8572769092b9",
+    "name": "IOFF"
+  },
+  {
+    "id": "92b3e477c094f010f367",
+    "name": "IROP"
+  },
+  {
+    "id": "019f5afce91c7e5dcb57",
+    "name": "IRVAL"
+  },
+  {
+    "id": "efed683f14e6d207452a",
+    "name": "ITHR"
+  },
+  {
+    "id": "222a41c0d3e2f8b38221",
+    "name": "LAID"
+  },
+  {
+    "id": "d17e5d203cd094849063",
+    "name": "LAIX"
+  },
+  {
+    "id": "a8d7d23fbb5546d91f51",
+    "name": "LAT"
+  },
+  {
+    "id": "52620cda6d52eef37ab7",
+    "name": "LI%D"
+  },
+  {
+    "id": "82ec9b5f3e6e7d3d2699",
+    "name": "LONG"
+  },
+  {
+    "id": "035c088e5e9eea8f0bbb",
+    "name": "LWAD"
+  },
+  {
+    "id": "f77fe4045ded2b7ad154",
+    "name": "LWAM"
+  },
+  {
+    "id": "d6b3f49e8e5e31db34a8",
+    "name": "MC"
+  },
+  {
+    "id": "dbfb82984968d5f1d55d",
+    "name": "MDAT"
+  },
+  {
+    "id": "490b77255323fc8b11b1",
+    "name": "ME"
+  },
+  {
+    "id": "434df31f2d57096c608f",
+    "name": "MF"
+  },
+  {
+    "id": "07a425a581cd28e8d74a",
+    "name": "MH"
+  },
+  {
+    "id": "aa3e1c0b06abe5234cc6",
+    "name": "MI"
+  },
+  {
+    "id": "cbc5e7f2b6df5a416c18",
+    "name": "ML"
+  },
+  {
+    "id": "91eeb797115e31c62577",
+    "name": "MP"
+  },
+  {
+    "id": "5711038ab4c7bdd34348",
+    "name": "MR"
+  },
+  {
+    "id": "c54dad29dd99f02e6f28",
+    "name": "MT"
+  },
+  {
+    "id": "577db6b865b763d9ce9d",
+    "name": "NFTD"
+  },
+  {
+    "id": "f4b270ca3ab842f3e103",
+    "name": "NI1D"
+  },
+  {
+    "id": "c0a86a6d20906b1b8305",
+    "name": "O"
+  },
+  {
+    "id": "be988ff6aa73e136579f",
+    "name": "ODATE"
+  },
+  {
+    "id": "26e202e16a4665f8fd8f",
+    "name": "PAGE"
+  },
+  {
+    "id": "8d7f038d4e35620abe1d",
+    "name": "PAR"
+  },
+  {
+    "id": "cc0ea2228d465b240fd9",
+    "name": "PAREA"
+  },
+  {
+    "id": "695f63dfd9783d13a1c9",
+    "name": "PCR"
+  },
+  {
+    "id": "5739c984c6207e020613",
+    "name": "PDATE"
+  },
+  {
+    "id": "e0a0beb13047f23a1afe",
+    "name": "PDFT"
+  },
+  {
+    "id": "add2feb7bc7e4a19482b",
+    "name": "PENV"
+  },
+  {
+    "id": "ae81c1160324e4c0ebb9",
+    "name": "PLANTS"
+  },
+  {
+    "id": "f533f879fdf30ebceab6",
+    "name": "PLDP"
+  },
+  {
+    "id": "17fdc7be8a3030d016d7",
+    "name": "PLDS"
+  },
+  {
+    "id": "48c287b51155edc368b5",
+    "name": "PLEN"
+  },
+  {
+    "id": "d7e6c7e1d131b3764173",
+    "name": "PLME"
+  },
+  {
+    "id": "8fc8e116033e5da267b0",
+    "name": "PLOR"
+  },
+  {
+    "id": "f88a8c5136dbbc6ef4e9",
+    "name": "PLPH"
+  },
+  {
+    "id": "b30b627bd7e8015a5159",
+    "name": "PLRD"
+  },
+  {
+    "id": "776a5c6cc84213b2d932",
+    "name": "PLRS"
+  },
+  {
+    "id": "c633169679f0efc23075",
+    "name": "PLSP"
+  },
+  {
+    "id": "936c3b8d86025d633d5b",
+    "name": "PLWT"
+  },
+  {
+    "id": "b7d577f026de4a30757e",
+    "name": "PMWD"
+  },
+  {
+    "id": "363b745357b24ff62642",
+    "name": "PPOE"
+  },
+  {
+    "id": "bcabd3f731d6bda3b4b8",
+    "name": "PPOP"
+  },
+  {
+    "id": "0c04d69f07eb6b5c5905",
+    "name": "PRNO"
+  },
+  {
+    "id": "cf26ba6d3ab4bb1ed041",
+    "name": "PRSD"
+  },
+  {
+    "id": "81baf89714fda74622cd",
+    "name": "PWAD"
+  },
+  {
+    "id": "9786f33fddbd9d674c24",
+    "name": "PWAM"
+  },
+  {
+    "id": "3c73190440816e3e5882",
+    "name": "R"
+  },
+  {
+    "id": "44cbed189589cd5bde52",
+    "name": "RAIN"
+  },
+  {
+    "id": "504806a20afe79efd5a3",
+    "name": "RAMT"
+  },
+  {
+    "id": "234ebbf6d60a2665756a",
+    "name": "RCOD"
+  },
+  {
+    "id": "9449dff53924db660ead",
+    "name": "RDATE"
+  },
+  {
+    "id": "1b16642db7b404444459",
+    "name": "RDEP"
+  },
+  {
+    "id": "50e6574f5f3c401fe9eb",
+    "name": "RECM"
+  },
+  {
+    "id": "b1bdc445256cd940c5bf",
+    "name": "REFHT"
+  },
+  {
+    "id": "fd12a25c3faed2da8d0b",
+    "name": "RESK"
+  },
+  {
+    "id": "6f337a23b214331da559",
+    "name": "RESN"
+  },
+  {
+    "id": "c816d7a45fff825853cf",
+    "name": "RESP"
+  },
+  {
+    "id": "03d1c8d73f7a119cd7c0",
+    "name": "RINP"
+  },
+  {
+    "id": "e0a01b138a4f4e928425",
+    "name": "RNAH"
+  },
+  {
+    "id": "17c435acbfc6e904a8f4",
+    "name": "SA"
+  },
+  {
+    "id": "36f9aa7f3cfab49003f9",
+    "name": "SABL"
+  },
+  {
+    "id": "c16d9878e94d185caf8e",
+    "name": "SADAT"
+  },
+  {
+    "id": "f7bf197da3078021776a",
+    "name": "SADC"
+  },
+  {
+    "id": "d4bc692c24d91981a958",
+    "name": "SADM"
+  },
+  {
+    "id": "ad5eb0c0888991967667",
+    "name": "SAID"
+  },
+  {
+    "id": "d5b41e0f2102c229a190",
+    "name": "SAKE"
+  },
+  {
+    "id": "e19f7ba369918c2bb456",
+    "name": "SALB"
+  },
+  {
+    "id": "907bd95bd362b8f09057",
+    "name": "SANAM"
+  },
+  {
+    "id": "97af98265bef170783e4",
+    "name": "SANI"
+  },
+  {
+    "id": "44e4c0c90711a8164ce4",
+    "name": "SAOC"
+  },
+  {
+    "id": "918c622974c5d328f1cb",
+    "name": "SAPHB"
+  },
+  {
+    "id": "d410ee59921c5a213a91",
+    "name": "SAPHW"
+  },
+  {
+    "id": "5cf2218f728d1bd60a44",
+    "name": "SAPX"
+  },
+  {
+    "id": "ea14580e535c02d7aaf6",
+    "name": "SASC"
+  },
+  {
+    "id": "8b050ca4e2b91d9effc9",
+    "name": "SBDM"
+  },
+  {
+    "id": "7856c050f75a342f717f",
+    "name": "SCEC"
+  },
+  {
+    "id": "006291daa310cb81fdcd",
+    "name": "SCOM"
+  },
+  {
+    "id": "808e916c443a29a8ca93",
+    "name": "SDATE"
+  },
+  {
+    "id": "5da72dd1201dc2235292",
+    "name": "SDUL"
+  },
+  {
+    "id": "bbcd8f6d72e07f693d73",
+    "name": "SH2O"
+  },
+  {
+    "id": "5540d0d511ab93e46fac",
+    "name": "SHAD"
+  },
+  {
+    "id": "ce074a3bc46843a3c419",
+    "name": "SLAD"
+  },
+  {
+    "id": "7372163aaa8a537f1d8e",
+    "name": "SLB"
+  },
+  {
+    "id": "1131a1802fa8395063c2",
+    "name": "SLCF"
+  },
+  {
+    "id": "11173eaf5871eba075e9",
+    "name": "SLCL"
+  },
+  {
+    "id": "93d7f977e154c16f13d5",
+    "name": "SLDP"
+  },
+  {
+    "id": "93c87bfff6d702a2136b",
+    "name": "SLDR"
+  },
+  {
+    "id": "dc4946bc0124fd642476",
+    "name": "SLHB"
+  },
+  {
+    "id": "fdecb1bd43222c4d9e11",
+    "name": "SLHW"
+  },
+  {
+    "id": "0bbbebff3dae739277ba",
+    "name": "SLLL"
+  },
+  {
+    "id": "ac580540df2737f6a8db",
+    "name": "SLMH"
+  },
+  {
+    "id": "c45cb61d1b7dc5eb2b4f",
+    "name": "SLNF"
+  },
+  {
+    "id": "5920072f30321580b6c1",
+    "name": "SLNI"
+  },
+  {
+    "id": "4d75ca174fa676a6a8f6",
+    "name": "SLOC"
+  },
+  {
+    "id": "0958053e65c1f792d881",
+    "name": "SLPF"
+  },
+  {
+    "id": "192da919e7586eb41207",
+    "name": "SLRO"
+  },
+  {
+    "id": "27fd5071ff08bc59d500",
+    "name": "SLSI"
+  },
+  {
+    "id": "347b92064220d156aeee",
+    "name": "SLTX"
+  },
+  {
+    "id": "9ea08aaa2fbca84179cf",
+    "name": "SLU1"
+  },
+  {
+    "id": "dd54291014a7c17a748a",
+    "name": "SM"
+  },
+  {
+    "id": "467f6457ffaf82b9df43",
+    "name": "SMHB"
+  },
+  {
+    "id": "e69af1f3afa27b49e888",
+    "name": "SMKE"
+  },
+  {
+    "id": "44265a491f88740c1ba8",
+    "name": "SMPX"
+  },
+  {
+    "id": "bf230a35fe48afb83547",
+    "name": "SNAM"
+  },
+  {
+    "id": "42cbf223ec33bb7b374b",
+    "name": "SNH4"
+  },
+  {
+    "id": "bc66957572f81e82721e",
+    "name": "SNO3"
+  },
+  {
+    "id": "810a64d4db63f3445d2b",
+    "name": "SRAD"
+  },
+  {
+    "id": "b42308c76c523acd70d2",
+    "name": "SRGF"
+  },
+  {
+    "id": "a9e39522f8ff6a6254f8",
+    "name": "SSAT"
+  },
+  {
+    "id": "63154fa256980a1253a6",
+    "name": "SSKS"
+  },
+  {
+    "id": "840dd704c8e5082d0dbf",
+    "name": "SWAD"
+  },
+  {
+    "id": "05c3c61d41da8b102f42",
+    "name": "TAV"
+  },
+  {
+    "id": "eb17d33d43d95cddd633",
+    "name": "TDATE"
+  },
+  {
+    "id": "ff31e68c119fd91985c4",
+    "name": "TDEP"
+  },
+  {
+    "id": "39a3590b02ba136ab111",
+    "name": "TDEW"
+  },
+  {
+    "id": "a3cbe7dd60244b454068",
+    "name": "TIMPL"
+  },
+  {
+    "id": "2396c04e44f76f4b5f1d",
+    "name": "TL"
+  },
+  {
+    "id": "10d50ec4eaf10b937323",
+    "name": "TMAX"
+  },
+  {
+    "id": "bf166e85fd6e36f2ed8c",
+    "name": "TMIN"
+  },
+  {
+    "id": "8893c20cb10898d17cc5",
+    "name": "TMND"
+  },
+  {
+    "id": "1fd4bace9516779db116",
+    "name": "TN"
+  },
+  {
+    "id": "125d13d05c34b9cec6d5",
+    "name": "TN%H"
+  },
+  {
+    "id": "aa02d9e43ba732dfa11c",
+    "name": "TNAME"
+  },
+  {
+    "id": "be4d23ed536ed9c1ec7f",
+    "name": "TS10"
+  },
+  {
+    "id": "2fbb7651b27125bff13b",
+    "name": "VARNO"
+  },
+  {
+    "id": "99352f44847c9df6467a",
+    "name": "VNAM"
+  },
+  {
+    "id": "23f94eb0f691a212ed83",
+    "name": "WIND"
+  },
+  {
+    "id": "23242c428f9421891930",
+    "name": "WNDHT"
+  },
+  {
+    "id": "315c4196063161795925",
+    "name": "WSTA"
+  },
+  {
+    "id": "57ddce6f73f3642b8fb9",
+    "name": "WSTD"
+  },
+  {
+    "id": "49904e7036899f3482c4",
+    "name": "elev"
+  },
+  {
+    "id": "159ece03559bef4bb678",
+    "name": "lat"
+  },
+  {
+    "id": "2c6b533ac97d603207d0",
+    "name": "long"
+  },
+  {
+    "id": "ffe5f1bbaac3c03b25da",
+    "name": "rain"
+  },
+  {
+    "id": "587fe2448b8df262ba73",
+    "name": "rhum"
+  },
+  {
+    "id": "b4eb812bf0a8bef680f9",
+    "name": "salb"
+  },
+  {
+    "id": "0b5729d719ae8436d0d6",
+    "name": "sbdm"
+  },
+  {
+    "id": "d408fdc2bcc19bed755d",
+    "name": "sdul"
+  },
+  {
+    "id": "383da3ca5b23489da8e7",
+    "name": "slb"
+  },
+  {
+    "id": "93e0e4e09e5206d99b5b",
+    "name": "slcf"
+  },
+  {
+    "id": "06afb1ddacf12db39b0d",
+    "name": "slcl"
+  },
+  {
+    "id": "335c189462a38bde8275",
+    "name": "slhw"
+  },
+  {
+    "id": "e99d2e5afe0bb0bb11f1",
+    "name": "slll"
+  },
+  {
+    "id": "0d6d7fce81bda980a56d",
+    "name": "slni"
+  },
+  {
+    "id": "c12b6784985397d19f8a",
+    "name": "sloc"
+  },
+  {
+    "id": "618c44d8815de5d05d35",
+    "name": "slro"
+  },
+  {
+    "id": "57d868fda8146d0d94f4",
+    "name": "slsi"
+  },
+  {
+    "id": "40fd441828de327912ac",
+    "name": "srad"
+  },
+  {
+    "id": "7ca918f4624138f992c2",
+    "name": "tmax"
+  },
+  {
+    "id": "1632ef58b0515c013960",
+    "name": "tmin"
+  }
+]
